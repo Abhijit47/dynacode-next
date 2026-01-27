@@ -1,4 +1,8 @@
+import Footer from '@/components/footer';
+import Navbar from '@/components/navbar';
+import NavigationMenuWithActiveItem from '@/components/navigation-menu-05';
 import { Toaster } from '@/components/ui/sonner';
+import { ThemeProvider } from '@/providers/theme-provider';
 import type { Metadata } from 'next';
 import { IBM_Plex_Mono, Lato, Montserrat } from 'next/font/google';
 import './globals.css';
@@ -42,10 +46,21 @@ export default function RootLayout({
   return (
     <html
       lang='en'
-      className={`${lato.variable} ${montserrat.variable} ${ibm_plex_mono.variable}`}>
+      className={`${lato.variable} ${montserrat.variable} ${ibm_plex_mono.variable}`}
+      suppressHydrationWarning>
       <body className={`font-body antialiased`}>
-        {children}
-        <Toaster />
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='system'
+          enableSystem
+          disableTransitionOnChange>
+          <Navbar />
+          {/* <Header1 /> */}
+          <NavigationMenuWithActiveItem />
+          {children}
+          <Footer />
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   );
