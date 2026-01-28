@@ -101,7 +101,7 @@ export default function Navbar() {
           <div className='flex items-center gap-3'>
             <ThemeModeToggler />
             <Link
-              href={'/sign-in'}
+              href={'/login'}
               className={buttonVariants({
                 variant: 'outline',
                 size: 'sm',
