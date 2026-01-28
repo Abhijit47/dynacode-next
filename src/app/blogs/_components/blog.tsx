@@ -96,7 +96,7 @@ const Blog = () => {
           ))}
         </div>
 
-        <aside className='sticky top-8 w-full shrink-0 lg:max-w-sm'>
+        <aside className='sticky top-36 w-full shrink-0 lg:max-w-sm'>
           <h3 className='font-semibold text-xl tracking-tight'>Categories</h3>
           <div className='mt-4 grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1'>
             {categories.map((category) => (

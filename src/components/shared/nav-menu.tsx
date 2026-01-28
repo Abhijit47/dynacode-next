@@ -30,7 +30,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
             'data-[state=open]:before:scale-x-100 data-active:before:scale-x-100',
             'hover:bg-transparent focus:bg-transparent active:bg-transparent',
           )}>
-          <Link href='#'>Home</Link>
+          <Link href='/'>Home</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
@@ -46,7 +46,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
             'data-[state=open]:before:scale-x-100 data-active:before:scale-x-100',
             'hover:bg-transparent focus:bg-transparent active:bg-transparent',
           )}>
-          <Link href='#'>Blog</Link>
+          <Link href='/blogs'>Blogs</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
@@ -83,7 +83,20 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
       </NavigationMenuItem>
 
       <NavigationMenuItem>
-        <NavigationMenuTrigger>Food</NavigationMenuTrigger>
+        <NavigationMenuTrigger
+          className={cn(
+            'group relative inline-flex h-9 w-max items-center justify-center px-0.5 py-2 font-medium text-sm',
+            'before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:scale-x-0 before:bg-primary before:transition-transform',
+            'hover:text-accent-foreground hover:before:scale-x-100',
+            'focus:text-accent-foreground focus:outline-hidden focus:before:scale-x-100',
+            'disabled:pointer-events-none disabled:opacity-50',
+            'data-[state=open]:before:scale-x-100 data-active:before:scale-x-100',
+            'hover:bg-transparent focus:bg-transparent active:bg-transparent',
+            'bg-transparent!',
+            'data-[state=open]:bg-transparent!',
+          )}>
+          Food
+        </NavigationMenuTrigger>
         <NavigationMenuContent>
           <ul className='grid w-100 gap-3 p-1 md:w-125 md:grid-cols-2 lg:w-150'>
             {foods.map((food) => (
@@ -99,7 +112,20 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
         </NavigationMenuContent>
       </NavigationMenuItem>
       <NavigationMenuItem>
-        <NavigationMenuTrigger>Travel</NavigationMenuTrigger>
+        <NavigationMenuTrigger
+          className={cn(
+            'group relative inline-flex h-9 w-max items-center justify-center px-0.5 py-2 font-medium text-sm',
+            'before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:scale-x-0 before:bg-primary before:transition-transform',
+            'hover:text-accent-foreground hover:before:scale-x-100',
+            'focus:text-accent-foreground focus:outline-hidden focus:before:scale-x-100',
+            'disabled:pointer-events-none disabled:opacity-50',
+            'data-[state=open]:before:scale-x-100 data-active:before:scale-x-100',
+            'hover:bg-transparent focus:bg-transparent active:bg-transparent',
+            'bg-transparent!',
+            'data-[state=open]:bg-transparent!',
+          )}>
+          Travel
+        </NavigationMenuTrigger>
         <NavigationMenuContent>
           <ul className='grid w-100 gap-3 p-1 md:w-125 md:grid-cols-2 lg:w-150'>
             {travelMenuItems.map((menuItem) => (
