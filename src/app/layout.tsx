@@ -1,10 +1,10 @@
-import Footer from '@/components/footer';
-import Navbar from '@/components/navbar';
-import NavigationMenuWithActiveItem from '@/components/navigation-menu-05';
+import Footer from '@/components/shared/footer';
+import Navbar from '@/components/shared/navbar';
 import { Toaster } from '@/components/ui/sonner';
 import { ThemeProvider } from '@/providers/theme-provider';
 import type { Metadata } from 'next';
 import { IBM_Plex_Mono, Lato, Montserrat } from 'next/font/google';
+
 import './globals.css';
 
 const lato = Lato({
@@ -56,7 +56,6 @@ export default function RootLayout({
           disableTransitionOnChange>
           <Navbar />
           {/* <Header1 /> */}
-          <NavigationMenuWithActiveItem />
           {children}
           <Footer />
           <Toaster />

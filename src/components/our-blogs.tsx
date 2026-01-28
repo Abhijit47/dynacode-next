@@ -10,8 +10,9 @@ import { Button } from './ui/button';
 
 export default function OurBlogs() {
   return (
-    <div className='min-h-screen bg-background text-foreground dark'>
-      <section className='mx-auto max-w-screen-7xl px-6 py-16'>
+    <section
+      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
+      <div className=''>
         <div className='flex items-end justify-between gap-4'>
           <div>
             <h2 className='text-balance font-semibold text-4xl tracking-tight'>
@@ -46,8 +47,8 @@ export default function OurBlogs() {
           data-slot='button'>
           Load More
         </button>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

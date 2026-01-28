@@ -1,12 +1,12 @@
-import { BookOpen, Home, Rss } from "lucide-react";
-import Link from "next/link";
-import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
+import { BookOpen, Home, Rss } from "lucide-react";
+import Link from "next/link";
 
 const navigationMenuItems = [
   { title: "Home", href: "#", icon: Home, isActive: true },
@@ -25,7 +25,7 @@ export default function NavigationMenuWithActiveItem() {
               asChild
               className={cn(
                 "group relative inline-flex h-9 w-max items-center justify-center px-0.5 py-2 font-medium text-sm",
-                "before:absolute before:inset-x-0 before:bottom-0 before:h-[2px] before:scale-x-0 before:bg-primary before:transition-transform",
+                "before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:scale-x-0 before:bg-primary before:transition-transform",
                 "hover:text-accent-foreground hover:before:scale-x-100",
                 "focus:text-accent-foreground focus:outline-hidden focus:before:scale-x-100",
                 "disabled:pointer-events-none disabled:opacity-50",
