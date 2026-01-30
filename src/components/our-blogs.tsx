@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils';
 import {
   ArrowRight,
   CalendarDays,
@@ -5,13 +6,17 @@ import {
   LucideMails,
   User,
 } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
 import { Badge } from './ui/badge';
-import { Button } from './ui/button';
+import { Button, buttonVariants } from './ui/button';
 
 export default function OurBlogs() {
   return (
     <section
-      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
+      className={
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+      }>
       <div className=''>
         <div className='flex items-end justify-between gap-4'>
           <div>
@@ -42,11 +47,17 @@ export default function OurBlogs() {
           ))}
         </div>
 
-        <button
-          className="shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full font-medium outline-none transition-all focus-visible:border-primary/70 focus-visible:ring-[3px] focus-visible:ring-primary/20 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-12 px-6 text-base leading-[0.1] has-[&gt;svg]:px-6 [&amp;_svg:not([class*='size-'])]:size-4.5 mx-auto mt-16 flex w-full max-w-xs"
-          data-slot='button'>
-          Load More
-        </button>
+        <Link
+          href={'/blogs'}
+          className={cn(
+            buttonVariants({
+              variant: 'secondary',
+              className:
+                'rounded-full! max-w-xs! mx-auto mt-16 flex w-full h-12 font-medium text-base leading-[0.1]',
+            }),
+          )}>
+          Load more
+        </Link>
       </div>
     </section>
   );
@@ -141,33 +152,36 @@ function BlogCard2({
   author,
 }: (typeof blogs)[0]) {
   return (
-    <a href='https://example.com/blog/react-server-components'>
+    <Link href='#'>
       <div className='overflow-hidden rounded-lg bg-muted p-3 pb-6'>
         <div className='relative isolate'>
-          <img
+          <Image
             alt={title}
-            className='aspect-[14/9] rounded bg-muted'
+            className='aspect-14/9 rounded bg-muted w-full'
             src={imageUrl}
+            width={400}
+            height={260}
           />
-          <img
+          <Image
             alt={title}
-            className='absolute inset-0 -z-10 aspect-[17/9] scale-y-110 rounded bg-muted blur-2xl'
+            className='absolute inset-0 -z-10 aspect-17/9 scale-y-110 rounded bg-muted blur-2xl'
             src={imageUrl}
+            fill
           />
         </div>
 
-        <div className='px-2 py-1'>
-          <div className='mt-4 flex flex-wrap items-center gap-2'>
+        <div className='px-2 py-1 space-y-4 mt-4'>
+          <div className='flex flex-wrap items-center gap-2'>
             {tags.map((tag) => (
-              <Badge key={tag} variant={'secondary'}>
+              <Badge key={tag} variant={'outline'}>
                 {tag}
               </Badge>
             ))}
           </div>
 
-          <h3 className='mt-4 font-semibold text-xl'>{title}</h3>
+          <h3 className='font-semibold text-xl'>{title}</h3>
 
-          <div className='mt-4 flex items-center gap-1'>
+          <div className='flex items-center gap-1'>
             <div className='flex items-center gap-1.5 text-muted-foreground text-sm'>
               <CalendarDays /> {new Date(createdAt).toLocaleDateString()}
             </div>
@@ -182,6 +196,6 @@ function BlogCard2({
           </Button>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

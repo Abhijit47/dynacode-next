@@ -3,12 +3,12 @@ import Hero from '@/components/hero';
 import LogoCloud from '@/components/logo-cloud';
 import OurBlogs from '@/components/our-blogs';
 import OurFeatures from '@/components/our-features';
+import OurProjects from '@/components/our-projects';
 import OurServices from '@/components/our-services';
-import Project1 from '@/components/project-1';
-import Projects from '@/components/projects';
-import Stats from '@/components/stats';
-import Testimonials from '@/components/testimonials';
-import Timeline from '@/components/timeline';
+// import Projects from '@/components/projects';
+import OurStats from '@/components/our-stats';
+import OurTestimonials from '@/components/our-testimonials';
+import OurTimeline from '@/components/our-timeline';
 import WhyChooseUs from '@/components/why-choose-us';
 
 export default function Home() {
@@ -18,12 +18,12 @@ export default function Home() {
       <LogoCloud />
       <OurFeatures />
       <OurServices />
-      <Stats />
-      <Timeline />
+      <OurStats />
+      <OurTimeline />
       <WhyChooseUs />
-      <Projects />
-      <Project1 />
-      <Testimonials />
+      {/* <Projects /> */}
+      <OurProjects />
+      <OurTestimonials />
       <CTASection />
       <OurBlogs />
     </main>

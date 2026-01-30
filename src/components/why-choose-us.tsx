@@ -52,10 +52,12 @@ const features = [
   },
 ];
 
-const WhyChooseUs = () => {
+export default function WhyChooseUs() {
   return (
     <section
-      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
+      className={
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+      }>
       <div className=''>
         <div className=''>
           <h2 className='max-w-lg font-semibold text-4xl tracking-[-0.03em] md:text-5xl md:leading-14'>
@@ -91,6 +93,4 @@ const WhyChooseUs = () => {
       </div>
     </section>
   );
-};
-
-export default WhyChooseUs;
+}
