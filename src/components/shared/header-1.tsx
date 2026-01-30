@@ -10,6 +10,7 @@ import {
   NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu';
 import { Menu, MoveRight, X } from 'lucide-react';
+import { Route } from 'next';
 import Link from 'next/link';
 import { useState } from 'react';
 import ThemeModeToggler from './theme-toggler';
@@ -141,7 +142,7 @@ export const Header1 = () => {
                   <div className='flex flex-col gap-2'>
                     {item.href ? (
                       <Link
-                        href={item.href}
+                        href={item.href as Route}
                         className='flex justify-between items-center'>
                         <span className='text-lg'>{item.title}</span>
                         <MoveRight className='w-4 h-4 stroke-1 text-muted-foreground' />
@@ -153,7 +154,7 @@ export const Header1 = () => {
                       item.items.map((subItem) => (
                         <Link
                           key={subItem.title}
-                          href={subItem.href}
+                          href={subItem.href as Route}
                           className='flex justify-between items-center'>
                           <span className='text-muted-foreground'>
                             {subItem.title}
