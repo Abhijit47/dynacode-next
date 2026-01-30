@@ -16,7 +16,9 @@ const features = [
 const Projects = () => {
   return (
     <section
-      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
+      className={
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+      }>
       <div className=''>
         <div className=''>
           <h2 className='font-semibold text-4xl tracking-tight sm:text-5xl'>

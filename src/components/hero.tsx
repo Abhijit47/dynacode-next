@@ -11,17 +11,17 @@ export default function Hero() {
       <div className='flex min-h-screen items-center justify-center'>
         <BackgroundPattern />
 
-        <div className='relative z-10 max-w-3xl text-center'>
+        <div className='relative z-10 max-w-5xl text-center'>
           <Badge
             asChild
             className='rounded-full border-border py-1'
             variant='secondary'>
             <Link href='#'>
-              Just released v1.0.0 <ArrowUpRight className='ml-1 size-4' />
+              Introducing DynaCode v1.0.0 <ArrowUpRight className='ml-1 size-4' />
             </Link>
           </Badge>
           <h1 className='mt-6 font-semibold text-4xl tracking-tighter sm:text-5xl md:text-6xl md:leading-[1.2] lg:text-7xl'>
-            Customized Shadcn UI Blocks & Components
+            Elevate Your Digital Presence & Scale Faster With DynaCode
           </h1>
           <p className='mt-6 text-foreground/80 md:text-lg'>
             Explore a collection of Shadcn UI blocks and components, ready to

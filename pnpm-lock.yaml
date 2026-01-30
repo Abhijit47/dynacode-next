@@ -134,6 +134,9 @@ importers:
       react-resizable-panels:
         specifier: ^4.5.2
         version: 4.5.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      react-slot-counter:
+        specifier: ^3.3.2
+        version: 3.3.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       recharts:
         specifier: 2.15.4
         version: 2.15.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -2641,6 +2644,13 @@ packages:
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
+
+  react-slot-counter@3.3.2:
+    resolution: {integrity: sha512-2OUCUWI5hjSyjg3rTmTumDReKgyfYO0ubhhab1kex/TduwZEhFP0cyuphSFG7/Poq9JyX0qA5ucnITgyLIvRdg==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
 
   react-smooth@4.0.4:
     resolution: {integrity: sha512-gnGKTpYwqL0Iii09gHobNolvX4Kiq4PKx6eWBCYYix+8cdw+cGo3do906l1NBPKkSWx1DghC1dlWG9L2uGd61Q==}
@@ -5581,6 +5591,11 @@ snapshots:
       '@types/react': 19.2.10
 
   react-resizable-panels@4.5.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+    dependencies:
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
+
+  react-slot-counter@3.3.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)

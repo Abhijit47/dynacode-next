@@ -45,8 +45,10 @@ const steps = [
 export default function Timeline() {
   return (
     <section
-      className={'container mx-auto max-w-(--breakpoint-md) px-4 2xl:px-0'}>
-      <div className=''>
+      className={
+        'container mx-auto max-w-(--breakpoint-md) px-4 2xl:px-0 pb-24'
+      }>
+      <div className='px-4'>
         <div className='relative'>
           {/* Timeline line */}
           <div className='absolute inset-y-0 left-0 border-l-2' />

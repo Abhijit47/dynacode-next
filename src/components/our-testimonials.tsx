@@ -62,7 +62,7 @@ const testimonials = [
 ];
 
 const Testimonials = () => (
-  <div className='flex min-h-screen items-center justify-center py-12'>
+  <div className='flex min-h-screen items-center justify-center pb-24'>
     <div className='h-full w-full'>
       <h2 className='text-pretty px-6 text-center font-semibold text-5xl tracking-[-0.03em]'>
         Success Stories
