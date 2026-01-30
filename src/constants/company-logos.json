@@ -1,0 +1,3670 @@
+[
+  {
+    "id": "f6dad4c1-e511-4d24-9ad9-afeb3f4cc1ac",
+    "title": "NVIDIA",
+    "fallback": {
+      "light": "/company-logos/nvidia-icon-light.svg",
+      "dark": "/company-logos/nvidia-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/nvidia-wordmark-light.svg",
+      "dark": "/company-logos/nvidia-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "1547568a-e9fe-479a-9348-4cae4d7884bf",
+    "title": "Google Classroom",
+    "fallback": "/company-logos/google-classroom.svg"
+  },
+  {
+    "id": "d18a8e48-4c11-429f-aaed-35e98573deaa",
+    "title": "Kimi",
+    "fallback": "/company-logos/kimi-icon.svg",
+    "variants": {
+      "light": "/company-logos/kimi-wordmark-light.svg",
+      "dark": "/company-logos/kimi-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "01532df2-52cd-4010-8f8f-ebdcf043107f",
+    "title": "Zyft",
+    "fallback": "/company-logos/zyft.svg"
+  },
+  {
+    "id": "65916bb5-7fa9-4d1f-92dc-73785f475625",
+    "title": "Perspective",
+    "fallback": {
+      "light": "/company-logos/perspective-light.svg",
+      "dark": "/company-logos/perspective-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/perspective-wordmark-light.svg",
+      "dark": "/company-logos/perspective-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "39b7bc38-48af-46a0-88c9-d8c31dd8a601",
+    "title": "Windsurf",
+    "fallback": {
+      "light": "/company-logos/windsurf-light.svg",
+      "dark": "/company-logos/windsurf-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/windsurf-wordmark-light.svg",
+      "dark": "/company-logos/windsurf-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "073535bc-f400-44d5-8a22-4ab77bc45f40",
+    "title": "Mattermost",
+    "fallback": {
+      "light": "/company-logos/mattermost-light.svg",
+      "dark": "/company-logos/mattermost-dark.svg"
+    }
+  },
+  {
+    "id": "59853b9e-6b48-47b4-b4f2-7a8eb1b0e294",
+    "title": "Inngest",
+    "fallback": {
+      "light": "/company-logos/inngest-light.svg",
+      "dark": "/company-logos/inngest-dark.svg"
+    }
+  },
+  {
+    "id": "71f21213-0470-42a6-9608-cffcd41e996f",
+    "title": "daisyUI",
+    "fallback": "/company-logos/daisyui.svg"
+  },
+  {
+    "id": "534a9760-2b01-4586-85b8-84a3a088985b",
+    "title": "PayPal",
+    "fallback": "/company-logos/paypal.svg",
+    "variants": "/company-logos/paypal-wordmark.svg"
+  },
+  {
+    "id": "10418fed-aafc-4a9b-bd6b-c432b43f09c0",
+    "title": "Google Drive",
+    "fallback": "/company-logos/drive.svg"
+  },
+  {
+    "id": "30bea728-d1cc-4a8b-8a84-b02bb60b10dd",
+    "title": "Amazon Q",
+    "fallback": "/company-logos/amazon-q.svg"
+  },
+  {
+    "id": "b6ec2092-26a0-4fc2-85e5-756e731fd967",
+    "title": "Mulesoft",
+    "fallback": "/company-logos/mulesoft.svg"
+  },
+  {
+    "id": "62ef00c2-52cd-405e-bea4-985309e2888b",
+    "title": "UV",
+    "fallback": "/company-logos/uv.svg"
+  },
+  {
+    "id": "cd79fac7-31a3-4275-b03c-163a637890bc",
+    "title": "Milanote",
+    "fallback": {
+      "light": "/company-logos/milanote-light.svg",
+      "dark": "/company-logos/milanote-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/milanote-wordmark-light.svg",
+      "dark": "/company-logos/milanote-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "db07906f-a8ec-4773-bec1-a52deca4bc30",
+    "title": "Together AI",
+    "fallback": {
+      "light": "/company-logos/togetherai_light.svg",
+      "dark": "/company-logos/togetherai_dark.svg"
+    }
+  },
+  {
+    "id": "ecbc1a8f-cb03-4f2f-8b97-13af30743418",
+    "title": "Suno",
+    "fallback": "/company-logos/suno.svg",
+    "variants": {
+      "light": "/company-logos/suno_wordmark_light.svg",
+      "dark": "/company-logos/suno_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "e83bfdfa-ad8f-4f81-a17e-3a227da9a352",
+    "title": "Groq",
+    "fallback": "/company-logos/groq.svg",
+    "variants": {
+      "light": "/company-logos/groq_wordmark_light.svg",
+      "dark": "/company-logos/groq_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "1502b49f-e025-4733-9004-7f62807ad9f7",
+    "title": "Cohere",
+    "fallback": "/company-logos/cohere.svg",
+    "variants": "/company-logos/cohere_wordmark.svg"
+  },
+  {
+    "id": "e6188523-2de8-4474-845e-06962bdd436d",
+    "title": "Ollama",
+    "fallback": {
+      "light": "/company-logos/ollama_light.svg",
+      "dark": "/company-logos/ollama_dark.svg"
+    }
+  },
+  {
+    "id": "7eb6f806-9731-4d84-9fff-d73edf485d90",
+    "title": "Cisco",
+    "fallback": {
+      "light": "/company-logos/cisco_light.svg",
+      "dark": "/company-logos/cisco_dark.svg"
+    }
+  },
+  {
+    "id": "65c978d0-f031-4567-aeeb-c17e64c5f208",
+    "title": "Animate",
+    "fallback": "/company-logos/animate.svg"
+  },
+  {
+    "id": "55f9b8fa-1848-487c-8757-8d559ae01b7b",
+    "title": "Apollo.io",
+    "fallback": "/company-logos/apollo-io.svg"
+  },
+  {
+    "id": "1d5099bc-8a9c-40d6-a9a5-4a923aaa398c",
+    "title": "Blender",
+    "fallback": "/company-logos/blender.svg"
+  },
+  {
+    "id": "bb980ec0-6dca-4f53-81a9-14d508dc8fb1",
+    "title": "Lua",
+    "fallback": "/company-logos/lua.svg"
+  },
+  {
+    "id": "72eb3e5d-6c41-416b-a105-b65961863f38",
+    "title": "Mercado Libre",
+    "fallback": "/company-logos/mercado-libre.svg",
+    "variants": "/company-logos/mercado-libre-wordmark.svg"
+  },
+  {
+    "id": "ea30f84e-2f9b-4784-9d31-bf2e1916735b",
+    "title": "Mercado Pago",
+    "fallback": "/company-logos/mercado-pago.svg",
+    "variants": "/company-logos/mercado-pago-wordmark.svg"
+  },
+  {
+    "id": "fb4fe1ae-e6d0-4b73-aaaa-6c40bd008d2b",
+    "title": "Basewell",
+    "fallback": "/company-logos/basewell.svg"
+  },
+  {
+    "id": "b16cbee1-b9bf-4e3e-9f9c-83c92a37bd01",
+    "title": "ahooks",
+    "fallback": "/company-logos/ahooks.svg",
+    "variants": {
+      "light": "/company-logos/ahooks-wordmark-light.svg",
+      "dark": "/company-logos/ahooks-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "997cdc0c-b8ff-4f51-b0f1-d7f14b044d51",
+    "title": "Discord",
+    "fallback": "/company-logos/discord.svg"
+  },
+  {
+    "id": "15718dc8-1d0e-4acf-a5cb-40c13e15f9f4",
+    "title": "Aliexpress",
+    "fallback": "/company-logos/aliexpress-icon.svg",
+    "variants": "/company-logos/aliexpress-logo.svg"
+  },
+  {
+    "id": "051e6e17-87da-4632-a47b-0527e65f15ea",
+    "title": "Preact",
+    "fallback": "/company-logos/preact.svg"
+  },
+  {
+    "id": "5888113b-eeaf-4310-ace9-4ed8a3307120",
+    "title": "React",
+    "fallback": {
+      "light": "/company-logos/react_light.svg",
+      "dark": "/company-logos/react_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/react_wordmark_light.svg",
+      "dark": "/company-logos/react_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "11986752-a455-4238-b8f3-ec8ff7b6a797",
+    "title": "Svelte",
+    "fallback": "/company-logos/svelte.svg"
+  },
+  {
+    "id": "a0f3e45b-0479-4610-91b9-0f4fe1d33fc4",
+    "title": "Vue",
+    "fallback": "/company-logos/vue.svg"
+  },
+  {
+    "id": "1dff8892-adc2-4a65-bbff-1e02ba6b574f",
+    "title": "Vuetify",
+    "fallback": "/company-logos/vuetify.svg"
+  },
+  {
+    "id": "c87250a1-020f-4015-b922-c1f4ddf0fa39",
+    "title": "Nuxt",
+    "fallback": "/company-logos/nuxt.svg",
+    "variants": {
+      "light": "/company-logos/nuxt-wordmark-light.svg",
+      "dark": "/company-logos/nuxt-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "f0bfc4f3-b3af-4a0c-9ec9-9e04a2e532cb",
+    "title": "Nuxt UI",
+    "fallback": {
+      "light": "/company-logos/nuxt-ui-wordmark-light.svg",
+      "dark": "/company-logos/nuxt-ui-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "9847864f-a3ea-467d-bc6c-ea1709cfd195",
+    "title": "Nuxt Content",
+    "fallback": {
+      "light": "/company-logos/nuxt-content-wordmark-light.svg",
+      "dark": "/company-logos/nuxt-content-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "0bae769d-2a9c-476a-91c4-f41fe9a099a4",
+    "title": "Nuxt Studio",
+    "fallback": {
+      "light": "/company-logos/nuxt-studio-wordmark-light.svg",
+      "dark": "/company-logos/nuxt-studio-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "5536201d-7e7a-43e2-8df4-7a816b7474f7",
+    "title": "NuxtHub",
+    "fallback": "/company-logos/nuxthub.svg",
+    "variants": {
+      "light": "/company-logos/nuxthub-wordmark-light.svg",
+      "dark": "/company-logos/nuxthub-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "7e98c3ae-e49b-4c07-92b0-69d4f19a8276",
+    "title": "Docus",
+    "fallback": {
+      "light": "/company-logos/docus-light.svg",
+      "dark": "/company-logos/docus-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/docus-wordmark-light.svg",
+      "dark": "/company-logos/docus-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "b65aaf35-abca-498c-a074-eea37b8edce6",
+    "title": "Visual Studio Code",
+    "fallback": "/company-logos/vscode.svg"
+  },
+  {
+    "id": "ffcb9a7f-e072-4c2b-872a-6986f0fe6254",
+    "title": "Ton",
+    "fallback": "/company-logos/ton.svg"
+  },
+  {
+    "id": "05e88a02-a771-465d-bac8-c14b347f88ba",
+    "title": "Locofy",
+    "fallback": "/company-logos/locofy.svg"
+  },
+  {
+    "id": "7e832f34-bd50-4ba2-8bc7-5bc5a9f6da18",
+    "title": "Runway",
+    "fallback": "/company-logos/runway.svg"
+  },
+  {
+    "id": "abf4fec0-1030-4acb-bd0f-ab94d79d8273",
+    "title": "Yarn",
+    "fallback": "/company-logos/yarn.svg"
+  },
+  {
+    "id": "a91a937d-7efd-4041-8c3f-a1b554dbfe91",
+    "title": "JWT",
+    "fallback": "/company-logos/jwt.svg"
+  },
+  {
+    "id": "67fdb49c-8e66-46d4-ac34-23dcebc93dc4",
+    "title": "Strapi",
+    "fallback": "/company-logos/strapi.svg"
+  },
+  {
+    "id": "c7b1fd84-3a03-43e1-b3c0-f079b554a8a3",
+    "title": "Figma",
+    "fallback": "/company-logos/figma.svg"
+  },
+  {
+    "id": "19d20315-5b92-4aa1-87f6-09d600125b1c",
+    "title": "Spotify",
+    "fallback": "/company-logos/spotify.svg",
+    "variants": "/company-logos/spotify_wordmark.svg"
+  },
+  {
+    "id": "a05f0182-f481-4018-8cb4-0fc1e90ac2d2",
+    "title": "WorkOS",
+    "fallback": {
+      "light": "/company-logos/workos.svg",
+      "dark": "/company-logos/workos-light.svg"
+    }
+  },
+  {
+    "id": "d193e8dd-127d-49f4-9f82-d8bbfd6a4b19",
+    "title": "Whop",
+    "fallback": {
+      "light": "/company-logos/whop.svg",
+      "dark": "/company-logos/whop-light.svg"
+    }
+  },
+  {
+    "id": "d76a7f4e-5431-4f41-b1cb-e46cb1afe746",
+    "title": "Postman",
+    "fallback": "/company-logos/postman.svg"
+  },
+  {
+    "id": "f881c166-98b7-4171-a733-ee6a4f890139",
+    "title": "Discord.js",
+    "fallback": "/company-logos/djs.svg"
+  },
+  {
+    "id": "cb763900-af73-4423-8d6b-7ed415bb58eb",
+    "title": "OpenSea",
+    "fallback": "/company-logos/opensea.svg"
+  },
+  {
+    "id": "1c4eb9df-72fe-4960-80de-5a929aa21cb5",
+    "title": "Algolia",
+    "fallback": "/company-logos/algolia.svg"
+  },
+  {
+    "id": "edc6535a-a611-41d8-bc60-d0a160f81f81",
+    "title": "Bootstrap",
+    "fallback": "/company-logos/bootstrap.svg"
+  },
+  {
+    "id": "f31b1a70-7045-4b4b-a014-16afc3ab11cd",
+    "title": "Facebook",
+    "fallback": "/company-logos/facebook-icon.svg",
+    "variants": "/company-logos/facebook-wordmark.svg"
+  },
+  {
+    "id": "3530179c-50fd-45ba-b576-bc9948f65792",
+    "title": "Twitter",
+    "fallback": "/company-logos/twitter.svg"
+  },
+  {
+    "id": "b53bc23d-09a9-4609-9d15-62ab80a365bb",
+    "title": "Esbuild",
+    "fallback": "/company-logos/esbuild.svg"
+  },
+  {
+    "id": "d2443ee3-27e4-44b3-bbdf-1a2920a17ab3",
+    "title": "Deno",
+    "fallback": {
+      "light": "/company-logos/deno.svg",
+      "dark": "/company-logos/deno_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/deno_wordmark.svg",
+      "dark": "/company-logos/deno_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "a36d2db1-97fc-4fd8-b917-fa81719b721e",
+    "title": "Gatsby",
+    "fallback": "/company-logos/gatsby.svg"
+  },
+  {
+    "id": "3fbf2306-afb3-476b-8f36-ed65c334fd89",
+    "title": "NPM",
+    "fallback": "/company-logos/npm.svg",
+    "variants": "/company-logos/npm-wordmark.svg"
+  },
+  {
+    "id": "81fd398e-66e4-4bfa-8bdb-b5c439fee15c",
+    "title": "Nuget",
+    "fallback": "/company-logos/nuget.svg"
+  },
+  {
+    "id": "7e30f5e3-2b2c-4f82-93ad-e18729b88014",
+    "title": "Homebrew",
+    "fallback": "/company-logos/homebrew.svg"
+  },
+  {
+    "id": "0d95410c-f5ae-4864-b48d-7cdbdab81545",
+    "title": "Sublime Text",
+    "fallback": "/company-logos/sublimetext.svg"
+  },
+  {
+    "id": "62146f3f-2e40-4a02-84b9-05cd114e3e2f",
+    "title": "Turborepo",
+    "fallback": {
+      "light": "/company-logos/turborepo-icon-light.svg",
+      "dark": "/company-logos/turborepo-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/turborepo-wordmark-light.svg",
+      "dark": "/company-logos/turborepo-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "f748882b-44eb-4de6-870f-60e6f3d2cf71",
+    "title": "Tailwind CSS",
+    "fallback": "/company-logos/tailwindcss.svg",
+    "variants": {
+      "light": "/company-logos/tailwindcss-wordmark.svg",
+      "dark": "/company-logos/tailwindcss-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "12bbe3f4-60ac-4166-a71f-6852921c81d1",
+    "title": "WakaTime",
+    "fallback": {
+      "light": "/company-logos/wakatime-dark.svg",
+      "dark": "/company-logos/wakatime-light.svg"
+    }
+  },
+  {
+    "id": "be48df10-4d42-42f4-a465-bed916e20e7f",
+    "title": "Styled Components",
+    "fallback": "/company-logos/styledcomponents.svg"
+  },
+  {
+    "id": "97929ce5-e7f0-4c18-9137-2a998dfa0bfc",
+    "title": "Angular",
+    "fallback": "/company-logos/angular.svg"
+  },
+  {
+    "id": "ef4ae540-de7c-48ba-972a-43b067cd2ef5",
+    "title": "Blitz",
+    "fallback": "/company-logos/blitzjs.svg"
+  },
+  {
+    "id": "10a0fd66-aa03-4976-9623-9a7c1b3634d1",
+    "title": "Lit",
+    "fallback": "/company-logos/lit.svg"
+  },
+  {
+    "id": "55467054-ecf7-4d2c-b482-38c1de7d59e5",
+    "title": "Atom",
+    "fallback": "/company-logos/atom.svg"
+  },
+  {
+    "id": "0bc37434-a2ca-4fb4-bee0-eedb37231f54",
+    "title": "YouTube",
+    "fallback": "/company-logos/youtube.svg",
+    "variants": {
+      "light": "/company-logos/youtube-wordmark-light.svg",
+      "dark": "/company-logos/youtube-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "e8c75334-22d5-47bb-8955-e28e0420cf61",
+    "title": "Astro",
+    "fallback": {
+      "light": "/company-logos/astro-icon-light.svg",
+      "dark": "/company-logos/astro-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/astro-wordmark-light.svg",
+      "dark": "/company-logos/astro-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "67d9fea7-311d-408a-8b8c-06d59c242a2c",
+    "title": "Google",
+    "fallback": "/company-logos/google.svg",
+    "variants": "/company-logos/google-wordmark.svg"
+  },
+  {
+    "id": "dda44675-cce9-4151-a1c4-1cf2f899a445",
+    "title": "Google Play",
+    "fallback": "/company-logos/googleplay.svg",
+    "variants": {
+      "light": "/company-logos/googleplay-wordmark-light.svg",
+      "dark": "/company-logos/googleplay-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "aaa8a8d1-9669-4fb1-b7ad-7b8109b14e5a",
+    "title": "Framer",
+    "fallback": {
+      "light": "/company-logos/framer.svg",
+      "dark": "/company-logos/framer_dark.svg"
+    }
+  },
+  {
+    "id": "59ae0762-a6da-42a8-a11d-23d7b767d994",
+    "title": "Netflix",
+    "fallback": "/company-logos/netflix-icon.svg",
+    "variants": "/company-logos/netflix-wordmark.svg"
+  },
+  {
+    "id": "42782362-dbc8-47c1-9c2c-90a6dbb029d9",
+    "title": "Firefox",
+    "fallback": "/company-logos/firefox.svg"
+  },
+  {
+    "id": "4a00bf4c-36b7-4994-a663-6e508cf63689",
+    "title": "LinkedIn",
+    "fallback": "/company-logos/linkedin.svg"
+  },
+  {
+    "id": "c03d60c0-1d6a-48a9-93c0-2c73146f57dc",
+    "title": "Telegram",
+    "fallback": "/company-logos/telegram.svg"
+  },
+  {
+    "id": "8277e3ab-ea88-4925-ad67-41b261123259",
+    "title": "Matrix",
+    "fallback": {
+      "light": "/company-logos/matrix-light.svg",
+      "dark": "/company-logos/matrix-dark.svg"
+    }
+  },
+  {
+    "id": "2724f2b5-b72b-4265-8979-fed9d9fa0b90",
+    "title": "WhatsApp",
+    "fallback": "/company-logos/whatsapp-icon.svg",
+    "variants": "/company-logos/whatsapp-wordmark.svg"
+  },
+  {
+    "id": "74049d3f-95f2-40b9-ad84-730279d9af5f",
+    "title": "Headless UI",
+    "fallback": "/company-logos/headlessui.svg"
+  },
+  {
+    "id": "bf10f6e6-5e73-460b-8663-f168f3854113",
+    "title": "Kotlin",
+    "fallback": "/company-logos/kotlin.svg"
+  },
+  {
+    "id": "4aa33eca-c9be-48dc-82a2-c03266a0a788",
+    "title": "Storybook",
+    "fallback": "/company-logos/storybook.svg"
+  },
+  {
+    "id": "6c98e2e6-6063-49a7-bc40-ae80eac6444e",
+    "title": "Netlify",
+    "fallback": "/company-logos/netlify.svg"
+  },
+  {
+    "id": "61c52507-374d-45c9-ac27-d7fb7f7042fc",
+    "title": "Solidjs",
+    "fallback": "/company-logos/solidjs.svg"
+  },
+  {
+    "id": "1e3db8c8-991f-4efd-8983-613e5c2572a1",
+    "title": "MongoDB",
+    "fallback": {
+      "light": "/company-logos/mongodb-icon-light.svg",
+      "dark": "/company-logos/mongodb-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/mongodb-wordmark-light.svg",
+      "dark": "/company-logos/mongodb-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "47732f6d-eebb-4e38-b8c0-2f0c323dbf99",
+    "title": "Moon",
+    "fallback": "/company-logos/moon.svg"
+  },
+  {
+    "id": "19b0e8d0-ed8e-4f51-be4e-861198f4d495",
+    "title": "Payload CMS",
+    "fallback": {
+      "light": "/company-logos/payload.svg",
+      "dark": "/company-logos/payload_dark.svg"
+    }
+  },
+  {
+    "id": "6ba877e9-156a-4220-9b5c-bca424c847a2",
+    "title": "Fly",
+    "fallback": "/company-logos/fly.svg"
+  },
+  {
+    "id": "313a67a5-2ed2-4a62-978a-f70dc28c3e27",
+    "title": "LearnThis",
+    "fallback": "/company-logos/learnthis.svg"
+  },
+  {
+    "id": "e728d786-da1f-4b3d-9fd6-86c3e2e81433",
+    "title": "Visual Studio",
+    "fallback": "/company-logos/visual-studio.svg"
+  },
+  {
+    "id": "c9092cdc-4c8d-4afe-9b91-756ad851f97a",
+    "title": "Chakra UI",
+    "fallback": "/company-logos/chakra-ui.svg"
+  },
+  {
+    "id": "75388db8-4026-431a-85b6-82e7526e5a40",
+    "title": "Express.js",
+    "fallback": {
+      "light": "/company-logos/expressjs.svg",
+      "dark": "/company-logos/expressjs_dark.svg"
+    }
+  },
+  {
+    "id": "110aad59-bdc9-4b47-bf52-0c4e558de22c",
+    "title": "Fastify",
+    "fallback": {
+      "light": "/company-logos/fastify.svg",
+      "dark": "/company-logos/fastify_dark.svg"
+    }
+  },
+  {
+    "id": "84739e43-f27a-46b1-938d-ea93d2ca4059",
+    "title": "JavaScript",
+    "fallback": "/company-logos/javascript.svg"
+  },
+  {
+    "id": "d4f85dd0-38bd-42db-b5d9-d6d5b1da3e1f",
+    "title": "jQuery",
+    "fallback": {
+      "light": "/company-logos/jquery.svg",
+      "dark": "/company-logos/jquery_dark.svg"
+    }
+  },
+  {
+    "id": "9e3860db-15b6-4d41-b364-c1ecd9e088e3",
+    "title": "Rapid API",
+    "fallback": "/company-logos/rapidapi.svg"
+  },
+  {
+    "id": "eeb4f019-e605-49f0-bb68-0a78b88a4b31",
+    "title": "TypeScript",
+    "fallback": "/company-logos/typescript.svg"
+  },
+  {
+    "id": "d9925d6a-4181-47e2-b60a-782f26051c81",
+    "title": "Bun",
+    "fallback": "/company-logos/bun.svg"
+  },
+  {
+    "id": "1f94cd4b-2a7c-4bae-b906-4c8324a4982d",
+    "title": "BuildShip",
+    "fallback": "/company-logos/buildship.svg"
+  },
+  {
+    "id": "02db59f0-5711-4ce7-bf61-d7b7bcd3ef56",
+    "title": "Twilio",
+    "fallback": "/company-logos/twilio.svg"
+  },
+  {
+    "id": "0a229789-3117-4f9d-8812-4d845fd5e3b7",
+    "title": "Arc",
+    "fallback": {
+      "light": "/company-logos/arc.svg",
+      "dark": "/company-logos/arc_dark.svg"
+    }
+  },
+  {
+    "id": "7e408125-981e-4e77-97e1-d5d7ab16a70a",
+    "title": "Arc",
+    "fallback": {
+      "light": "/company-logos/arc_fintech_light.svg",
+      "dark": "/company-logos/arc_fintech_dark.svg"
+    }
+  },
+  {
+    "id": "d7bae3f6-6864-4fcf-b50e-cc1170f0c176",
+    "title": "Qwik",
+    "fallback": "/company-logos/qwik.svg"
+  },
+  {
+    "id": "bf3cbd07-e9e5-4f21-bec6-dcb4a44edf42",
+    "title": "Coinbase",
+    "fallback": "/company-logos/coinbase.svg",
+    "variants": {
+      "light": "/company-logos/coinbase-wordmark-light.svg",
+      "dark": "/company-logos/coinbase-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "c8d549a1-2298-4ad3-be09-f7a46f575f1f",
+    "title": "Authy",
+    "fallback": "/company-logos/authy.svg"
+  },
+  {
+    "id": "ff3cda13-3842-4dd1-b000-c498bee602d0",
+    "title": "NestJS",
+    "fallback": "/company-logos/nestjs.svg"
+  },
+  {
+    "id": "0dac1010-06a6-4c45-88b9-92ee83067499",
+    "title": "GitHub Copilot",
+    "fallback": {
+      "light": "/company-logos/copilot.svg",
+      "dark": "/company-logos/copilot_dark.svg"
+    }
+  },
+  {
+    "id": "ba629820-e75e-4139-a96b-f2fe7699639a",
+    "title": "Railway",
+    "fallback": {
+      "light": "/company-logos/railway.svg",
+      "dark": "/company-logos/railway_dark.svg"
+    }
+  },
+  {
+    "id": "2083b9c2-9aae-4556-b68a-781c71c120ec",
+    "title": "Docusaurus",
+    "fallback": "/company-logos/docusaurus.svg"
+  },
+  {
+    "id": "3c8b9de5-8b0b-4849-b27c-755b0b2b4702",
+    "title": "Twitch",
+    "fallback": "/company-logos/twitch.svg"
+  },
+  {
+    "id": "64060f42-6bf0-4cfc-8a01-d8ef58ff827b",
+    "title": "GoDaddy",
+    "fallback": {
+      "light": "/company-logos/godaddy.svg",
+      "dark": "/company-logos/godaddy_dark.svg"
+    }
+  },
+  {
+    "id": "67c44238-2781-49d7-8926-80cfb26521ef",
+    "title": "Udemy",
+    "fallback": {
+      "light": "/company-logos/udemy.svg",
+      "dark": "/company-logos/udemy_dark.svg"
+    }
+  },
+  {
+    "id": "ecba480f-acd1-4ecf-a955-02537ba7d788",
+    "title": "GraphQL",
+    "fallback": "/company-logos/graphql.svg"
+  },
+  {
+    "id": "6467ae59-e3a2-4c6b-b196-b6fdf4022412",
+    "title": "Grok",
+    "fallback": {
+      "light": "/company-logos/grok-light.svg",
+      "dark": "/company-logos/grok-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/grok-wordmark-light.svg",
+      "dark": "/company-logos/grok-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "e505403a-efac-4998-a456-0e4ca2f4f9f0",
+    "title": "GitLab",
+    "fallback": "/company-logos/gitlab.svg"
+  },
+  {
+    "id": "787db113-de25-4605-94a8-8b6620ca9b15",
+    "title": "Prisma",
+    "fallback": {
+      "light": "/company-logos/prisma.svg",
+      "dark": "/company-logos/prisma_dark.svg"
+    }
+  },
+  {
+    "id": "f8a18d82-d513-4254-b262-72cf7f22341c",
+    "title": "Go",
+    "fallback": {
+      "light": "/company-logos/golang.svg",
+      "dark": "/company-logos/golang_dark.svg"
+    }
+  },
+  {
+    "id": "059c9583-746e-45df-beda-b3e929461c8f",
+    "title": "Platzi",
+    "fallback": "/company-logos/platzi.svg"
+  },
+  {
+    "id": "6e4e2e8d-3dd0-4969-bea8-246fdc7af092",
+    "title": "Coursera",
+    "fallback": "/company-logos/coursera.svg"
+  },
+  {
+    "id": "23809e9c-6973-4a07-9716-aab2f50cb87d",
+    "title": "Udacity",
+    "fallback": "/company-logos/udacity.svg"
+  },
+  {
+    "id": "448cf30f-3af1-4d20-a8d4-e04697caa57c",
+    "title": "Kubernetes",
+    "fallback": "/company-logos/kubernetes.svg"
+  },
+  {
+    "id": "fff75954-64a7-4114-beb8-df37db4a7907",
+    "title": "Docker",
+    "fallback": "/company-logos/docker.svg"
+  },
+  {
+    "id": "7ac6c2e9-3dd6-4597-8d54-cd3c2b004d45",
+    "title": "Amazon Web Services",
+    "fallback": {
+      "light": "/company-logos/aws_light.svg",
+      "dark": "/company-logos/aws_dark.svg"
+    }
+  },
+  {
+    "id": "6bcdf63c-2129-4f3d-b86d-15b308dfb06a",
+    "title": "Microsoft Azure",
+    "fallback": "/company-logos/azure.svg"
+  },
+  {
+    "id": "b656d210-769a-4a2d-92a0-11b775686540",
+    "title": "Microsoft Access",
+    "fallback": "/company-logos/microsoft-access.svg"
+  },
+  {
+    "id": "a1f236a9-3d74-4259-96f4-404cf39e23dd",
+    "title": "Microsoft Clipchamp",
+    "fallback": "/company-logos/microsoft-clipchamp.svg"
+  },
+  {
+    "id": "52895807-aed1-475e-83a8-de31a93ee182",
+    "title": "Microsoft Copilot",
+    "fallback": "/company-logos/microsoft-copilot.svg"
+  },
+  {
+    "id": "d6ba362b-6386-493e-8b38-d0a6e2e0b975",
+    "title": "Microsoft Defender",
+    "fallback": "/company-logos/microsoft-defender.svg"
+  },
+  {
+    "id": "b7e41b41-4fe6-41f6-9eb6-1c7e2c4a8c46",
+    "title": "Microsoft Designer",
+    "fallback": "/company-logos/microsoft-designer.svg"
+  },
+  {
+    "id": "64ebf390-f01e-4d34-b8a2-bccad9a21764",
+    "title": "Microsoft Editor",
+    "fallback": "/company-logos/microsoft-editor.svg"
+  },
+  {
+    "id": "d40e716b-13f3-4a09-995f-5cfa75065c2f",
+    "title": "Microsoft Excel",
+    "fallback": "/company-logos/microsoft-excel.svg"
+  },
+  {
+    "id": "5baa7cdb-e15a-4cd8-bb3a-3576c836dad7",
+    "title": "Microsoft OneDrive",
+    "fallback": "/company-logos/microsoft-onedrive.svg"
+  },
+  {
+    "id": "61a42f8d-a257-47e7-85b1-f9b2c45dc018",
+    "title": "Microsoft OneNote",
+    "fallback": "/company-logos/microsoft-onenote.svg"
+  },
+  {
+    "id": "0bd82dc0-a524-4cd1-b2e6-f2b5c8c184a3",
+    "title": "Microsoft PowerPoint",
+    "fallback": "/company-logos/microsoft-powerpoint.svg"
+  },
+  {
+    "id": "edfbc476-d695-44c2-9324-194690caa095",
+    "title": "Microsoft SharePoint",
+    "fallback": "/company-logos/microsoft-sharepoint.svg"
+  },
+  {
+    "id": "17026b4f-097e-4477-8c4c-859064408b86",
+    "title": "Microsoft Teams",
+    "fallback": "/company-logos/microsoft-teams.svg"
+  },
+  {
+    "id": "6951cbce-c0b4-4c46-84df-92243be521ea",
+    "title": "Microsoft Word",
+    "fallback": "/company-logos/microsoft-word.svg"
+  },
+  {
+    "id": "d0e077f1-afdb-49e2-a14e-67261073b3c1",
+    "title": "Heroku",
+    "fallback": "/company-logos/heroku.svg"
+  },
+  {
+    "id": "929e8e10-58f6-4387-9111-cb4a8da98a3f",
+    "title": "JetBrains",
+    "fallback": "/company-logos/jetbrains.svg"
+  },
+  {
+    "id": "4ef668c3-af45-45f0-b9eb-0e4a2e427ac9",
+    "title": "JetBrains Rider",
+    "fallback": "/company-logos/rider.svg"
+  },
+  {
+    "id": "6120795c-c8b0-4aef-aab4-51d2af90d006",
+    "title": "PlanetScale",
+    "fallback": {
+      "light": "/company-logos/planetscale.svg",
+      "dark": "/company-logos/planetscale_dark.svg"
+    }
+  },
+  {
+    "id": "4aef2f31-594e-4ff1-8a83-4d8d0e9d7196",
+    "title": "Playwright",
+    "fallback": "/company-logos/playwright.svg"
+  },
+  {
+    "id": "fd9b8ccd-819f-4f8b-a470-9a09aa0d1227",
+    "title": "Atlassian",
+    "fallback": "/company-logos/atlassian.svg"
+  },
+  {
+    "id": "b4b960cb-247a-477f-97bb-b5bbf4758516",
+    "title": "Discourse",
+    "fallback": "/company-logos/discourse.svg"
+  },
+  {
+    "id": "7bfb5b6d-2614-4b61-9d24-fdab8c0b0474",
+    "title": "Ember",
+    "fallback": "/company-logos/ember.svg"
+  },
+  {
+    "id": "0e7b5d40-d1dc-4711-9e9a-f08fd0e8fa3d",
+    "title": "Expo",
+    "fallback": "/company-logos/expo.svg"
+  },
+  {
+    "id": "1dd5af8b-b6ef-4111-ab44-7b902d46e99b",
+    "title": "Flutter",
+    "fallback": "/company-logos/flutter.svg"
+  },
+  {
+    "id": "d163d7a7-497d-4916-aeb3-9fdcb09e22ba",
+    "title": "Auth0",
+    "fallback": "/company-logos/auth0.svg"
+  },
+  {
+    "id": "b2937ffa-72d0-4f6a-888c-a7a28f622db7",
+    "title": "Auth.js",
+    "fallback": "/company-logos/authjs.svg"
+  },
+  {
+    "id": "72031113-3cf0-4845-af46-02d2ae3c9f86",
+    "title": "Fresh",
+    "fallback": "/company-logos/fresh.svg"
+  },
+  {
+    "id": "154cbbab-cc3b-40de-85d7-3770a49b8148",
+    "title": "Git",
+    "fallback": "/company-logos/git.svg"
+  },
+  {
+    "id": "dfae6732-0c67-4723-b14f-e3499b8f84fe",
+    "title": "Hostgator",
+    "fallback": "/company-logos/hostgator.svg"
+  },
+  {
+    "id": "be5d53fe-4379-490d-8284-d5c856172fa4",
+    "title": "IntelliJ IDEA",
+    "fallback": "/company-logos/intellijidea.svg"
+  },
+  {
+    "id": "72c06fe0-5ec7-40cf-bc67-55f1ece1435b",
+    "title": "Jasmine",
+    "fallback": "/company-logos/jasmine.svg"
+  },
+  {
+    "id": "868aff43-518e-4ad2-8315-8a0523aa1a5d",
+    "title": "Java",
+    "fallback": "/company-logos/java.svg"
+  },
+  {
+    "id": "fa7d894d-1fe0-45b2-8234-b8eb33f4675e",
+    "title": "Jest",
+    "fallback": "/company-logos/jest.svg"
+  },
+  {
+    "id": "8dec91c6-686d-44a2-adda-c0f37839c52d",
+    "title": "JetBrains",
+    "fallback": "/company-logos/jetbrainsSolid.svg"
+  },
+  {
+    "id": "8c88bcd6-137f-4f41-8b94-699f0d094b40",
+    "title": "KrakenJS",
+    "fallback": "/company-logos/krakenjs.svg"
+  },
+  {
+    "id": "10d4beda-34c6-4c54-a375-60adc87ba9cd",
+    "title": "Laravel",
+    "fallback": "/company-logos/laravel.svg"
+  },
+  {
+    "id": "2b7180d7-41ef-49a0-896c-933ef3b1597e",
+    "title": "MariaDB",
+    "fallback": "/company-logos/mariadb.svg"
+  },
+  {
+    "id": "41fc654d-bde2-483e-b743-e05f3d1bcc8f",
+    "title": "Material UI",
+    "fallback": "/company-logos/materialui.svg"
+  },
+  {
+    "id": "126411bb-d60d-4c84-81cf-406d653d4718",
+    "title": "MySQL",
+    "fallback": {
+      "light": "/company-logos/mysql-icon-light.svg",
+      "dark": "/company-logos/mysql-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/mysql-wordmark-light.svg",
+      "dark": "/company-logos/mysql-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "6ef8376e-42a4-4762-9b17-21208663e1ed",
+    "title": "Parcel",
+    "fallback": "/company-logos/parcel.svg"
+  },
+  {
+    "id": "75223d5e-53a0-46fd-ab55-9b46930b83a7",
+    "title": "PM2",
+    "fallback": "/company-logos/pm2.svg"
+  },
+  {
+    "id": "80ab958f-3c4b-44c1-b461-e3479a60752e",
+    "title": "PostgreSQL",
+    "fallback": "/company-logos/postgresql.svg",
+    "variants": {
+      "light": "/company-logos/postgresql-wordmark-light.svg",
+      "dark": "/company-logos/postgresql-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "399edfad-bfa8-4a5a-82f2-60903742ac75",
+    "title": "React Query",
+    "fallback": "/company-logos/reactquery.svg"
+  },
+  {
+    "id": "2a76ac3d-0bde-43a1-b271-32938f19b6d0",
+    "title": "Devto",
+    "fallback": {
+      "light": "/company-logos/devto-light.svg",
+      "dark": "/company-logos/devto-dark.svg"
+    }
+  },
+  {
+    "id": "29a57815-a88f-4881-bb9d-dd73222d7922",
+    "title": "Redis",
+    "fallback": "/company-logos/redis.svg"
+  },
+  {
+    "id": "35ecde54-7243-458b-8e14-0b0bded162c4",
+    "title": "RedwoodJS",
+    "fallback": "/company-logos/redwoodjs.svg"
+  },
+  {
+    "id": "73aae7d2-a477-4bb7-9c94-4ab42852c7fb",
+    "title": "Ruby",
+    "fallback": "/company-logos/ruby.svg"
+  },
+  {
+    "id": "c66b872c-0545-4bfa-8e77-ab0faf6b6d44",
+    "title": "Scala",
+    "fallback": "/company-logos/scala.svg"
+  },
+  {
+    "id": "65133b7c-11ac-4cf4-9d08-ca76100bd9ea",
+    "title": "Sequelize",
+    "fallback": "/company-logos/sequelize.svg"
+  },
+  {
+    "id": "f6be9a90-4829-40c2-8d3c-6967390a3841",
+    "title": "Spinnaker",
+    "fallback": "/company-logos/spinnaker.svg"
+  },
+  {
+    "id": "cbf2a910-f63e-4734-b0d5-7c979f7920c4",
+    "title": "SQLite",
+    "fallback": "/company-logos/sqlite.svg"
+  },
+  {
+    "id": "c16bafc1-66ff-4442-85b4-d128d78d0f78",
+    "title": "Swagger",
+    "fallback": "/company-logos/swagger.svg"
+  },
+  {
+    "id": "82779ddf-cd74-4f3b-87ca-2a15e36f7cc4",
+    "title": "Swift",
+    "fallback": "/company-logos/swift.svg"
+  },
+  {
+    "id": "46b44ed4-dc64-4aa8-9b64-234d9f498273",
+    "title": "TypeORM",
+    "fallback": "/company-logos/typeorm.svg"
+  },
+  {
+    "id": "5046ebee-f527-4c25-97b9-35ce95289870",
+    "title": "Unity",
+    "fallback": {
+      "light": "/company-logos/unity.svg",
+      "dark": "/company-logos/unity_dark.svg"
+    }
+  },
+  {
+    "id": "2e4c5867-b03c-4fec-a701-6ca911b235d2",
+    "title": "Vim",
+    "fallback": "/company-logos/vim.svg"
+  },
+  {
+    "id": "51d58e6f-d244-4e2b-9dab-d1c8dd8e46aa",
+    "title": "Pocketbase",
+    "fallback": "/company-logos/pocket-base.svg"
+  },
+  {
+    "id": "93dd2a6a-a2d5-4f82-b548-c92ae496800a",
+    "title": "OpenBootcamp",
+    "fallback": "/company-logos/openbootcamp.svg"
+  },
+  {
+    "id": "5b14c487-511a-413a-a24c-6502c2578d51",
+    "title": "Digital Ocean",
+    "fallback": "/company-logos/digitalocean.svg"
+  },
+  {
+    "id": "d52e3151-ec69-4218-9d58-fc25bf5869d2",
+    "title": "Disney+",
+    "fallback": "/company-logos/disneyplus.svg"
+  },
+  {
+    "id": "a15bbcbf-7686-4649-8138-99e9dbf05883",
+    "title": "React Router",
+    "fallback": "/company-logos/reactrouter.svg"
+  },
+  {
+    "id": "c0ea145c-190d-4f74-a5e3-47a86d8a4c59",
+    "title": "AMP",
+    "fallback": "/company-logos/amp.svg"
+  },
+  {
+    "id": "c6f3b1b8-0950-4fbb-9dd1-575a3d5e1c70",
+    "title": "Developer Student Club",
+    "fallback": "/company-logos/gdsc.svg"
+  },
+  {
+    "id": "50a54d8a-0d97-469c-924e-6aaba63dcf89",
+    "title": "Brave Browser",
+    "fallback": "/company-logos/brave.svg"
+  },
+  {
+    "id": "187fa434-49ee-4975-a79f-2bd147c39834",
+    "title": "Eclipse IDE",
+    "fallback": "/company-logos/eclipse.svg"
+  },
+  {
+    "id": "c5395301-6275-48be-81a3-dbd68a30e29e",
+    "title": "Three.js",
+    "fallback": {
+      "light": "/company-logos/threejs-light.svg",
+      "dark": "/company-logos/threejs-dark.svg"
+    }
+  },
+  {
+    "id": "81740bdf-8e89-4e95-b74a-153042ec1c7e",
+    "title": "HTML5",
+    "fallback": "/company-logos/html5.svg"
+  },
+  {
+    "id": "67fb7f6f-0d57-440b-8687-ab0365c822a9",
+    "title": "CSS (New)",
+    "fallback": "/company-logos/css.svg"
+  },
+  {
+    "id": "f6aed1ea-e63e-4777-a916-6c033a526e9b",
+    "title": "CSS",
+    "fallback": "/company-logos/css_old.svg"
+  },
+  {
+    "id": "1dd4548b-a075-45e5-a818-0d801d14ce74",
+    "title": "midudev",
+    "fallback": "/company-logos/midudev.svg"
+  },
+  {
+    "id": "df25291e-7d49-4dbf-b1a2-32042fcb9a4d",
+    "title": "Apple",
+    "fallback": {
+      "light": "/company-logos/apple.svg",
+      "dark": "/company-logos/apple_dark.svg"
+    }
+  },
+  {
+    "id": "55145c10-5550-4a4f-8356-62fd90e5b03b",
+    "title": "App Store",
+    "fallback": "/company-logos/appstore.svg"
+  },
+  {
+    "id": "4aa9662e-f33a-47c2-9dcc-963954495125",
+    "title": "Windows",
+    "fallback": "/company-logos/windows.svg"
+  },
+  {
+    "id": "ac3a5319-9cd4-4e50-a522-abd346be5b05",
+    "title": "Python",
+    "fallback": "/company-logos/python.svg"
+  },
+  {
+    "id": "c11c118a-8577-4fc3-97f2-145ef03c3202",
+    "title": "Solidity",
+    "fallback": "/company-logos/solidity.svg"
+  },
+  {
+    "id": "b1704a97-8d8a-4ec2-88ba-2e759ef13374",
+    "title": "Turbopack",
+    "fallback": {
+      "light": "/company-logos/turbopack-icon-light.svg",
+      "dark": "/company-logos/turbopack-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/turbopack-wordmark-light.svg",
+      "dark": "/company-logos/turbopack-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "96a24e78-b41e-438d-a516-611b1fc2ef46",
+    "title": "Builder",
+    "fallback": "/company-logos/builder.svg"
+  },
+  {
+    "id": "b0cf01b0-0c3a-406b-9d07-db7db3f9674a",
+    "title": "Babel",
+    "fallback": "/company-logos/babel.svg"
+  },
+  {
+    "id": "0a9c3ea0-8349-4790-9153-f1c0493c4656",
+    "title": "Surrealdb",
+    "fallback": "/company-logos/surrealdb.svg"
+  },
+  {
+    "id": "d8136d3f-404c-423c-ae75-0a728f747478",
+    "title": "Jetbrains Space",
+    "fallback": "/company-logos/jetbrains-space.svg"
+  },
+  {
+    "id": "72ac67d8-df1c-4113-8179-3251b7c237a1",
+    "title": "Stimulus",
+    "fallback": "/company-logos/stimulus.svg"
+  },
+  {
+    "id": "686eb5c8-b309-4f5d-a33c-01663624311f",
+    "title": "WindiCSS",
+    "fallback": "/company-logos/windicss.svg"
+  },
+  {
+    "id": "ed69afb3-876b-46b4-8cca-9c3361c6bac8",
+    "title": "Mastodon",
+    "fallback": "/company-logos/mastodon.svg"
+  },
+  {
+    "id": "d9e92e31-2877-47aa-b154-821cec9759e8",
+    "title": "Upstash",
+    "fallback": "/company-logos/upstash.svg"
+  },
+  {
+    "id": "a465bf4e-aa77-48c4-a3f7-214efaa11ebf",
+    "title": "Storyblok",
+    "fallback": "/company-logos/storyblok.svg"
+  },
+  {
+    "id": "6518d1b5-a5c3-4d20-89e4-446d1ddbbe3d",
+    "title": "Cloudflare Workers",
+    "fallback": "/company-logos/cloudflare-workers.svg"
+  },
+  {
+    "id": "73d2d383-0bfc-4e41-815b-afe55208c08b",
+    "title": "Cloudflare",
+    "fallback": "/company-logos/cloudflare.svg"
+  },
+  {
+    "id": "49744958-e3c7-48b7-a9c7-7956e881c056",
+    "title": "Bing",
+    "fallback": "/company-logos/bing.svg"
+  },
+  {
+    "id": "fc710eca-70e7-4368-9521-b0709a172206",
+    "title": "Cloudinary",
+    "fallback": "/company-logos/cloudinary.svg"
+  },
+  {
+    "id": "112698fa-b9c0-4d27-9688-c14e2278f0b0",
+    "title": "Dart",
+    "fallback": "/company-logos/dart.svg"
+  },
+  {
+    "id": "6b3d5f77-ec11-45e9-9996-f827df9576a4",
+    "title": "hCaptcha",
+    "fallback": "/company-logos/hcaptcha.svg"
+  },
+  {
+    "id": "777c6505-74a8-4fbd-b38f-6dd841732010",
+    "title": "Appwrite",
+    "fallback": "/company-logos/appwrite.svg"
+  },
+  {
+    "id": "cbee3c4e-c79e-46da-9a15-293d60734eb7",
+    "title": "Loom",
+    "fallback": "/company-logos/loom.svg"
+  },
+  {
+    "id": "4cc42530-c4cf-4979-8783-f2777c13afd8",
+    "title": "Hulu",
+    "fallback": {
+      "light": "/company-logos/hulu.svg",
+      "dark": "/company-logos/hulu-dark.svg"
+    }
+  },
+  {
+    "id": "b8785990-82eb-40a9-925f-e03e4c7bc328",
+    "title": "Stackblitz",
+    "fallback": "/company-logos/stackblitz.svg"
+  },
+  {
+    "id": "de00e201-046c-44b8-bfba-ea5295381676",
+    "title": "Binance",
+    "fallback": "/company-logos/binance.svg"
+  },
+  {
+    "id": "9aa2cf7b-22f6-40d9-8995-03f0dbaad184",
+    "title": "Messenger",
+    "fallback": "/company-logos/messenger.svg"
+  },
+  {
+    "id": "168a2fe3-f33b-42a3-86f2-cf32ed48cb28",
+    "title": "NHost",
+    "fallback": "/company-logos/nhost.svg"
+  },
+  {
+    "id": "21824086-137d-496f-932f-fc0656726eda",
+    "title": "Medusa",
+    "fallback": "/company-logos/medusa.svg"
+  },
+  {
+    "id": "43d1e577-e3ae-46cf-842e-ee85ba6b065b",
+    "title": "WordPress",
+    "fallback": "/company-logos/wordpress.svg"
+  },
+  {
+    "id": "8c92d11b-0fac-4162-888d-03034b8b2175",
+    "title": "Microsoft",
+    "fallback": "/company-logos/microsoft.svg"
+  },
+  {
+    "id": "68579d6d-73d7-4e44-be34-c0e5d5f22d2b",
+    "title": "Elementor",
+    "fallback": "/company-logos/elementor.svg"
+  },
+  {
+    "id": "5af5426e-2cda-48dd-8d25-6199220b6955",
+    "title": "Kick",
+    "fallback": {
+      "light": "/company-logos/kick-light.svg",
+      "dark": "/company-logos/kick-dark.svg"
+    }
+  },
+  {
+    "id": "ab122190-2db5-4b53-be9d-353e48983ba0",
+    "title": "Prime video",
+    "fallback": "/company-logos/prime-video.svg"
+  },
+  {
+    "id": "3e37e2e7-283e-45ac-9257-876e888f4bcf",
+    "title": "Chrome",
+    "fallback": "/company-logos/chrome.svg"
+  },
+  {
+    "id": "40c7d14a-1c26-4fc1-9127-37c9e2434ac5",
+    "title": "RxJS",
+    "fallback": "/company-logos/rxjs.svg"
+  },
+  {
+    "id": "1725450b-dd97-4df3-8734-7f8ee0b5c9f6",
+    "title": "Electron",
+    "fallback": "/company-logos/electron.svg"
+  },
+  {
+    "id": "eb5e8f16-77ef-4145-a2bb-c5e23b72c1b9",
+    "title": "Redux",
+    "fallback": "/company-logos/redux.svg"
+  },
+  {
+    "id": "72a87c07-e2ea-460c-aed0-20d0f604d2d0",
+    "title": "Trust Wallet",
+    "fallback": "/company-logos/trust.svg"
+  },
+  {
+    "id": "09d24560-e6d4-4e43-83dd-0bfc8ef05ec0",
+    "title": "Php",
+    "fallback": {
+      "light": "/company-logos/php.svg",
+      "dark": "/company-logos/php_dark.svg"
+    }
+  },
+  {
+    "id": "f2502939-9cb2-4f6f-9ff2-c2e8161d2c35",
+    "title": "Hugo",
+    "fallback": "/company-logos/hugo.svg"
+  },
+  {
+    "id": "38371108-9eb8-41d2-9bbc-c26dca0aeb05",
+    "title": "Sass",
+    "fallback": "/company-logos/sass.svg"
+  },
+  {
+    "id": "271ebf45-1cdd-4f80-9d3a-afa092c60e1d",
+    "title": "Arc",
+    "fallback": "/company-logos/arc_browser.svg"
+  },
+  {
+    "id": "958dee53-ebaf-451b-82e8-bb93b0c1fde9",
+    "title": "Pinia",
+    "fallback": "/company-logos/pinia.svg"
+  },
+  {
+    "id": "5b0b62d4-18ba-44c3-bb0a-107c7371c2e2",
+    "title": "Neon",
+    "fallback": "/company-logos/neon.svg"
+  },
+  {
+    "id": "fc59cf6b-d932-4884-a5ab-8e132ce02b4b",
+    "title": "Infojobs",
+    "fallback": "/company-logos/infojobs-logo.svg"
+  },
+  {
+    "id": "f381fc07-2933-4390-a678-644fb5747b33",
+    "title": "Linear",
+    "fallback": "/company-logos/linear.svg"
+  },
+  {
+    "id": "de59e1a1-663d-4f2d-90b8-37fbc124cf5c",
+    "title": "Tor",
+    "fallback": "/company-logos/tor.svg"
+  },
+  {
+    "id": "7acadab1-4bfd-447c-aecd-32e8379da738",
+    "title": "Codesandbox",
+    "fallback": "/company-logos/codesandbox-square.svg"
+  },
+  {
+    "id": "6a8792c7-8616-4c7f-9801-0d909503efd5",
+    "title": "Skype",
+    "fallback": "/company-logos/skype.svg"
+  },
+  {
+    "id": "edd39884-c814-4f9a-8408-9c5103a16270",
+    "title": "Tauri",
+    "fallback": "/company-logos/tauri.svg"
+  },
+  {
+    "id": "8c443014-ea9a-4eea-a307-fb2eb8524226",
+    "title": "WebKit",
+    "fallback": "/company-logos/webkit.svg"
+  },
+  {
+    "id": "2de3ddfa-f68c-4c2e-969d-eea876c427e6",
+    "title": "DuckDuckGo",
+    "fallback": "/company-logos/duckduckgo.svg",
+    "variants": "/company-logos/duckduckgo-wordmark.svg"
+  },
+  {
+    "id": "2d7536e6-8a67-4b51-9c2b-0fbbdbceaae1",
+    "title": "Obsidian",
+    "fallback": "/company-logos/obsidian.svg"
+  },
+  {
+    "id": "83663700-4249-4c5a-a7ed-12eed96280b7",
+    "title": "Zod",
+    "fallback": "/company-logos/zod.svg"
+  },
+  {
+    "id": "8cae75ef-0012-4301-b23d-563a7f43933f",
+    "title": "Valibot",
+    "fallback": "/company-logos/valibot.svg",
+    "variants": {
+      "light": "/company-logos/valibot-wordmark-light.svg",
+      "dark": "/company-logos/valibot-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "c0461216-63a1-4a9e-89ef-eada072751cf",
+    "title": "Dreamweaver",
+    "fallback": "/company-logos/dw.svg"
+  },
+  {
+    "id": "71d2b3ab-be8a-41e6-ae31-7782acf2e75e",
+    "title": "OpenAI",
+    "fallback": {
+      "light": "/company-logos/openai.svg",
+      "dark": "/company-logos/openai_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/openai_wordmark_light.svg",
+      "dark": "/company-logos/openai_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "66e8b7e5-a73a-4e7d-b43c-a9b4b1ae8aa9",
+    "title": "Threads",
+    "fallback": {
+      "light": "/company-logos/threads.svg",
+      "dark": "/company-logos/threads_dark.svg"
+    }
+  },
+  {
+    "id": "f952b1af-11c7-4e77-a9bd-984e6840acd1",
+    "title": "Instagram",
+    "fallback": "/company-logos/instagram-icon.svg",
+    "variants": "/company-logos/instagram-wordmark.svg"
+  },
+  {
+    "id": "b5a90535-6337-4308-99e5-0915e3db2da9",
+    "title": "VueUse",
+    "fallback": "/company-logos/vueuse.svg"
+  },
+  {
+    "id": "1e194691-c066-4312-a79a-8016628baaeb",
+    "title": "Microsoft SQL Server ",
+    "fallback": "/company-logos/sql-server.svg"
+  },
+  {
+    "id": "b86e29c1-e159-4eca-9ee7-ba29a7fe9225",
+    "title": "Hono",
+    "fallback": "/company-logos/hono.svg"
+  },
+  {
+    "id": "42a07245-0761-4834-bdb5-fff910639a4e",
+    "title": "Million",
+    "fallback": "/company-logos/million.svg"
+  },
+  {
+    "id": "76780e63-93e2-46e3-ab09-1d8b9c3b8519",
+    "title": "PandaCSS",
+    "fallback": "/company-logos/pandacss.svg"
+  },
+  {
+    "id": "32a937a4-813e-4780-95cf-1d8bcc4064e5",
+    "title": "Pulumi",
+    "fallback": "/company-logos/pulumi.svg"
+  },
+  {
+    "id": "3ed7661e-9b3d-41c8-9512-a88e714f8b2f",
+    "title": "FastAPI",
+    "fallback": "/company-logos/fastapi.svg"
+  },
+  {
+    "id": "fe047d35-2a5b-4c84-aad6-d6e6a59e24c3",
+    "title": "Codium",
+    "fallback": "/company-logos/codium.svg"
+  },
+  {
+    "id": "1122edc3-158c-4775-9803-1745cec6beb6",
+    "title": "Crossplane",
+    "fallback": "/company-logos/crossplane.svg"
+  },
+  {
+    "id": "d040e582-0833-47e0-b22f-bc515ebb99e9",
+    "title": "Volta",
+    "fallback": {
+      "light": "/company-logos/volta-dark.svg",
+      "dark": "/company-logos/volta-light.svg"
+    }
+  },
+  {
+    "id": "19d3cc24-98c5-435a-884d-7546fb7cfce5",
+    "title": "Typesense",
+    "fallback": "/company-logos/typesense.svg"
+  },
+  {
+    "id": "3f00d720-2001-4d71-b755-f3b86981ce7d",
+    "title": "Bitcoin",
+    "fallback": "/company-logos/btc.svg"
+  },
+  {
+    "id": "53ee8f1d-7b0d-4ca1-b943-f9c5b10b4b2e",
+    "title": "Ethereum",
+    "fallback": "/company-logos/eth.svg"
+  },
+  {
+    "id": "1564d708-3f6c-4ca7-b24c-2b495a3e7d74",
+    "title": "Solana",
+    "fallback": "/company-logos/sol.svg"
+  },
+  {
+    "id": "3f09dcd9-51d1-41f5-b5cf-cb85a6b69583",
+    "title": "Dogecoin",
+    "fallback": "/company-logos/doge.svg"
+  },
+  {
+    "id": "ae54006f-26d1-4589-b016-222c7bc10a43",
+    "title": "XRP",
+    "fallback": "/company-logos/xrp.svg"
+  },
+  {
+    "id": "5edbd6e4-0d84-40d6-a9d3-2e3653f97e05",
+    "title": "BNB",
+    "fallback": "/company-logos/bnb.svg"
+  },
+  {
+    "id": "b8981ee0-3654-46de-97e0-4f9b3cc94dc0",
+    "title": "Link",
+    "fallback": "/company-logos/link.svg",
+    "variants": {
+      "light": "/company-logos/link-wordmark-light.svg",
+      "dark": "/company-logos/link-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "4cf9a1fb-d488-4256-8c89-79f82415e413",
+    "title": "Polygon",
+    "fallback": "/company-logos/matic.svg"
+  },
+  {
+    "id": "c17d9536-c80b-4a26-88ee-8c714ee44d5f",
+    "title": "Algorand",
+    "fallback": "/company-logos/algorand.svg"
+  },
+  {
+    "id": "ea2e2773-88ad-42b6-aabf-787f055f85d9",
+    "title": "Tether",
+    "fallback": "/company-logos/tether.svg"
+  },
+  {
+    "id": "16c22c80-2412-46d8-ae27-68952544fada",
+    "title": "X (formerly Twitter)",
+    "fallback": {
+      "light": "/company-logos/x.svg",
+      "dark": "/company-logos/x_dark.svg"
+    }
+  },
+  {
+    "id": "cb419e32-10d8-47aa-bea9-b13393f1323c",
+    "title": "Adobe",
+    "fallback": "/company-logos/adobe.svg"
+  },
+  {
+    "id": "55f0127d-e2b2-440f-b9c8-0a1e9d36da19",
+    "title": "After Effects",
+    "fallback": "/company-logos/after-effects.svg"
+  },
+  {
+    "id": "47898ec3-2815-4f54-90ed-206f86033be7",
+    "title": "Canva",
+    "fallback": "/company-logos/canva.svg"
+  },
+  {
+    "id": "2f35763e-c030-4e6a-88bb-3633eab3b4ae",
+    "title": "Illustrator",
+    "fallback": "/company-logos/illustrator.svg"
+  },
+  {
+    "id": "c33cdd4b-598b-4132-97a5-13d6c6c7f498",
+    "title": "InDesign",
+    "fallback": "/company-logos/indesign.svg"
+  },
+  {
+    "id": "9e957b56-02d0-40ed-b051-62b0f726f88c",
+    "title": "Lightroom",
+    "fallback": "/company-logos/lightroom.svg"
+  },
+  {
+    "id": "b3c18f73-1d8d-4c14-a573-111cc2a923b0",
+    "title": "Photoshop",
+    "fallback": "/company-logos/photoshop.svg"
+  },
+  {
+    "id": "cd0f3335-314e-497d-b2c6-a48363b035a2",
+    "title": "Premiere",
+    "fallback": "/company-logos/premiere.svg"
+  },
+  {
+    "id": "8101d1cc-dfcf-4e5b-bb18-3d6a91c364f6",
+    "title": "VK",
+    "fallback": "/company-logos/vk.svg"
+  },
+  {
+    "id": "fefbda53-ace5-4ca7-b6d8-f2c5ed69d40e",
+    "title": "Hoppscotch",
+    "fallback": "/company-logos/hoppscotch.svg"
+  },
+  {
+    "id": "712d0f82-92c8-4b8d-9334-e08b644ec172",
+    "title": "Opera",
+    "fallback": "/company-logos/opera.svg"
+  },
+  {
+    "id": "58e9f95f-f4ef-4b1d-87da-d80b3afcb360",
+    "title": "Salesforce",
+    "fallback": "/company-logos/salesforce.svg"
+  },
+  {
+    "id": "cb1393d9-bfda-4ac0-8f34-eea4bf4a67f9",
+    "title": "Unreal Engine",
+    "fallback": {
+      "light": "/company-logos/unreal_engine.svg",
+      "dark": "/company-logos/unreal_engine_dark.svg"
+    }
+  },
+  {
+    "id": "f0df2285-d322-4b1c-8c07-0884f131c82f",
+    "title": "Godot Engine",
+    "fallback": "/company-logos/godot_engine.svg"
+  },
+  {
+    "id": "6bd2beae-d3ba-40ca-8130-79906927f56b",
+    "title": "Datadog",
+    "fallback": "/company-logos/datadog.svg"
+  },
+  {
+    "id": "349be516-be67-4663-8b4e-e8d54ad17b77",
+    "title": "Tron",
+    "fallback": "/company-logos/tron.svg"
+  },
+  {
+    "id": "eb3663ac-1d12-4efc-b60d-d44ec5899ec5",
+    "title": "Randevum",
+    "fallback": "/company-logos/randevum.svg"
+  },
+  {
+    "id": "c5397e37-eca6-4cfc-8bec-fc754c63426d",
+    "title": "Chromium",
+    "fallback": "/company-logos/chromium.svg"
+  },
+  {
+    "id": "62e3e5b4-bde5-4e1a-bb9e-451a360682ee",
+    "title": "Edge",
+    "fallback": "/company-logos/edge.svg"
+  },
+  {
+    "id": "f513a8a4-beb1-409f-8190-c13bacc822d8",
+    "title": "Safari",
+    "fallback": "/company-logos/safari.svg"
+  },
+  {
+    "id": "bbf77f8b-73db-4cfc-b740-8a32c137820b",
+    "title": "Vivaldi",
+    "fallback": "/company-logos/vivaldi.svg"
+  },
+  {
+    "id": "1f323ff5-f3cf-410f-9f32-bf118036e91c",
+    "title": "Beacon",
+    "fallback": "/company-logos/Beacon-Logo.svg"
+  },
+  {
+    "id": "4fd59fb9-74a2-4171-90f1-d6851198d20c",
+    "title": "Affinity Designer",
+    "fallback": "/company-logos/affinity_designer.svg"
+  },
+  {
+    "id": "1473303f-73a5-4e10-b6a2-4c83848e9b36",
+    "title": "Affinity Photo",
+    "fallback": "/company-logos/affinity_photo.svg"
+  },
+  {
+    "id": "6cbf64f8-5233-4985-833a-81c26c77148f",
+    "title": "Affinity Publisher",
+    "fallback": "/company-logos/affinity_publisher.svg"
+  },
+  {
+    "id": "f37f6bc2-cbd5-4976-b158-c26406ec558d",
+    "title": "Roblox",
+    "fallback": {
+      "dark": "/company-logos/roblox.svg",
+      "light": "/company-logos/roblox_light.svg"
+    }
+  },
+  {
+    "id": "34e15556-2931-4b08-aa33-69b02f6102ed",
+    "title": "Stately.ai",
+    "fallback": {
+      "light": "/company-logos/stately.svg",
+      "dark": "/company-logos/stately_dark.svg"
+    }
+  },
+  {
+    "id": "06e228ed-c782-4c07-828b-3f6c7e667a1b",
+    "title": "XState",
+    "fallback": {
+      "light": "/company-logos/xstate.svg",
+      "dark": "/company-logos/xstate_dark.svg"
+    }
+  },
+  {
+    "id": "122c248a-783a-4cf0-9cbe-8deb1fcee45e",
+    "title": "Hashnode",
+    "fallback": "/company-logos/hashnode.svg"
+  },
+  {
+    "id": "0446045e-f504-42eb-85b9-96cdb25de8ed",
+    "title": "Rowy",
+    "fallback": "/company-logos/rowy.svg"
+  },
+  {
+    "id": "d5e120cf-f2a3-4ca0-af53-24076a7f9fa9",
+    "title": "Cal.com",
+    "fallback": {
+      "light": "/company-logos/cal.svg",
+      "dark": "/company-logos/cal_dark.svg"
+    }
+  },
+  {
+    "id": "64b5cd75-692c-45e0-ac0a-21fec829935b",
+    "title": "Calendly",
+    "fallback": "/company-logos/calendly.svg"
+  },
+  {
+    "id": "61a381f9-0223-439c-a0e8-d9d1500e3405",
+    "title": "Patreon",
+    "fallback": {
+      "light": "/company-logos/patreon.svg",
+      "dark": "/company-logos/patreon_dark.svg"
+    }
+  },
+  {
+    "id": "6686b303-57a8-471d-b174-a3f529623da0",
+    "title": "Peerlist",
+    "fallback": "/company-logos/peerlist.svg"
+  },
+  {
+    "id": "5f09c295-934e-4bf1-9a40-da189179ef5f",
+    "title": "Product Hunt",
+    "fallback": "/company-logos/producthunt.svg"
+  },
+  {
+    "id": "c9963c6a-1f2c-41d1-83f1-407a3a27f7e0",
+    "title": "Remotion",
+    "fallback": "/company-logos/remotion.svg"
+  },
+  {
+    "id": "9c41e53d-fd0a-4bf3-a471-e64771d8fb82",
+    "title": "Warp",
+    "fallback": "/company-logos/warp.svg"
+  },
+  {
+    "id": "8a1435cc-7088-409e-8fd7-966147eef05e",
+    "title": "SST",
+    "fallback": "/company-logos/sst.svg"
+  },
+  {
+    "id": "84e56da2-5cae-459a-814b-d24c5fd035f2",
+    "title": "Documenso",
+    "fallback": {
+      "light": "/company-logos/documenso.svg",
+      "dark": "/company-logos/documenso_dark.svg"
+    }
+  },
+  {
+    "id": "a9e44a54-f842-46e7-a428-f52e4760518a",
+    "title": "Bash",
+    "fallback": {
+      "light": "/company-logos/bash.svg",
+      "dark": "/company-logos/bash_dark.svg"
+    }
+  },
+  {
+    "id": "5e6bef6d-c05b-46af-bdb9-e2448dd18fb3",
+    "title": "C",
+    "fallback": "/company-logos/c.svg"
+  },
+  {
+    "id": "2e53a95b-4d77-486d-85bc-830f8b5df82b",
+    "title": "C++",
+    "fallback": "/company-logos/c-plusplus.svg"
+  },
+  {
+    "id": "a0065033-6fc0-4347-8f0b-77a9b518910c",
+    "title": "Cobol",
+    "fallback": "/company-logos/cobol.svg"
+  },
+  {
+    "id": "3b159f09-28ab-48bd-90b7-30379b855fef",
+    "title": "Fortran",
+    "fallback": "/company-logos/fortran.svg"
+  },
+  {
+    "id": "996d3e5a-d4b3-4894-a069-36d19e6ddc2e",
+    "title": "Haskell",
+    "fallback": "/company-logos/haskell.svg"
+  },
+  {
+    "id": "78e4e190-8463-4827-ad87-e731c3d940f7",
+    "title": "matlab",
+    "fallback": "/company-logos/matlab.svg"
+  },
+  {
+    "id": "3ad16b79-9a92-47e9-9cf3-3074b6729ab9",
+    "title": "R",
+    "fallback": {
+      "light": "/company-logos/r.svg",
+      "dark": "/company-logos/r_dark.svg"
+    }
+  },
+  {
+    "id": "d5fc9793-6689-4e8a-8cb0-3d513405ed27",
+    "title": "Rust",
+    "fallback": {
+      "light": "/company-logos/rust.svg",
+      "dark": "/company-logos/rust_dark.svg"
+    }
+  },
+  {
+    "id": "a648bc26-150e-47d6-a72b-fbda7d0f6ae7",
+    "title": "Zig",
+    "fallback": "/company-logos/zig.svg"
+  },
+  {
+    "id": "3ee3551f-da43-4faf-9afd-e7d7129ebd7a",
+    "title": "Instatus",
+    "fallback": {
+      "light": "/company-logos/instatus.svg",
+      "dark": "/company-logos/instatus_dark.svg"
+    }
+  },
+  {
+    "id": "05e88883-aeaa-4dd9-8c6b-f1335cacd088",
+    "title": "Front",
+    "fallback": "/company-logos/front.svg"
+  },
+  {
+    "id": "b2f2abae-22fc-4768-a525-e97440334a48",
+    "title": "Monero",
+    "fallback": "/company-logos/monero.svg"
+  },
+  {
+    "id": "58d83e31-3c13-4f86-b499-68e02292d5eb",
+    "title": "Axiom",
+    "fallback": {
+      "dark": "/company-logos/axiom-dark.svg",
+      "light": "/company-logos/axiom-light.svg"
+    },
+    "variants": {
+      "light": "/company-logos/axiom-wordmark-light.svg",
+      "dark": "/company-logos/axiom-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "0135f942-df7c-41da-a055-2ba54d2e738c",
+    "title": "Django",
+    "fallback": "/company-logos/django.svg"
+  },
+  {
+    "id": "3ea5ae99-f408-42db-b7c3-7c01ac6165a1",
+    "title": "Zeabur",
+    "fallback": {
+      "light": "/company-logos/zeabur-light.svg",
+      "dark": "/company-logos/zeabur-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/zeabur_wordmark_light.svg",
+      "dark": "/company-logos/zeabur_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "81342618-6583-405b-ac3b-d98c5e4e512b",
+    "title": "MetaMask",
+    "fallback": "/company-logos/metamask.svg"
+  },
+  {
+    "id": "ded5e987-f95b-4f11-a48a-941006a85a6b",
+    "title": "shadcn/ui",
+    "fallback": {
+      "light": "/company-logos/shadcn-ui.svg",
+      "dark": "/company-logos/shadcn-ui_dark.svg"
+    }
+  },
+  {
+    "id": "b0d3a133-886d-4088-a68c-402339d4f230",
+    "title": "putio",
+    "fallback": "/company-logos/putio.svg"
+  },
+  {
+    "id": "5e0dcfd5-7564-42ab-aad4-1da7ac43589f",
+    "title": "Pinterest",
+    "fallback": "/company-logos/pinterest.svg"
+  },
+  {
+    "id": "de8371c8-4bd2-4e03-9e3e-558280fb61cd",
+    "title": "Reflex",
+    "fallback": {
+      "light": "/company-logos/reflex-dark.svg",
+      "dark": "/company-logos/reflex-light.svg"
+    }
+  },
+  {
+    "id": "034e417f-7f7b-46de-ad22-1fdd6049b54f",
+    "title": "Stripe",
+    "fallback": "/company-logos/stripe.svg"
+  },
+  {
+    "id": "668bdcd2-e6e0-460e-8cca-6fcc413dc784",
+    "title": "Linux",
+    "fallback": "/company-logos/linux.svg"
+  },
+  {
+    "id": "0437a9cd-54d9-4776-943a-2badee37d715",
+    "title": "XD",
+    "fallback": "/company-logos/adobe-xd.svg"
+  },
+  {
+    "id": "212c76e1-9bd7-4411-a10f-2676f880fdb9",
+    "title": "Axure",
+    "fallback": "/company-logos/axure.svg"
+  },
+  {
+    "id": "4f549974-6233-4cb9-b272-bf12cbf4b77b",
+    "title": "Penpot",
+    "fallback": {
+      "light": "/company-logos/penpot.svg",
+      "dark": "/company-logos/penpot_dark.svg"
+    }
+  },
+  {
+    "id": "eb148d84-5bda-41b9-bec4-ed8576effa9c",
+    "title": "Sketch",
+    "fallback": {
+      "light": "/company-logos/sketch_light.svg",
+      "dark": "/company-logos/sketch.svg"
+    }
+  },
+  {
+    "id": "1ac7ad38-7c8f-46ed-bf27-aee7ac365fe6",
+    "title": "Gimp",
+    "fallback": "/company-logos/gimp.svg"
+  },
+  {
+    "id": "a08d432d-8452-4394-a3a9-3559e77b195c",
+    "title": "Ubuntu",
+    "fallback": "/company-logos/ubuntu.svg"
+  },
+  {
+    "id": "b170d253-937c-42a7-90fd-ffc6f70bc876",
+    "title": "Cypress",
+    "fallback": "/company-logos/cypress.svg"
+  },
+  {
+    "id": "344a1fbf-6f86-494f-a205-563e85743c95",
+    "title": "Reddit",
+    "fallback": "/company-logos/reddit.svg"
+  },
+  {
+    "id": "0f74f6c4-f675-49d4-b445-a92ec1f5a85b",
+    "title": "JetBrains WebStorm",
+    "fallback": "/company-logos/webstorm.svg"
+  },
+  {
+    "id": "95700f4f-7777-41ee-b335-ad52b6b897cf",
+    "title": "JetBrains PyCharm",
+    "fallback": "/company-logos/pycharm.svg"
+  },
+  {
+    "id": "33a3bd26-bc28-41b5-b44c-e4f2298e41b8",
+    "title": "JetBrains Fleet",
+    "fallback": "/company-logos/fleet.svg"
+  },
+  {
+    "id": "224c8079-78ae-4955-b72f-37afbe82c403",
+    "title": "JetBrains RubyMine",
+    "fallback": "/company-logos/rubymine.svg"
+  },
+  {
+    "id": "41fd4ad2-4185-438f-9fee-5b8f394975aa",
+    "title": "JetBrains PhpStorm",
+    "fallback": "/company-logos/phpstorm.svg"
+  },
+  {
+    "id": "6e3aad28-4908-4617-ab8e-5b0e09631d0e",
+    "title": "Monkeytype",
+    "fallback": "/company-logos/monkeytype.svg",
+    "variants": {
+      "dark": "/company-logos/monkeytype-wordmark-dark.svg",
+      "light": "/company-logos/monkeytype-wordmark-light.svg"
+    }
+  },
+  {
+    "id": "253d110e-e991-486d-bcbc-564facb05feb",
+    "title": "PyCharm",
+    "fallback": "/company-logos/pycharm.svg"
+  },
+  {
+    "id": "bf5a2585-fb16-4754-93a0-e71c0a872e61",
+    "title": "Shopify",
+    "fallback": "/company-logos/shopify.svg",
+    "variants": {
+      "dark": "/company-logos/shopify-wordmark-dark.svg",
+      "light": "/company-logos/shopify-wordmark-light.svg"
+    }
+  },
+  {
+    "id": "235e9525-4d9a-4f19-a8ea-7bebdab0e3a4",
+    "title": "Webflow",
+    "fallback": "/company-logos/webflow.svg",
+    "variants": {
+      "dark": "/company-logos/webflow-wordmark-dark.svg",
+      "light": "/company-logos/webflow-wordmark-light.svg"
+    }
+  },
+  {
+    "id": "5928c252-b53b-4927-b0f3-2f9143ae12e9",
+    "title": "sky",
+    "fallback": "/company-logos/sky.svg"
+  },
+  {
+    "id": "98736690-8f8c-47b4-82b3-be75a0332147",
+    "title": "Airbnb",
+    "fallback": "/company-logos/airbnb.svg",
+    "variants": "/company-logos/airbnb-wordmark.svg"
+  },
+  {
+    "id": "a2704210-0fe2-4885-b045-bf8e717d6663",
+    "title": "Uber",
+    "fallback": {
+      "light": "/company-logos/uber_light.svg",
+      "dark": "/company-logos/uber_dark.svg"
+    }
+  },
+  {
+    "id": "0360aa76-3436-40a5-b13f-e7ec09f9daaa",
+    "title": "Gmail",
+    "fallback": "/company-logos/gmail.svg"
+  },
+  {
+    "id": "53c7e569-79a1-47ba-ac45-0470b658538c",
+    "title": "Microsoft Outlook",
+    "fallback": "/company-logos/microsoft-outlook.svg"
+  },
+  {
+    "id": "fdc91895-07cf-4656-8f51-cfc1a8c4f910",
+    "title": "Slack",
+    "fallback": "/company-logos/slack.svg",
+    "variants": "/company-logos/slack-wordmark.svg"
+  },
+  {
+    "id": "38787906-e682-430a-bb2c-8589ef907f0f",
+    "title": "Snapchat",
+    "fallback": "/company-logos/snapchat.svg"
+  },
+  {
+    "id": "12e19faa-7a25-48c2-be0a-fcd6cc59655e",
+    "title": "Ebay",
+    "fallback": "/company-logos/ebay.svg"
+  },
+  {
+    "id": "aad4d487-fbbe-4781-9022-4146f898ecfa",
+    "title": "IBM",
+    "fallback": "/company-logos/ibm.svg"
+  },
+  {
+    "id": "c1f36e88-a215-4590-9d3b-b6c6f8f39897",
+    "title": "TrustPilot",
+    "fallback": "/company-logos/trustpilot.svg"
+  },
+  {
+    "id": "1fd9bdf2-992e-4e68-baa0-24bf5207308b",
+    "title": "Raycast",
+    "fallback": "/company-logos/raycast.svg",
+    "variants": {
+      "light": "/company-logos/raycast-wordmark-light.svg",
+      "dark": "/company-logos/raycast-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "e0f9267f-7368-4572-9335-5abf95b81c49",
+    "title": "Flow Launcher",
+    "fallback": "/company-logos/FlowLauncher.svg"
+  },
+  {
+    "id": "7cf3cad9-a08a-4b17-98da-11156a472bfa",
+    "title": "Hack The Box",
+    "fallback": "/company-logos/hack-the-box.svg",
+    "variants": {
+      "light": "/company-logos/hack-the-box-wordmark-light.svg",
+      "dark": "/company-logos/hack-the-box-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "80d2ab75-8e18-46e6-ae7f-77d963b4f414",
+    "title": "Procure",
+    "fallback": "/company-logos/procure.svg"
+  },
+  {
+    "id": "ae6c8332-bd68-4387-9ad7-ecb62ec1032b",
+    "title": "Julia",
+    "fallback": "/company-logos/julia.svg"
+  },
+  {
+    "id": "ff67e88a-c203-4e22-b4a0-3a5f46699580",
+    "title": "SWC",
+    "fallback": "/company-logos/swc.svg"
+  },
+  {
+    "id": "ca4cb250-617a-4243-b3eb-342f110f8f2a",
+    "title": "PlayStation",
+    "fallback": "/company-logos/playstation.svg"
+  },
+  {
+    "id": "5c5b1bb9-825b-474b-a5e4-33406e78824e",
+    "title": "Xbox",
+    "fallback": "/company-logos/xbox.svg"
+  },
+  {
+    "id": "e27e31c9-33d6-4c21-ab71-757241cb2746",
+    "title": "Cody",
+    "fallback": "/company-logos/cody.svg"
+  },
+  {
+    "id": "ce507809-a9fa-4b78-9e9a-ea66df77fe99",
+    "title": "Sourcegraph",
+    "fallback": "/company-logos/sourcegraph.svg"
+  },
+  {
+    "id": "25416cdc-cf01-4169-af7c-e05ba0ec102d",
+    "title": "Perplexity AI",
+    "fallback": "/company-logos/perplexity.svg",
+    "variants": {
+      "light": "/company-logos/perplexity_wordmark_light.svg",
+      "dark": "/company-logos/perplexity_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "71fe55d0-44b1-4c97-a8b2-375693d40b6f",
+    "title": "Spring",
+    "fallback": "/company-logos/spring.svg"
+  },
+  {
+    "id": "0e0eae3c-1b66-4514-a115-7b18816da3b1",
+    "title": "Directus",
+    "fallback": "/company-logos/directus.svg"
+  },
+  {
+    "id": "230458f9-fb8d-4037-805a-925b18a7dca0",
+    "title": "Pnpm",
+    "fallback": {
+      "light": "/company-logos/pnpm.svg",
+      "dark": "/company-logos/pnpm_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/pnpm_wordmark_light.svg",
+      "dark": "/company-logos/pnpm_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "08a1b7ce-88c9-416c-8987-c4190b7ff336",
+    "title": "Emacs",
+    "fallback": "/company-logos/emacs.svg"
+  },
+  {
+    "id": "9275d48d-f238-48cf-9399-ce0467f429d7",
+    "title": "Svgl",
+    "fallback": "/company-logos/svgl.svg"
+  },
+  {
+    "id": "043676ed-ed66-4180-bfa2-f7f6a0521c83",
+    "title": "Google Idx",
+    "fallback": "/company-logos/google-idx.svg"
+  },
+  {
+    "id": "c8ab2ce4-504d-4eaa-9ae7-389f5c9ea7f3",
+    "title": "Remix",
+    "fallback": {
+      "light": "/company-logos/remix_light.svg",
+      "dark": "/company-logos/remix_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/remix_wordmark_light.svg",
+      "dark": "/company-logos/remix_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "c0a5538e-886f-4adc-a2b2-22c3f3736bef",
+    "title": "Steam",
+    "fallback": "/company-logos/steam.svg"
+  },
+  {
+    "id": "a96ef8d8-80c1-4204-9ceb-d6ff1da49ffb",
+    "title": "Tabby",
+    "fallback": "/company-logos/tabby.svg"
+  },
+  {
+    "id": "067fa898-4fd0-42da-ada5-a789bfdba1f4",
+    "title": "1Password",
+    "fallback": {
+      "light": "/company-logos/1password-light.svg",
+      "dark": "/company-logos/1password-dark.svg"
+    }
+  },
+  {
+    "id": "0f8ce6b6-a637-431a-86d3-2fcf9569c581",
+    "title": "Flask",
+    "fallback": {
+      "light": "/company-logos/flask-light.svg",
+      "dark": "/company-logos/flask-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/flask-wordmark-light.svg",
+      "dark": "/company-logos/flask-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "b73e119d-c458-4f96-b0ca-227298f7e6c4",
+    "title": "Alacritty",
+    "fallback": "/company-logos/alacritty.svg"
+  },
+  {
+    "id": "98d0a675-5662-4e6d-9f06-1e34df90c8b8",
+    "title": "Qt",
+    "fallback": "/company-logos/qt.svg"
+  },
+  {
+    "id": "d0dcc75d-715b-4b67-aeb8-c52e6d63762c",
+    "title": "Bitwarden",
+    "fallback": "/company-logos/bitwarden.svg"
+  },
+  {
+    "id": "0e9c8cb3-11a8-4e50-8500-06a6da9751fd",
+    "title": "Voicemod",
+    "fallback": {
+      "light": "/company-logos/voicemod_light.svg",
+      "dark": "/company-logos/voicemod_dark.svg"
+    }
+  },
+  {
+    "id": "a227a1bd-617d-473c-b4d9-cf865e064990",
+    "title": "Neovim",
+    "fallback": "/company-logos/neovim.svg"
+  },
+  {
+    "id": "73a8f05d-3f7b-44b4-826b-f8ef54b2a447",
+    "title": "Pitch",
+    "fallback": "/company-logos/pitch.svg"
+  },
+  {
+    "id": "06f48d6e-b820-4d3a-aa35-5feec6e31f11",
+    "title": "Biomejs",
+    "fallback": "/company-logos/biomejs.svg"
+  },
+  {
+    "id": "0b4064fa-778b-4e32-b07b-0d4ce17a02ad",
+    "title": "Gradio",
+    "fallback": "/company-logos/gradio.svg"
+  },
+  {
+    "id": "eb4afb1f-1816-443e-ae9f-05706fc9b172",
+    "title": "Meta",
+    "fallback": "/company-logos/meta.svg"
+  },
+  {
+    "id": "d54b5aff-3a28-4a93-bafc-d425349e57e7",
+    "title": "Stability AI",
+    "fallback": "/company-logos/stability-ai.svg"
+  },
+  {
+    "id": "68fc0ab4-891e-4afa-82a4-945cecf0e76d",
+    "title": "Google PaLM",
+    "fallback": "/company-logos/google-palm.svg"
+  },
+  {
+    "id": "8d8d246b-47b1-4b12-93af-05f99fe8a0a6",
+    "title": "Android",
+    "fallback": "/company-logos/android-icon.svg"
+  },
+  {
+    "id": "1fa23940-068f-4cf1-953b-2bb013bf08b6",
+    "title": "Sentry",
+    "fallback": "/company-logos/sentry.svg"
+  },
+  {
+    "id": "aab83a47-02b9-43cb-bf77-54c5844b4db2",
+    "title": "Grafana",
+    "fallback": "/company-logos/grafana.svg"
+  },
+  {
+    "id": "982a0f83-882e-4131-b1d4-b1fda59bdf7c",
+    "title": "Notion",
+    "fallback": "/company-logos/notion.svg"
+  },
+  {
+    "id": "b8fab919-e013-48a5-830b-6e7b49695e8c",
+    "title": "Litecoin",
+    "fallback": "/company-logos/litecoin.svg"
+  },
+  {
+    "id": "f813b29d-c2ca-4130-92a4-4697e1b5543e",
+    "title": "ElysiaJS",
+    "fallback": "/company-logos/elysiajs.svg"
+  },
+  {
+    "id": "f3e5c597-e975-4668-b6fe-3df0d561dd8c",
+    "title": "TensorFlow",
+    "fallback": {
+      "light": "/company-logos/tensorflow-icon-light.svg",
+      "dark": "/company-logos/tensorflow-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/tensorflow-wordmark-light.svg",
+      "dark": "/company-logos/tensorflow-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "af1e9808-c60a-4dd9-96b9-47b4e143debd",
+    "title": "Midday",
+    "fallback": "/company-logos/midday.svg"
+  },
+  {
+    "id": "783f9481-4015-48a4-b24a-0e58e302c0ab",
+    "title": "C#",
+    "fallback": "/company-logos/csharp.svg"
+  },
+  {
+    "id": "824cad56-cf96-4ab5-9174-346cb9dd8bc3",
+    "title": "Replicate",
+    "fallback": {
+      "light": "/company-logos/replicate_light.svg",
+      "dark": "/company-logos/replicate_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/replicate-wordmark_light.svg",
+      "dark": "/company-logos/replicate-wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "e03c07ad-4bf3-4696-8a3c-fe5556c0342f",
+    "title": "Markdown",
+    "fallback": {
+      "light": "/company-logos/markdown-light.svg",
+      "dark": "/company-logos/markdown-dark.svg"
+    }
+  },
+  {
+    "id": "002b4eb2-86b7-4f10-8be5-73d50dcb761b",
+    "title": "Radix UI",
+    "fallback": {
+      "light": "/company-logos/radix-ui_light.svg",
+      "dark": "/company-logos/radix-ui_dark.svg"
+    }
+  },
+  {
+    "id": "ea536d28-7265-433f-9146-44ccd7ad3216",
+    "title": "Web.dev",
+    "fallback": "/company-logos/webdev.svg"
+  },
+  {
+    "id": "549e9912-9d3d-4455-a1e4-cc7f48d61629",
+    "title": "SWR",
+    "fallback": {
+      "light": "/company-logos/swr-light.svg",
+      "dark": "/company-logos/swr-dark.svg"
+    }
+  },
+  {
+    "id": "25fac6f0-a3e0-4a30-a08e-f9e32548f6b8",
+    "title": "Refine",
+    "fallback": {
+      "light": "/company-logos/refine_dark.svg",
+      "dark": "/company-logos/refine_light.svg"
+    }
+  },
+  {
+    "id": "815af224-b8ea-42fe-8129-f54723cc095f",
+    "title": "Youtube Music",
+    "fallback": "/company-logos/youtube_music.svg",
+    "variants": {
+      "light": "/company-logos/youtube_music_wordmark_light.svg",
+      "dark": "/company-logos/youtube_music_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "48092453-8890-4836-bbf5-56e13d7b6fe3",
+    "title": "TIDAL",
+    "fallback": {
+      "light": "/company-logos/tidal_light.svg",
+      "dark": "/company-logos/tidal_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/tidal_wordmark_light.svg",
+      "dark": "/company-logos/tidal_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "3a6e62a8-69f5-4d83-9f13-fbe911081424",
+    "title": "OBS",
+    "fallback": "/company-logos/obs.svg"
+  },
+  {
+    "id": "57124d18-8859-4260-8e85-c57d3cba64a0",
+    "title": "Stack Overflow",
+    "fallback": "/company-logos/stackoverflow.svg",
+    "variants": "/company-logos/stackoverflow_wordmark.svg"
+  },
+  {
+    "id": "eb349964-cd6f-40f4-a890-3a30c2684022",
+    "title": "TikTok",
+    "fallback": {
+      "light": "/company-logos/tiktok-icon-light.svg",
+      "dark": "/company-logos/tiktok-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/tiktok-wordmark-light.svg",
+      "dark": "/company-logos/tiktok-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "6cdb972a-6fee-4cf2-83d1-95de01859e11",
+    "title": "Ngrok",
+    "fallback": {
+      "dark": "/company-logos/ngrok-dark.svg",
+      "light": "/company-logos/ngrok-light.svg"
+    }
+  },
+  {
+    "id": "1b64dda3-a8f5-42d7-a8bc-da28799061a1",
+    "title": "Lemon Squeezy",
+    "fallback": "/company-logos/lemonsqueezy.svg"
+  },
+  {
+    "id": "77b4dcb7-eedc-4283-8d9a-0076bd810894",
+    "title": "Asana",
+    "fallback": "/company-logos/asana-logo.svg",
+    "variants": {
+      "dark": "/company-logos/asana-wordmark-dark.svg",
+      "light": "/company-logos/asana-wordmark-light.svg"
+    }
+  },
+  {
+    "id": "2d515e81-84a7-40a7-ac6f-a7df7a11c1fe",
+    "title": "UpLeveled",
+    "fallback": "/company-logos/upleveled.svg",
+    "variants": "/company-logos/upleveled-wordmark.svg"
+  },
+  {
+    "id": "0eb765a0-dceb-4c52-8be7-d9d908aff815",
+    "title": "Zoom",
+    "fallback": "/company-logos/zoom.svg"
+  },
+  {
+    "id": "bb3004d9-9e61-414f-9941-bb4b1b012b07",
+    "title": "Tina",
+    "fallback": "/company-logos/tina.svg",
+    "variants": "/company-logos/tina_wordmark.svg"
+  },
+  {
+    "id": "5269400f-0811-433b-b7cc-79ac274f8d82",
+    "title": "Next.js",
+    "fallback": "/company-logos/nextjs_icon_dark.svg",
+    "variants": {
+      "light": "/company-logos/nextjs_logo_light.svg",
+      "dark": "/company-logos/nextjs_logo_dark.svg"
+    }
+  },
+  {
+    "id": "d39c37d8-9445-4548-a032-dfd6b90817e9",
+    "title": "Mistral AI",
+    "fallback": "/company-logos/mistral-ai_logo.svg",
+    "variants": "/company-logos/mistral-ai_wordmark.svg"
+  },
+  {
+    "id": "2cff2a1f-f136-4e6c-9962-cd19b9cd839e",
+    "title": "Hugging Face",
+    "fallback": "/company-logos/hugging_face.svg"
+  },
+  {
+    "id": "6e251ced-605c-4aed-a505-e3dc6fccfd2a",
+    "title": "Node.js",
+    "fallback": "/company-logos/nodejs.svg"
+  },
+  {
+    "id": "4c2b4114-4360-4209-b327-9e3bf433f0c6",
+    "title": "Raindrop.io",
+    "fallback": "/company-logos/raindrop.svg"
+  },
+  {
+    "id": "c8e851ff-b228-4103-829d-496533b522d6",
+    "title": "Microsoft Todo",
+    "fallback": "/company-logos/microsoft-todo.svg"
+  },
+  {
+    "id": "da99cd72-c476-418b-9bbc-fde60b7ebb7e",
+    "title": "Manifest",
+    "fallback": "/company-logos/manifest.svg"
+  },
+  {
+    "id": "1895c4c0-7e8e-433b-862c-9dd46002b19c",
+    "title": "Supabase",
+    "fallback": "/company-logos/supabase.svg",
+    "variants": {
+      "light": "/company-logos/supabase_wordmark_light.svg",
+      "dark": "/company-logos/supabase_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "d39b6b35-e225-4717-89e4-8486a99140ec",
+    "title": "Gleam",
+    "fallback": "/company-logos/gleam.svg"
+  },
+  {
+    "id": "27dc9e5f-c92e-4156-9d99-6f125c3619bd",
+    "title": "Flowbite",
+    "fallback": "/company-logos/flowbite.svg"
+  },
+  {
+    "id": "5edd9ec4-da28-4fe5-9fdc-a29b7e4cb812",
+    "title": "Hume AI",
+    "fallback": "/company-logos/hume-ai.svg"
+  },
+  {
+    "id": "149c1e03-7efd-44ae-b242-dbcc54b2a050",
+    "title": "Resend",
+    "fallback": {
+      "light": "/company-logos/resend-icon-black.svg",
+      "dark": "/company-logos/resend-icon-white.svg"
+    },
+    "variants": {
+      "light": "/company-logos/resend-wordmark-black.svg",
+      "dark": "/company-logos/resend-wordmark-white.svg"
+    }
+  },
+  {
+    "id": "b572ecda-e473-4e5b-b27a-e59c91b7b1b7",
+    "title": "Layers",
+    "fallback": {
+      "light": "/company-logos/layers_light.svg",
+      "dark": "/company-logos/layers_dark.svg"
+    }
+  },
+  {
+    "id": "5ac36796-65e8-47e6-b10d-3370f7304afc",
+    "title": "Exome",
+    "fallback": "/company-logos/exome.svg"
+  },
+  {
+    "id": "956a8279-e9fe-4a9a-a03b-742f3f8a6a06",
+    "title": "Poper",
+    "fallback": "/company-logos/poper.svg"
+  },
+  {
+    "id": "fa4a197c-42db-45f0-8ee1-8e67119d4f40",
+    "title": "Dub",
+    "fallback": {
+      "light": "/company-logos/dub.svg",
+      "dark": "/company-logos/dub_dark_logo.svg"
+    },
+    "variants": {
+      "light": "/company-logos/dub_light_wordmark.svg",
+      "dark": "/company-logos/dub_dark_wordmark.svg"
+    }
+  },
+  {
+    "id": "575ffcf9-d948-443d-9208-e09a7e0c6c25",
+    "title": "Turso",
+    "fallback": {
+      "light": "/company-logos/turso-light.svg",
+      "dark": "/company-logos/turso-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/turso-wordmark-light.svg",
+      "dark": "/company-logos/turso-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "0da2674d-ffac-4118-a076-b2b28fc20155",
+    "title": "RelaGit",
+    "fallback": {
+      "light": "/company-logos/relagit-icon-light.svg",
+      "dark": "/company-logos/relagit-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/relagit-wordmark-light.svg",
+      "dark": "/company-logos/relagit-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "a7e026cf-e123-4a79-8284-e7668b9e5a09",
+    "title": "T3 Stack",
+    "fallback": {
+      "light": "/company-logos/t3-dark.svg",
+      "dark": "/company-logos/t3-light.svg"
+    }
+  },
+  {
+    "id": "4bf73c95-4c09-4133-8efd-6d42e032b4a0",
+    "title": "Apple Music",
+    "fallback": "/company-logos/apple-music-icon.svg",
+    "variants": {
+      "light": "/company-logos/apple-music-wordmark-light.svg",
+      "dark": "/company-logos/apple-music-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "26901e06-e839-412a-9347-ea26de188d92",
+    "title": "YGeeker",
+    "fallback": "/company-logos/ygeeker.svg"
+  },
+  {
+    "id": "cb5afe37-7654-45d1-a435-608f9a6082a5",
+    "title": "PostCSS",
+    "fallback": "/company-logos/postcss.svg",
+    "variants": "/company-logos/postcss_wordmark.svg"
+  },
+  {
+    "id": "3b93822f-5167-4d5b-b632-d70ebabc11b7",
+    "title": "SVG",
+    "fallback": "/company-logos/svg.svg",
+    "variants": "/company-logos/svg_wordmark.svg"
+  },
+  {
+    "id": "d47cc687-f603-4a2b-ae4c-abfc7b19ed2b",
+    "title": "PDF",
+    "fallback": "/company-logos/pdf.svg"
+  },
+  {
+    "id": "e6ce282b-2309-48be-bd20-822d0d550c37",
+    "title": "Todoist",
+    "fallback": "/company-logos/todoist.svg",
+    "variants": "/company-logos/todoist-wordmark.svg"
+  },
+  {
+    "id": "4531ebb9-4f2b-4138-974e-7c137d19a47a",
+    "title": "Apidog",
+    "fallback": "/company-logos/apidog.svg"
+  },
+  {
+    "id": "8925c2b7-e3ac-461d-98e0-c0a398d2ea6e",
+    "title": "Chart.js",
+    "fallback": "/company-logos/chartjs.svg"
+  },
+  {
+    "id": "48de3cbd-d9f6-4742-a261-6735a067a06a",
+    "title": "JSON Schema",
+    "fallback": "/company-logos/json-schema.svg"
+  },
+  {
+    "id": "8f501f84-5356-4ab5-a962-23fd61370437",
+    "title": "v0",
+    "fallback": {
+      "light": "/company-logos/v0_light.svg",
+      "dark": "/company-logos/v0_dark.svg"
+    }
+  },
+  {
+    "id": "dcfcf6d4-6f10-49ae-a89f-abb1406c1397",
+    "title": "Bento",
+    "fallback": "/company-logos/bento.svg"
+  },
+  {
+    "id": "8ce31f6c-7cca-48d5-82f3-0874769b23d5",
+    "title": "Firebase",
+    "fallback": "/company-logos/firebase.svg",
+    "variants": "/company-logos/firebase-wordmark.svg"
+  },
+  {
+    "id": "68f6d42b-4ea0-40ef-80a1-cfb778a17353",
+    "title": "Prettier",
+    "fallback": {
+      "light": "/company-logos/prettier-icon-light.svg",
+      "dark": "/company-logos/prettier-icon-dark.svg"
+    }
+  },
+  {
+    "id": "7eb52dff-80c3-48b0-a87f-5b982e70a342",
+    "title": "Leap Wallet",
+    "fallback": "/company-logos/leap-wallet.svg",
+    "variants": {
+      "light": "/company-logos/leap-wallet-wordmark-light.svg",
+      "dark": "/company-logos/leap-wallet-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "ae170407-1088-406e-98d8-2daf4f166fc7",
+    "title": "Nx",
+    "fallback": {
+      "light": "/company-logos/nx_light.svg",
+      "dark": "/company-logos/nx_dark.svg"
+    }
+  },
+  {
+    "id": "7ada0bb2-7b5c-4bb2-a1e8-523a7761b05f",
+    "title": "Google Colaboratory",
+    "fallback": "/company-logos/Google_Colaboratory.svg"
+  },
+  {
+    "id": "742ade8c-cd34-4ace-82ce-a78b66fb451a",
+    "title": "Raspberry PI",
+    "fallback": "/company-logos/raspberry_pi.svg"
+  },
+  {
+    "id": "e081ecea-adc3-4c3e-94a3-28e8db337842",
+    "title": "Vite",
+    "fallback": "/company-logos/vitejs.svg"
+  },
+  {
+    "id": "c737b10e-7012-4963-9c19-752718c9d790",
+    "title": "Vitest",
+    "fallback": "/company-logos/vitest.svg"
+  },
+  {
+    "id": "d9522018-6db7-424c-ad72-1e62d3927336",
+    "title": "Oxc",
+    "fallback": "/company-logos/oxc.svg"
+  },
+  {
+    "id": "a4165514-d413-4adf-ac31-937fb6f9071d",
+    "title": "Rolldown",
+    "fallback": "/company-logos/rolldown.svg"
+  },
+  {
+    "id": "08fb4e21-ebae-4999-8272-e69bf7b89493",
+    "title": "ManzDev",
+    "fallback": "/company-logos/manzdev.svg"
+  },
+  {
+    "id": "b98605be-355a-4035-9f6c-dcb30aa66062",
+    "title": "Afordin",
+    "fallback": {
+      "light": "/company-logos/afordin-light.svg",
+      "dark": "/company-logos/afordin-dark.svg"
+    }
+  },
+  {
+    "id": "9eba3053-ca26-4d09-884c-dbdf9ebebae4",
+    "title": "MediaWiki",
+    "fallback": "/company-logos/mediawiki.svg",
+    "variants": {
+      "light": "/company-logos/mediawiki-wordmark-light.svg",
+      "dark": "/company-logos/mediawiki-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "e356637b-388d-4ffd-b830-ea57aacb8416",
+    "title": "Carrd",
+    "fallback": "/company-logos/carrd.svg"
+  },
+  {
+    "id": "dae8191b-a8a0-4390-9f11-e7a310c6a546",
+    "title": "Claude AI",
+    "fallback": "/company-logos/claude-ai-icon.svg",
+    "variants": {
+      "light": "/company-logos/claude-ai-wordmark-icon_light.svg",
+      "dark": "/company-logos/claude-ai-wordmark-icon_dark.svg"
+    }
+  },
+  {
+    "id": "682b9dd6-033f-4096-88ef-0ba23aebdae6",
+    "title": "UnoCSS",
+    "fallback": "/company-logos/unocss.svg"
+  },
+  {
+    "id": "67ec3287-7770-4068-b4bd-d9057026eb69",
+    "title": "tRPC",
+    "fallback": "/company-logos/trpc.svg",
+    "variants": {
+      "light": "/company-logos/trpc_wordmark_light.svg",
+      "dark": "library/trpc_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "0b35dd26-0dd9-4b99-a902-9f8701ff1c19",
+    "title": "Bluesky",
+    "fallback": "/company-logos/bluesky.svg"
+  },
+  {
+    "id": "c9436546-2d57-4b2b-96cc-5377ba6c4c9c",
+    "title": "Drizzle ORM",
+    "fallback": {
+      "light": "/company-logos/drizzle-orm_light.svg",
+      "dark": "/company-logos/drizzle-orm_dark.svg"
+    }
+  },
+  {
+    "id": "c369963d-8240-4306-aed3-091cdd3795f0",
+    "title": "daily.dev",
+    "fallback": {
+      "light": "/company-logos/daily-dev-ligth.svg",
+      "dark": "/company-logos/daily-dev-dark.svg"
+    }
+  },
+  {
+    "id": "107cdf96-e9bb-46c7-9a41-5d2ea77c1fff",
+    "title": "Polars",
+    "fallback": "/company-logos/polars-logo.svg"
+  },
+  {
+    "id": "1243f36c-f8c6-4b36-9cb7-473b88e8a670",
+    "title": "Zed",
+    "fallback": {
+      "light": "/company-logos/zed-logo.svg",
+      "dark": "/company-logos/zed-logo_dark.svg"
+    }
+  },
+  {
+    "id": "20fb89b6-bba7-4f82-8bc6-0845fdb19cf3",
+    "title": "Polar",
+    "fallback": {
+      "light": "/company-logos/polar-sh_light.svg",
+      "dark": "/company-logos/polar-sh_dark.svg"
+    }
+  },
+  {
+    "id": "aaaadc5f-7dc7-4e55-9234-beaad77163d2",
+    "title": "bolt",
+    "fallback": {
+      "light": "/company-logos/bolt-new.svg",
+      "dark": "/company-logos/bolt-new_dark.svg"
+    }
+  },
+  {
+    "id": "c2fa8c07-c179-4cf4-acf8-e6623343201b",
+    "title": "JSON",
+    "fallback": "/company-logos/json.svg"
+  },
+  {
+    "id": "bfa9967c-8fac-4d8d-90f2-4dc258cb6528",
+    "title": "nuqs",
+    "fallback": {
+      "light": "/company-logos/nuqs.svg",
+      "dark": "/company-logos/nuqs_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/nuqs-wordmark.svg",
+      "dark": "/company-logos/nuqs-wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "61f03905-bfcd-402f-972e-07c99935edf3",
+    "title": "SoundCloud",
+    "fallback": {
+      "light": "/company-logos/soundcloud-logo.svg",
+      "dark": "/company-logos/soundcloud-logo_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/soundcloud-wordmark.svg",
+      "dark": "library/soundcloud-wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "1960a091-6baf-463a-af16-090e2b8a0ef4",
+    "title": "Mermaid",
+    "fallback": {
+      "light": "/company-logos/mermaid-logo-light.svg",
+      "dark": "/company-logos/mermaid-logo-dark.svg"
+    }
+  },
+  {
+    "id": "4fb7557f-6a06-4200-80a2-fb3f658cc3c0",
+    "title": "Home Assistant",
+    "fallback": "/company-logos/home-assistant.svg",
+    "variants": {
+      "light": "/company-logos/home-assistant-wordmark.svg",
+      "dark": "/company-logos/home-assistant-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "32da4af0-78c0-437b-8469-4d24c33b63fd",
+    "title": "UXAnaRangel",
+    "fallback": {
+      "light": "/company-logos/uxanarangel-light.svg",
+      "dark": "/company-logos/uxanarangel-dark.svg"
+    }
+  },
+  {
+    "id": "44183841-3799-4b9d-84c9-9b5b57b5d519",
+    "title": "UXCorpRangel",
+    "fallback": {
+      "light": "/company-logos/uxcorprangel-light.svg",
+      "dark": "/company-logos/uxcorprangel-dark.svg"
+    }
+  },
+  {
+    "id": "00215e63-0714-4f8c-94bc-f8421f45ce38",
+    "title": "PostHog",
+    "fallback": "/company-logos/posthog.svg",
+    "variants": {
+      "light": "/company-logos/posthog-wordmark.svg",
+      "dark": "/company-logos/posthog-wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "08f6b734-d78a-44a1-a616-d1afc6d7a4cd",
+    "title": "PowerToys",
+    "fallback": "/company-logos/powertoys.svg"
+  },
+  {
+    "id": "315cabec-a2c1-483c-b94b-a94f4b6d2773",
+    "title": "PowerShell",
+    "fallback": "/company-logos/powershell.svg"
+  },
+  {
+    "id": "e8b568b2-9787-4e62-9ff0-9c1c7d67a87a",
+    "title": "Lottielab",
+    "fallback": "/company-logos/lottielab.svg"
+  },
+  {
+    "id": "f9f45c56-ea8a-443c-a381-f92739da855e",
+    "title": "TanStack",
+    "fallback": "/company-logos/tanstack.svg"
+  },
+  {
+    "id": "e0bd9615-f8ab-4588-884e-2140327b4257",
+    "title": "TypeGPU",
+    "fallback": {
+      "light": "/company-logos/typegpu-light.svg",
+      "dark": "/company-logos/typegpu-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/typegpu-wordmark-light.svg",
+      "dark": "/company-logos/typegpu-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "85defe8e-99e9-4a5e-b3f5-7e56999cf85c",
+    "title": "Microsoft .NET",
+    "fallback": "/company-logos/dotnet.svg"
+  },
+  {
+    "id": "45f74a22-b807-41ac-94fe-57a797d8f330",
+    "title": "dotenv",
+    "fallback": "/company-logos/dotenv.svg"
+  },
+  {
+    "id": "cdae21e3-b698-44fd-a6b2-8fa0f7149a46",
+    "title": "dotenvx",
+    "fallback": "/company-logos/dotenvx.svg"
+  },
+  {
+    "id": "b133f4cd-810d-4f5b-88dd-122691211ab4",
+    "title": "Motion",
+    "fallback": {
+      "light": "/company-logos/motion.svg",
+      "dark": "/company-logos/motion_dark.svg"
+    }
+  },
+  {
+    "id": "49aa5ce0-532f-4957-835a-c2175f3a2355",
+    "title": "Keycloak",
+    "fallback": "/company-logos/keycloak.svg"
+  },
+  {
+    "id": "41b89621-3f72-4cc2-b71d-30280f8fb6c3",
+    "title": "DeepSeek",
+    "fallback": "/company-logos/deepseek.svg",
+    "variants": "/company-logos/deepseek_wordmark.svg"
+  },
+  {
+    "id": "d3e74565-f5f4-4e3e-9a81-6a1f456012be",
+    "title": "Shiki",
+    "fallback": "/company-logos/shiki.svg"
+  },
+  {
+    "id": "9d5e7c09-e8b9-4efe-aef7-1d63a059fb4a",
+    "title": "Dropbox",
+    "fallback": "/company-logos/dropbox.svg",
+    "variants": {
+      "light": "/company-logos/dropbox_wordmark.svg",
+      "dark": "/company-logos/dropbox_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "e059a9e4-9cc8-4318-87c5-3a9e59107312",
+    "title": "Open WebUI",
+    "fallback": "/company-logos/openwebui.svg"
+  },
+  {
+    "id": "e266c20d-a5fd-4300-bf0d-f90d47156f36",
+    "title": "Base UI",
+    "fallback": {
+      "light": "/company-logos/base-ui.svg",
+      "dark": "/company-logos/base-ui-dark.svg"
+    }
+  },
+  {
+    "id": "d2c99d7b-dc13-45dd-b064-25ecc4948acb",
+    "title": "Vercel",
+    "fallback": {
+      "light": "/company-logos/vercel.svg",
+      "dark": "/company-logos/vercel_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/vercel_wordmark.svg",
+      "dark": "/company-logos/vercel_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "1744561e-31ba-4009-b0ea-a5b1a8ea4d5a",
+    "title": "Model Context Protocol",
+    "fallback": {
+      "light": "/company-logos/model-context-protocol-light.svg",
+      "dark": "/company-logos/model-context-protocol-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/model-context-protocol-wordmark-light.svg",
+      "dark": "/company-logos/model-context-protocol-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "baff25c7-a2f9-45ce-a767-ae9d89c702e0",
+    "title": "Socket.IO",
+    "fallback": {
+      "dark": "/company-logos/socketio-icon-dark.svg",
+      "light": "/company-logos/socketio-icon-light.svg"
+    },
+    "variants": {
+      "light": "/company-logos/socketio-wordmark-light.svg",
+      "dark": "/company-logos/socketio-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "08e8676b-dbb7-493a-a5be-0fe002377252",
+    "title": "Ant Design",
+    "fallback": "/company-logos/ant-design-dark-theme.svg"
+  },
+  {
+    "id": "d3d1b855-875b-40e1-8900-d110955665dc",
+    "title": "VSCodium",
+    "fallback": "/company-logos/vscodium.svg"
+  },
+  {
+    "id": "da7a0493-4aec-4e08-b384-daf2adee0159",
+    "title": "Zen Browser",
+    "fallback": {
+      "light": "/company-logos/zen-browser-light.svg",
+      "dark": "/company-logos/zen-browser-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/zen-browser-wordmark-light.svg",
+      "dark": "/company-logos/zen-browser-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "b18fa6a5-7ec1-4e52-b692-0faf7f72287e",
+    "title": "Gemini",
+    "fallback": "/company-logos/gemini.svg",
+    "variants": "/company-logos/gemini_wordmark.svg"
+  },
+  {
+    "id": "61f1b8a1-ec8b-40b9-aa10-e8912e5933d7",
+    "title": "xAI (Grok)",
+    "fallback": {
+      "light": "/company-logos/xai_light.svg",
+      "dark": "/company-logos/xai_dark.svg"
+    }
+  },
+  {
+    "id": "6360cb52-08c1-402f-969c-605e0e1954a0",
+    "title": "Qwen",
+    "fallback": {
+      "light": "/company-logos/qwen_light.svg",
+      "dark": "/company-logos/qwen_dark.svg"
+    }
+  },
+  {
+    "id": "292b9e37-ef61-491e-a0f7-b718a42db30e",
+    "title": "Inflection AI",
+    "fallback": {
+      "light": "/company-logos/inflectionai_light.svg",
+      "dark": "/company-logos/inflectionai_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/inflectionai_wordmark_light.svg",
+      "dark": "/company-logos/inflectionai_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "5ef32e44-ab16-447a-976d-bcd1ab31d404",
+    "title": "D3.js",
+    "fallback": "/company-logos/D3.svg"
+  },
+  {
+    "id": "1a7e7736-599b-4e7b-90dc-98aa97be1a0a",
+    "title": "Anthropic",
+    "fallback": {
+      "light": "/company-logos/anthropic_black.svg",
+      "dark": "/company-logos/anthropic_white.svg"
+    },
+    "variants": {
+      "light": "/company-logos/anthropic_black_wordmark.svg",
+      "dark": "/company-logos/anthropic_white_wordmark.svg"
+    }
+  },
+  {
+    "id": "758e95a5-16dc-4feb-8f89-bfeff9eca196",
+    "title": "Replit",
+    "fallback": "/company-logos/replit.svg",
+    "variants": {
+      "light": "/company-logos/replit-wordmark-light.svg",
+      "dark": "/company-logos/replit-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "a3343973-67b9-48f1-9b4d-147da1267118",
+    "title": "Magic UI",
+    "fallback": "/company-logos/magicui.svg"
+  },
+  {
+    "id": "3a784f9b-5640-4444-b4ba-2b0bf3c00ec6",
+    "title": "Web Components",
+    "fallback": "/company-logos/webcomponents.svg"
+  },
+  {
+    "id": "acb04436-bad1-4ef4-b3b9-b75436562da4",
+    "title": "Designali",
+    "fallback": "/company-logos/designali.svg"
+  },
+  {
+    "id": "9264e7c9-ff3b-4f70-98a4-6842322f7b1f",
+    "title": "CurseForge",
+    "fallback": {
+      "light": "/company-logos/curseforge.svg",
+      "dark": "/company-logos/curseforge-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/curseforge-wordmark.svg",
+      "dark": "/company-logos/curseforge-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "0dda95bb-0bdd-49b9-819a-c99ca426941b",
+    "title": "Ghostty",
+    "fallback": "/company-logos/ghostty.svg",
+    "variants": {
+      "dark": "/company-logos/ghostty_wordmark_dark.svg",
+      "light": "/company-logos/ghostty_wordmark_light.svg"
+    }
+  },
+  {
+    "id": "6a646a7a-638c-4c64-9c79-acfa7c70d2e0",
+    "title": "Better Auth",
+    "fallback": {
+      "light": "/company-logos/better-auth_light.svg",
+      "dark": "/company-logos/better-auth_dark.svg"
+    },
+    "variants": {
+      "dark": "/company-logos/better-auth_wordmark_dark.svg",
+      "light": "/company-logos/better-auth_wordmark_light.svg"
+    }
+  },
+  {
+    "id": "77749016-e937-4c1d-9897-799d161a2f9b",
+    "title": "Buy Me a Coffee",
+    "fallback": "/company-logos/bmc.svg"
+  },
+  {
+    "id": "b06a9fef-3594-4192-988e-df05da39bf45",
+    "title": "GitHub",
+    "fallback": {
+      "light": "/company-logos/github_light.svg",
+      "dark": "/company-logos/github_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/github_wordmark_light.svg",
+      "dark": "/company-logos/github_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "5f543505-88ea-44fe-a267-e7ea01fb98af",
+    "title": "Firebase Studio",
+    "fallback": "/company-logos/firebase-studio.svg"
+  },
+  {
+    "id": "38c09799-30b3-41ba-adeb-6a1339b99173",
+    "title": "Dingocoin",
+    "fallback": "/company-logos/dingocoin.svg"
+  },
+  {
+    "id": "65616c57-bb4f-4968-803c-2841c04f236f",
+    "title": "HeroUI",
+    "fallback": {
+      "light": "/company-logos/heroui_black.svg",
+      "dark": "/company-logos/heroui_light.svg"
+    }
+  },
+  {
+    "id": "3a9948f8-8e0a-4af1-bf63-900608843a3f",
+    "title": "Convex",
+    "fallback": "/company-logos/convex.svg",
+    "variants": {
+      "light": "/company-logos/convex_wordmark_light.svg",
+      "dark": "/company-logos/convex_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "4beec924-cf32-4e36-a266-49d68b5a27a0",
+    "title": "Clerk",
+    "fallback": {
+      "light": "/company-logos/clerk-icon-light.svg",
+      "dark": "/company-logos/clerk-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/clerk-wordmark-light.svg",
+      "dark": "/company-logos/clerk-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "ac975559-ee32-4471-8c8b-47ae173ecea4",
+    "title": "Terraform",
+    "fallback": "/company-logos/terraform.svg"
+  },
+  {
+    "id": "28696ea0-3abc-4df5-879b-d7a040f745f2",
+    "title": "Rspack",
+    "fallback": "/company-logos/rspack.svg"
+  },
+  {
+    "id": "ff64bc16-d120-450a-95a8-f5082ea73a25",
+    "title": "Rsbuild",
+    "fallback": "/company-logos/rsbuild.svg"
+  },
+  {
+    "id": "8fbcc001-9b74-4772-971f-e4f545c1874a",
+    "title": "React Wheel Picker",
+    "fallback": {
+      "light": "/company-logos/react-wheel-picker_light.svg",
+      "dark": "/company-logos/react-wheel-picker_dark.svg"
+    }
+  },
+  {
+    "id": "604d3cf0-77c8-44f6-a0a6-5299dafae4d8",
+    "title": "cPanel",
+    "fallback": "/company-logos/cP_orange.svg",
+    "variants": "/company-logos/cPanel_orange_wordmark.svg"
+  },
+  {
+    "id": "ba727f7c-2020-43e3-be86-3eca61d2d06b",
+    "title": "Lovable",
+    "fallback": "/company-logos/lovable.svg"
+  },
+  {
+    "id": "754d7ae2-4b7e-4736-95cb-4aab1d5a2807",
+    "title": "Mocha",
+    "fallback": {
+      "light": "/company-logos/mocha-light.svg",
+      "dark": "/company-logos/mocha-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/mocha-light_wordmark.svg",
+      "dark": "/company-logos/mocha-dark_wordmark.svg"
+    }
+  },
+  {
+    "id": "1980d8ed-904f-49e1-accb-47b725e94b32",
+    "title": "OpenRouter",
+    "fallback": {
+      "light": "/company-logos/openrouter_light.svg",
+      "dark": "/company-logos/openrouter_dark.svg"
+    }
+  },
+  {
+    "id": "8c682653-a230-471f-a8e0-839b0bf8ab4c",
+    "title": "OpenHunts",
+    "fallback": "/company-logos/openhunts.svg"
+  },
+  {
+    "id": "e0114fe2-69d5-4e7d-a9fa-11b1d2e5382f",
+    "title": "Kokonut UI",
+    "fallback": {
+      "light": "/company-logos/kokonutui-light.svg",
+      "dark": "/company-logos/kokonutui-dark.svg"
+    }
+  },
+  {
+    "id": "ef87db7d-f0a7-4ecc-87b5-154f0fe0199d",
+    "title": "Google Cloud",
+    "fallback": "/company-logos/google-cloud.svg"
+  },
+  {
+    "id": "a3e0a131-0d90-4d2a-bafd-d85e0a8a0f82",
+    "title": "Zulip",
+    "fallback": "/company-logos/zulip.svg",
+    "variants": "/company-logos/zulip-wordmark.svg"
+  },
+  {
+    "id": "4ca53a80-55b5-4749-8c27-2a5d4dc6c0e8",
+    "title": "Effect TS",
+    "fallback": {
+      "light": "/company-logos/effect_light.svg",
+      "dark": "/company-logos/effect_dark.svg"
+    }
+  },
+  {
+    "id": "a40e7500-c558-45db-a74a-c9e85e74eab7",
+    "title": "Ark UI",
+    "fallback": "/company-logos/ark-ui.svg"
+  },
+  {
+    "id": "6b44da16-29b6-4b0a-bcea-7bb0f7fc0c50",
+    "title": "Mantine",
+    "fallback": "/company-logos/mantine.svg"
+  },
+  {
+    "id": "e3521249-a218-4dc7-bb1b-ffb90f017144",
+    "title": "ESLint",
+    "fallback": {
+      "light": "/company-logos/eslint-icon-light.svg",
+      "dark": "/company-logos/eslint-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/eslint-wordmark-light.svg",
+      "dark": "/company-logos/eslint-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "8a3f4ef3-6b15-432a-bf5a-8f6443648527",
+    "title": "Apache Kafka",
+    "fallback": {
+      "light": "/company-logos/apache-kafka-light.svg",
+      "dark": "/company-logos/apache-kafka-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/apache-kafka-wordmark-light.svg",
+      "dark": "/company-logos/apache-kafka-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "4dd189ea-a041-4a19-84aa-007323c273ad",
+    "title": "PlainSignal",
+    "fallback": "/company-logos/plainsignal.svg"
+  },
+  {
+    "id": "9ba33251-8723-4596-84e2-e4dac867c1c7",
+    "title": "Heptabase",
+    "fallback": "/company-logos/heptabase.svg"
+  },
+  {
+    "id": "6d9b7913-90bb-499f-8bee-626aff51e19d",
+    "title": "UnJS",
+    "fallback": "/company-logos/unjs.svg"
+  },
+  {
+    "id": "79544333-ffa1-4454-9896-58803d9a97f1",
+    "title": "PowerSync",
+    "fallback": "/company-logos/powersync.svg",
+    "variants": {
+      "light": "/company-logos/powersync-wordmark-light.svg",
+      "dark": "/company-logos/powersync-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "f5242c35-3682-48ad-8e07-73f162c715dd",
+    "title": "n8n",
+    "fallback": "/company-logos/n8n.svg",
+    "variants": {
+      "dark": "/company-logos/n8n-wordmark-dark.svg",
+      "light": "/company-logos/n8n-wordmark-light.svg"
+    }
+  },
+  {
+    "id": "07cb18c5-aadf-4159-ab52-128f9e725308",
+    "title": "Kibo UI",
+    "fallback": {
+      "light": "/company-logos/kibo-ui-light.svg",
+      "dark": "/company-logos/kibo-ui-dark.svg"
+    }
+  },
+  {
+    "id": "89f0322e-8a55-413c-a543-3dd003b18007",
+    "title": "Ahrefs",
+    "fallback": "/company-logos/ahrefs.svg",
+    "variants": {
+      "dark": "/company-logos/ahrefs-wordmark-dark.svg",
+      "light": "/company-logos/ahrefs-wordmark-light.svg"
+    }
+  },
+  {
+    "id": "28a1308d-047c-494d-8719-4a373f8806d2",
+    "title": "Google Maps",
+    "fallback": "/company-logos/googleMaps.svg"
+  },
+  {
+    "id": "d7ca7b66-198a-4191-baf3-a81ce5b90510",
+    "title": "WebGL",
+    "fallback": {
+      "light": "/company-logos/webgl.svg",
+      "dark": "/company-logos/webgl_dark.svg"
+    }
+  },
+  {
+    "id": "6622668b-6e1a-4b4a-a8cd-cb7165929c03",
+    "title": "Intello",
+    "fallback": {
+      "light": "/company-logos/intello-dark.svg",
+      "dark": "/company-logos/intello-light.svg"
+    },
+    "variants": {
+      "light": "/company-logos/intello_wordmark_dark.svg",
+      "dark": "/company-logos/intello_wordmark_light.svg"
+    }
+  },
+  {
+    "id": "2afebce0-725b-4761-a91f-45b0b43b531e",
+    "title": "Kilo Code",
+    "fallback": {
+      "light": "/company-logos/kilocode-light.svg",
+      "dark": "/company-logos/kilocode-dark.svg"
+    }
+  },
+  {
+    "id": "42ec2ed0-a41e-4935-937d-94882b29cca3",
+    "title": "Cursor",
+    "fallback": {
+      "light": "/company-logos/cursor_light.svg",
+      "dark": "/company-logos/cursor_dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/cursor_wordmark_light.svg",
+      "dark": "/company-logos/cursor_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "8c05541a-4658-43e1-b0f0-324b57daeaa4",
+    "title": "LottieFiles",
+    "fallback": "/company-logos/lottiefiles.svg",
+    "variants": {
+      "light": "/company-logos/lottiefiles-wordmark-light.svg",
+      "dark": "/company-logos/lottiefiles-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "d39c2d89-cdc0-4b87-bbc3-8cdc0b0a57c6",
+    "title": "Mintlify",
+    "fallback": "/company-logos/mintlify.svg",
+    "variants": {
+      "light": "/company-logos/mintlify_wordmark_light.svg",
+      "dark": "/company-logos/mintlify_wordmark_dark.svg"
+    }
+  },
+  {
+    "id": "fe4b39ed-833c-4bbc-a030-265a3fa6b623",
+    "title": "Qdrant",
+    "fallback": {
+      "light": "/company-logos/qdrant-icon-light.svg",
+      "dark": "/company-logos/qdrant-icon-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/qdrant-wordmark-light.svg",
+      "dark": "/company-logos/qdrant-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "65433847-9885-4cc9-b912-64f74f3c4d5f",
+    "title": "TravelPerk",
+    "fallback": {
+      "light": "/company-logos/travelperk-light.svg",
+      "dark": "/company-logos/travelperk-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/travelperk-wordmark-light.svg",
+      "dark": "/company-logos/travelperk-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "e7b8da67-92f7-4d12-952a-812e5173e7ca",
+    "title": "Sanity",
+    "fallback": {
+      "light": "/company-logos/sanity-light.svg",
+      "dark": "/company-logos/sanity-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/sanity-wordmark-light.svg",
+      "dark": "/company-logos/sanity-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "4198598e-f6a4-44a6-95b1-eebd5860d542",
+    "title": "Nginx",
+    "fallback": "/company-logos/nginx.svg"
+  },
+  {
+    "id": "de82c5f1-3801-48e0-8df7-bc78a8f082c3",
+    "title": "Soldera",
+    "fallback": {
+      "light": "/company-logos/soldera-icon-light.svg",
+      "dark": "/company-logos/soldera-icon.svg"
+    },
+    "variants": {
+      "light": "/company-logos/soldera-wordmark-light.svg",
+      "dark": "/company-logos/soldera-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "ba8272d1-9c56-480b-9d6b-a5bd7274d6e9",
+    "title": "Dribbble",
+    "fallback": "/company-logos/dribbble.svg",
+    "variants": {
+      "light": "/company-logos/dribbble-wordmark-light.svg",
+      "dark": "/company-logos/dribbble-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "508f6018-5303-472a-8fb3-2732f2eaaaf1",
+    "title": "Paper",
+    "fallback": "/company-logos/paper.svg",
+    "variants": {
+      "light": "/company-logos/paper-wordmark-light.svg",
+      "dark": "/company-logos/paper-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "cb7438b3-daae-49df-b6aa-72aa266a7555",
+    "title": "Dodo Payments",
+    "fallback": "/company-logos/dodo-payments.svg",
+    "variants": {
+      "light": "/company-logos/dodo-payments-wordmark-light.svg",
+      "dark": "/company-logos/dodo-payments-wordmark-dark.svg"
+    }
+  },
+  {
+    "id": "f14876fd-e93d-4cc9-8e4b-30b948bdcf12",
+    "title": "Formance",
+    "fallback": {
+      "light": "/company-logos/formance-logo-light.svg",
+      "dark": "/company-logos/formance-logo-dark.svg"
+    },
+    "variants": {
+      "light": "/company-logos/formance-wordmark-light.svg",
+      "dark": "/company-logos/formance-wordmark-dark.svg"
+    }
+  }
+]
