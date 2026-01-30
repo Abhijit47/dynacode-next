@@ -81,7 +81,7 @@ const LogoCloud = () => {
   return (
     <section
       className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 py-24'
       }>
       <div className='flex items-center justify-center'>
         <div className='overflow-hidden space-y-8'>
