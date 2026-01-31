@@ -1,3 +1,5 @@
+'use client';
+
 import {
   Accordion,
   AccordionContent,
@@ -5,8 +7,22 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { whyChooseUs } from '@/constants';
+import { LucideIcon } from 'lucide-react';
+import Image from 'next/image';
+import { useState } from 'react';
+
+type WhyChooseUsData = {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  image: string;
+};
 
 export default function WhyChooseUs() {
+  const [selectedFeature, setSelectedFeature] = useState<WhyChooseUsData>(
+    whyChooseUs[0],
+  );
+
   return (
     <section
       className={
@@ -19,7 +35,18 @@ export default function WhyChooseUs() {
           </h2>
           <div className='mx-auto mt-6 grid w-full gap-12 md:mt-10 md:grid-cols-2'>
             <div>
-              <Accordion className='w-full' defaultValue='item-0' type='single'>
+              <Accordion
+                className='w-full'
+                type='single'
+                value={
+                  selectedFeature
+                    ? `item-${whyChooseUs.indexOf(selectedFeature)}`
+                    : undefined
+                }
+                onValueChange={(value) => {
+                  const index = parseInt(value?.split('-')[1] || '0', 10);
+                  setSelectedFeature(whyChooseUs[index]);
+                }}>
                 {whyChooseUs.map(
                   ({ title, description, icon: Icon }, index) => (
                     <AccordionItem
@@ -34,7 +61,15 @@ export default function WhyChooseUs() {
                       </AccordionTrigger>
                       <AccordionContent className='text-[17px] text-muted-foreground leading-relaxed'>
                         {description}
-                        <div className='mt-6 mb-2 aspect-video w-full rounded-xl bg-muted md:hidden' />
+                        <div className='mt-6 mb-2 aspect-video w-full rounded-xl md:hidden'>
+                          <Image
+                            alt={title}
+                            className='h-full w-full rounded-xl object-cover'
+                            height={500}
+                            src={whyChooseUs[index].image}
+                            width={500}
+                          />
+                        </div>
                       </AccordionContent>
                     </AccordionItem>
                   ),
@@ -43,7 +78,15 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Media */}
-            <div className='hidden h-full w-full rounded-xl bg-muted md:block' />
+            <div className='hidden h-full w-full aspect-square rounded-xl md:block'>
+              <Image
+                alt={selectedFeature.title}
+                className='h-full w-full rounded-xl object-cover'
+                height={500}
+                src={selectedFeature.image}
+                width={500}
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -313,36 +313,42 @@ export const whyChooseUs = [
     title: 'Identify Opportunities',
     description:
       'Easily uncover untapped areas to explore and expand your reach effortlessly and effectively.',
+    image: '/assets/feat-1.webp',
   },
   {
     icon: BookCheck,
     title: 'Build Authority',
     description:
       'Create valuable content that resonates, inspires trust, and positions you as an expert.',
+    image: '/assets/feat-2.webp',
   },
   {
     icon: ChartPie,
     title: 'Instant Insights',
     description:
       'Gain immediate, actionable insights with a quick glance, enabling fast decision-making.',
+    image: '/assets/feat-3.webp',
   },
   {
     icon: Users,
     title: 'Engage with Your Audience',
     description:
       'Boost audience engagement with interactive features like polls, quizzes, and forms.',
+    image: '/assets/feat-4.webp',
   },
   {
     icon: FolderSync,
     title: 'Automate Your Workflow',
     description:
       'Streamline your processes by automating repetitive tasks, saving time and reducing effort.',
+    image: '/assets/feat-5.webp',
   },
   {
     icon: Zap,
     title: 'Accelerate Growth',
     description:
       'Supercharge your growth by implementing strategies that drive results quickly and efficiently.',
+    image: '/assets/feat-6.webp',
   },
 ];
 
@@ -353,6 +359,7 @@ export const features = [
     details:
       'Take control over how and when to follow up with your leads. Store and reference leads in multiple tables and, from there, automatically send them personalized emails.',
     tutorialLink: '#',
+    image: '/assets/feat-1.webp',
   },
   {
     category: 'Project Management',
@@ -360,6 +367,7 @@ export const features = [
     details:
       'Organize tasks, deadlines, and team collaboration in one place. Use customizable boards to manage projects efficiently and automate routine updates.',
     tutorialLink: '#',
+    image: '/assets/feat-2.webp',
   },
   {
     category: 'Customer Support',
@@ -367,6 +375,7 @@ export const features = [
     details:
       'Track and resolve customer queries faster with an integrated ticketing system. Set priorities, automate follow-ups, and enhance satisfaction with personalized responses.',
     tutorialLink: '#',
+    image: '/assets/feat-3.webp',
   },
   {
     category: 'Team Collaboration',
@@ -374,6 +383,7 @@ export const features = [
     details:
       'Simplify communication and align team efforts with shared boards and real-time updates. Enable transparent goal tracking and instant feedback for better results.',
     tutorialLink: '#',
+    image: '/assets/feat-4.webp',
   },
   {
     category: 'Product Development',
@@ -381,6 +391,7 @@ export const features = [
     details:
       'Bring your product ideas to life by managing prototypes, feedback, and iterations in one place. Collaborate with your team to refine features and release with confidence.',
     tutorialLink: '#',
+    image: '/assets/feat-5.webp',
   },
 ];
 

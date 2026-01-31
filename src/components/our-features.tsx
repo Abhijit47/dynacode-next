@@ -1,8 +1,10 @@
-import { Button } from '@/components/ui/button';
-import { features } from '@/constants';
 import { ArrowRight } from 'lucide-react';
 import { Route } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
+
+import { Button } from '@/components/ui/button';
+import { features } from '@/constants';
 
 export default function OurFeatures() {
   return (
@@ -29,12 +31,23 @@ export default function OurFeatures() {
   );
 }
 
-function FeatureCard({ category, title, details, tutorialLink }: Feature) {
+function FeatureCard(props: Feature) {
+  const { category, title, details, tutorialLink, image } = props;
   return (
     <div
       className='flex flex-col items-center gap-x-12 gap-y-6 md:flex-row md:even:flex-row-reverse'
       key={category}>
-      <div className='aspect-4/3 w-full basis-1/2 rounded-xl border border-border/50 bg-muted' />
+      <div className='aspect-4/3 w-full basis-1/2 rounded-xl'>
+        {/* Image placeholder */}
+        <Image
+          src={image}
+          alt={title}
+          width={500}
+          height={500}
+          className='w-full h-full object-cover rounded-xl mask-[url(/assets/scribble.png)] mask-x-from-70% mask-x-to-90% mask-center mask-no-repeat'
+          priority={false}
+        />
+      </div>
       <div className='shrink-0 basis-1/2'>
         <span className='font-medium text-muted-foreground text-sm uppercase'>
           {category}
