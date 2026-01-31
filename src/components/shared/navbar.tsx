@@ -3,7 +3,7 @@ import { NavMenu } from '@/components/shared/nav-menu';
 import { NavigationSheet } from '@/components/shared/navigation-sheet';
 import { buttonVariants } from '@/components/ui/button';
 import Link from 'next/link';
-import ThemeModeToggler from './theme-toggler';
+import { AnimatedThemeToggler } from '../extends/animated-theme-toggler';
 
 export default function Navbar() {
   return (
@@ -18,7 +18,7 @@ export default function Navbar() {
           <NavMenu className='hidden md:block' />
 
           <div className='flex items-center gap-3'>
-            <ThemeModeToggler />
+            <AnimatedThemeToggler />
             <Link
               href={'/login'}
               className={buttonVariants({

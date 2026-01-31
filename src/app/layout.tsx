@@ -3,6 +3,7 @@ import { ThemeProvider } from '@/providers/theme-provider';
 import type { Metadata } from 'next';
 import { IBM_Plex_Mono, Lato, Montserrat } from 'next/font/google';
 
+import ScrollProgress from '@/components/extends/scroll-progress';
 import './globals.css';
 
 const lato = Lato({
@@ -53,6 +54,7 @@ export default function AppLayout({
           enableSystem
           disableTransitionOnChange>
           {children}
+          <ScrollProgress />
           <Toaster />
         </ThemeProvider>
       </body>

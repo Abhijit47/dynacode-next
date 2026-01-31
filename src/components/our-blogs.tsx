@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { BorderBeam } from './extends/border-beam';
 import SpotlightCard from './extends/spotlight-card';
 import { Badge } from './ui/badge';
 import { Button, buttonVariants } from './ui/button';
@@ -55,10 +56,20 @@ export default function OurBlogs() {
             buttonVariants({
               variant: 'secondary',
               className:
-                'rounded-full! max-w-xs! mx-auto mt-16 flex w-full h-12 font-medium text-base leading-[0.1]',
+                'rounded-full! max-w-xs! mx-auto mt-16 flex w-full h-12 font-medium text-base leading-[0.1] relative overflow-hidden',
             }),
           )}>
           Load more
+          <BorderBeam
+            size={40}
+            initialOffset={20}
+            className='from-transparent via-primary to-transparent'
+            transition={{
+              type: 'spring',
+              stiffness: 100,
+              damping: 50,
+            }}
+          />
         </Link>
       </div>
     </section>
