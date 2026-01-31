@@ -3,17 +3,23 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowUpRight, CirclePlay } from 'lucide-react';
 import Link from 'next/link';
-import BackgroundLetterGlitch from './extends/background-letter-glitch';
+// import BackgroundLetterGlitch from './extends/background-letter-glitch';
+import { FlickeringGrid } from './extends/flickering-grid';
 
 export default function Hero() {
   return (
-    <section className={'w-full h-full'}>
-      <BackgroundLetterGlitch
-        glitchSpeed={50}
-        centerVignette={true}
-        outerVignette={true}
-        smooth={true}>
-        <div className={'container mx-auto max-w-(--breakpoint-xl) px-4'}>
+    <section className={'bg-background relative h-dvh w-full'}>
+      <FlickeringGrid
+        className='relative w-full h-full inset-0 z-0 mask-[radial-gradient(450px_circle_at_center,white,transparent)]'
+        squareSize={6}
+        gridGap={6}
+        color='oklch(0.4999999999999999 0.09119999999999999 181.912)'
+        maxOpacity={0.5}
+        flickerChance={0.1}
+      />
+
+      <div className={'absolute top-0 left-0 h-full w-full'}>
+        <div className={'container mx-auto z-10 max-w-(--breakpoint-xl) px-4'}>
           <div className='flex h-dvh items-center justify-center z-50'>
             {/* <BackgroundPattern /> */}
 
@@ -49,7 +55,14 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </BackgroundLetterGlitch>
+      </div>
+
+      {/* <BackgroundLetterGlitch
+        glitchSpeed={50}
+        centerVignette={true}
+        outerVignette={true}
+        smooth={true}>
+      </BackgroundLetterGlitch> */}
     </section>
   );
 }

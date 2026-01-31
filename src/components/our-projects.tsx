@@ -1,5 +1,6 @@
 import { projects } from '@/constants';
 import Image from 'next/image';
+import { ShineBorder } from './extends/shine-border';
 
 export default function OurProjects() {
   return (
@@ -21,6 +22,7 @@ export default function OurProjects() {
             ))}
           </div>
         </div>
+        <ShineBorderDemo />
       </div>
     </section>
   );
@@ -28,7 +30,19 @@ export default function OurProjects() {
 
 function ProjectCard({ title, description, imageUrl }: Project) {
   return (
-    <div className='rounded-lg border'>
+    <div className='rounded-lg border relative overflow-hidden'>
+      <BorderBeam
+        duration={6}
+        size={400}
+        className='from-transparent via-red-500 to-transparent'
+      />
+      <BorderBeam
+        duration={6}
+        delay={3}
+        size={400}
+        borderWidth={2}
+        className='from-transparent via-blue-500 to-transparent'
+      />
       <div className='mask-b-from-50% dark:mask-b-from-40% aspect-square w-full rounded-t-lg'>
         <Image
           alt={title}
@@ -43,5 +57,49 @@ function ProjectCard({ title, description, imageUrl }: Project) {
         <p className='mt-2 text-base text-foreground/90'>{description}</p>
       </div>
     </div>
+  );
+}
+
+import { Button } from '@/components/ui/button';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { BorderBeam } from './extends/border-beam';
+
+export function ShineBorderDemo() {
+  return (
+    <Card className='relative w-full max-w-87.5 overflow-hidden'>
+      <ShineBorder shineColor={['#A07CFE', '#FE8FB5', '#FFBE7B']} />
+      <CardHeader>
+        <CardTitle>Login</CardTitle>
+        <CardDescription>
+          Enter your credentials to access your account
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className='grid gap-4'>
+            <div className='grid gap-2'>
+              <Label htmlFor='email'>Email</Label>
+              <Input id='email' type='email' placeholder='name@example.com' />
+            </div>
+            <div className='grid gap-2'>
+              <Label htmlFor='password'>Password</Label>
+              <Input id='password' type='password' />
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter>
+        <Button className='w-full'>Sign In</Button>
+      </CardFooter>
+    </Card>
   );
 }

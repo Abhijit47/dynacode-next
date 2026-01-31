@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { testimonials } from '@/constants';
 import Link from 'next/link';
 import type { ComponentProps } from 'react';
+import { BorderBeam } from './extends/border-beam';
 import { Marquee } from './extends/marquee';
 
 function Testimonials() {
@@ -33,8 +34,14 @@ function Testimonials() {
 function TestimonialList() {
   return testimonials.map((testimonial) => (
     <div
-      className='min-w-96 max-w-sm rounded-xl bg-accent p-6'
+      className='min-w-96 max-w-sm rounded-xl bg-accent p-6 relative overflow-hidden'
       key={testimonial.id}>
+      <BorderBeam
+        duration={4}
+        size={300}
+        reverse
+        className='from-transparent via-green-500 to-transparent'
+      />
       <div className='flex items-center justify-between'>
         <div className='flex items-center gap-3'>
           <Avatar className='size-10'>
