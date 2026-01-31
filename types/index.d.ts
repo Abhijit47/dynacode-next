@@ -3,6 +3,7 @@ type Feature = {
   title: string;
   details: string;
   tutorialLink: string;
+  image: string;
 };
 
 type Stat = {
