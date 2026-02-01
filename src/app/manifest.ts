@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Next.js App',
-    short_name: 'Next.js App',
-    description: 'Next.js App',
+    name: 'Dynacode - Your Technology Partner',
+    short_name: 'Dynacode',
+    description: 'Empowering Your Business with Innovative Tech Solutions',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',

@@ -30,23 +30,29 @@ const BASE_URL = isDev
   ? 'http://localhost:3000'
   : process.env.NEXT_PUBLIC_BASE_URL;
 
+const lastModified = new Date().toLocaleDateString('en-IN', {
+  year: 'numeric',
+  month: 'short',
+  day: '2-digit',
+});
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: `${BASE_URL}/`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'yearly',
       priority: 1,
     },
     {
       url: `${BASE_URL}/about-us`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/blogs`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'weekly',
       priority: 0.5,
     },
@@ -56,8 +62,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       .filter((path) => path !== '/blogs')
       .map((path) => {
         return {
-          url: `${BASE_URL}/${path}`,
-          lastModified: new Date(),
+          url: `${BASE_URL}${path}`,
+          lastModified,
           changeFrequency: 'weekly',
           priority: 0.7,
         } as MetadataRoute.Sitemap[0];
