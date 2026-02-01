@@ -6,6 +6,7 @@ import {
   ContrastIcon,
   FolderSync,
   Goal,
+  LucideIcon,
   MonitorSmartphoneIcon,
   SquareDashedMousePointerIcon,
   Users,
@@ -15,25 +16,31 @@ import {
 import { Route } from 'next';
 
 import {
-  Backpack,
-  CakeSlice,
-  Coffee,
-  Grape,
-  Hotel,
-  IceCream,
-  MapPin,
-  Package,
-  Pizza,
-  Plane,
-  Sandwich,
-  Smile,
-} from 'lucide-react';
+  Icon,
+  IconBadgeAd,
+  IconChartScatter,
+  IconDeviceDesktopCog,
+  IconDeviceMobile,
+  IconDevicesPc,
+  IconFileDescription,
+  IconMailFast,
+  IconPalette,
+  IconRoute,
+  IconRoute2,
+  IconSeo,
+  IconSettingsAi,
+  IconShieldCheck,
+  IconSparkles2,
+  IconWorldWww,
+} from '@tabler/icons-react';
 
-export const navLinks: {
+type Navlinks = {
   id: string;
   title: string;
   href: Route;
-}[] = [
+}[];
+
+export const navLinks: Navlinks = [
   {
     id: crypto.randomUUID(),
     title: 'Home',
@@ -47,85 +54,168 @@ export const navLinks: {
   {
     id: crypto.randomUUID(),
     title: 'About',
-    href: '#',
+    href: '/about-us',
   },
   {
     id: crypto.randomUUID(),
     title: 'Contact Us',
-    href: '#',
+    href: '/contact-us',
   },
 ];
 
-export const foods = [
+type Development = {
+  id: string;
+  title: string;
+  description: string;
+  icon: Icon | LucideIcon;
+  href: Route;
+}[];
+export const developments: Development = [
   {
-    title: 'Dessert',
-    icon: CakeSlice,
-    description: 'Sweet treats to satisfy your cravings.',
+    id: crypto.randomUUID(),
+    title: 'Web Development',
+    icon: IconWorldWww,
+    description: 'Building responsive and dynamic websites and applications.',
+    href: '/services/developments/web-development',
   },
   {
-    title: 'Pizza',
-    icon: Pizza,
-    description: 'Delicious, cheesy slices of goodness.',
+    id: crypto.randomUUID(),
+    title: 'UI/UX Design and Wireframing',
+    icon: IconPalette,
+    description: 'User interface and experience design for optimal usability.',
+    href: '/services/developments/ui-ux-design',
   },
   {
-    title: 'Sandwich',
-    icon: Sandwich,
-    description: 'Classic and hearty fast food options.',
+    id: crypto.randomUUID(),
+    title: 'Mobile Application',
+    icon: IconDeviceMobile,
+    description: 'Creating mobile applications for iOS and Android platforms.',
+    href: '/services/developments/mobile-application',
   },
   {
-    title: 'Coffee',
-    icon: Coffee,
-    description: 'Your go-to boost of caffeine.',
+    id: crypto.randomUUID(),
+    title: 'Desktop Application',
+    icon: IconDeviceDesktopCog,
+    description:
+      'Developing software applications for desktop operating systems.',
+    href: '/services/developments/desktop-application',
   },
   {
-    title: 'Ice Cream',
-    icon: IceCream,
-    description: 'Cold, creamy delights for any mood.',
+    id: crypto.randomUUID(),
+    title: 'ioT Solutions',
+    icon: IconDevicesPc,
+    description: 'Integrating Internet of Things devices and systems.',
+    href: '/services/developments/iot-solutions',
   },
   {
-    title: 'Fruit',
-    icon: Grape,
-    description: 'Fresh and healthy natural snacks.',
-  },
-];
-
-export const travelMenuItems = [
-  {
-    title: 'Destinations',
-    icon: MapPin,
-    description: 'Discover amazing places to visit.',
-  },
-  {
-    title: 'Hotels',
-    icon: Hotel,
-    description: 'Find the best stays for your trips.',
-  },
-  {
-    title: 'Flights',
-    icon: Plane,
-    description: 'Get deals and tips on air travel.',
-  },
-  {
-    title: 'Packing',
-    icon: Package,
-    description: 'Essential checklists for stress-free packing.',
-  },
-  {
-    title: 'Activities',
-    icon: Smile,
-    description: 'Exciting things to do wherever you go.',
-  },
-  {
-    title: 'Travel Tips',
-    icon: Backpack,
-    description: 'Make every trip smooth and memorable.',
+    id: crypto.randomUUID(),
+    title: 'AI Development',
+    icon: IconSettingsAi,
+    description:
+      'Building artificial intelligence and machine learning solutions.',
+    href: '/services/developments/ai-development',
   },
 ];
 
-export const footerSections: {
+type DigitalMarketing = {
+  id: string;
+  title: string;
+  description: string;
+  icon: Icon;
+  href: Route;
+}[];
+export const digitalMarketings: DigitalMarketing = [
+  {
+    id: crypto.randomUUID(),
+    title: 'Search Engine Optimization (SEO)',
+    icon: IconSeo,
+    description: 'Improving website visibility and ranking on search engines.',
+    href: '/services/marketings/seo',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Content Marketing',
+    icon: IconFileDescription,
+    description:
+      'Creating and distributing valuable content to attract and engage audiences.',
+    href: '/services/marketings/content-marketing',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Ads Management',
+    icon: IconBadgeAd,
+    description: 'Managing and optimizing online advertising campaigns.',
+    href: '/services/marketings/ads-management',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Marketing Automation',
+    icon: IconRoute2,
+    description: 'Using software to automate marketing tasks and workflows.',
+    href: '/services/marketings/marketing-automation',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Email Marketing',
+    icon: IconMailFast,
+    description:
+      'Sending targeted email campaigns to nurture leads and customers.',
+    href: '/services/marketings/email-marketing',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Influencer Marketing',
+    icon: IconRoute,
+    description:
+      'Collaborating with influencers to promote products and services.',
+    href: '/services/marketings/influencer-marketing',
+  },
+];
+type OtherServices = {
+  id: string;
+  title: string;
+  description: string;
+  icon: Icon;
+  href: Route;
+}[];
+export const otherServices: OtherServices = [
+  {
+    id: crypto.randomUUID(),
+    title: 'Data Analysis and Visualization',
+    icon: IconChartScatter,
+    description:
+      'Analyzing data to extract insights and create visual representations.',
+    href: '/services/others/data-analytics',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Cybersecurity Services',
+    icon: IconShieldCheck,
+    description: 'Protecting systems and data from cyber threats and attacks.',
+    href: '/services/others/cyber-security-services',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'AI Automation Solutions',
+    icon: IconSparkles2,
+    description:
+      'Implementing AI-driven automation to streamline business processes.',
+    href: '/services/others/ai-automations',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Logos',
+    icon: IconPalette,
+    description: 'Improving website visibility and ranking on search engines.',
+    href: '/services/others/icons',
+  },
+];
+
+type FooterSections = {
   title: string;
   links: { title: string; href: Route }[];
-}[] = [
+}[];
+export const footerSections: FooterSections = [
   {
     title: 'Product',
     links: [
@@ -142,7 +232,7 @@ export const footerSections: {
         href: '#',
       },
       {
-        title: 'Tutorials',
+        title: 'Sitemap',
         href: '#',
       },
       {
@@ -204,7 +294,7 @@ export const footerSections: {
         href: '#',
       },
       {
-        title: 'Tutorials',
+        title: 'Sitemap',
         href: '#',
       },
       {
