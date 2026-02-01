@@ -45,6 +45,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'tailwindcss.com',
       },
+      {
+        hostname: 'pro.shadcnui-blocks.com',
+      },
     ],
   },
 };

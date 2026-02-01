@@ -1,5 +1,6 @@
 import { stats } from '@/constants';
 import SlotCounter from 'react-slot-counter';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
 export default function OurStats() {
   return (
@@ -31,23 +32,39 @@ export default function OurStats() {
 
 function StatCard({ title, description, stat, prefix }: Stat) {
   return (
-    <div>
-      <span className='font-semibold text-5xl tracking-tight md:text-6xl'>
-        <SlotCounter
-          value={stat}
-          duration={3}
-          dummyCharacterCount={10}
-          direction='top-down'
-          useMonospaceWidth
-          animateOnVisible={{
-            triggerOnce: false,
-            rootMargin: '0px 0px -100px 0px',
-          }}
-        />
-        <sup>{prefix}</sup>
-      </span>
-      <p className='mt-6 font-medium text-xl'>{title}</p>
-      <p className='mt-2 text-muted-foreground'>{description}</p>
+    <div className='relative overflow-hidden rounded-xl'>
+      <div
+        className='absolute inset-1 z-0 rounded-lg'
+        style={{
+          backgroundImage:
+            'repeating-linear-gradient(45deg, transparent, transparent 2px, var(--border) 2px, var(--border) 4px)',
+          opacity: 0.5, // Adjust this value (0.0 to 1.0) to change opacity
+        }}
+      />
+      <Card className='z-10 isolate h-full bg-transparent border-border border-2'>
+        <CardHeader>
+          <CardTitle>
+            <span className='font-semibold text-5xl tracking-tight md:text-6xl'>
+              <SlotCounter
+                value={stat}
+                duration={3}
+                dummyCharacterCount={10}
+                direction='top-down'
+                useMonospaceWidth
+                animateOnVisible={{
+                  triggerOnce: false,
+                  rootMargin: '0px 0px -100px 0px',
+                }}
+              />
+              <sup>{prefix}</sup>
+            </span>
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className='font-medium text-lg'>{title}</p>
+          <p className='mt-2 text-sm text-muted-foreground'>{description}</p>
+        </CardContent>
+      </Card>
     </div>
   );
 }
