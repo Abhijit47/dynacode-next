@@ -2,11 +2,11 @@
 # Generated using Security.txt Generator
 
 Contact: mailto:dynacodeweb@gmail.com
-Expires: 2027-02-01T07:56
+Expires: 2027-02-01T10:18:00.000Z
 Encryption: https://dynacode-next.vercel.app/pgp-key.txt
 Acknowledgments: https://dynacode-next.vercel.app/hall-of-fame
+Preferred-Languages: en
+Canonical: https://dynacode-next.vercel.app/.well-known/security.txt
 Policy: https://dynacode-next.vercel.app/security-policy
 Hiring: https://dynacode-next.vercel.app/jobs
 CSAF: https://dynacode-next.vercel.app/.well-known/csaf/provider-metadata.json
-Preferred-Languages: en, sv
-Canonical: https://dynacode-next.vercel.app/.well-known/security.txt

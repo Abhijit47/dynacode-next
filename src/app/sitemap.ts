@@ -30,11 +30,7 @@ const BASE_URL = isDev
   ? 'http://localhost:3000'
   : process.env.NEXT_PUBLIC_BASE_URL;
 
-const lastModified = new Date().toLocaleDateString('en-IN', {
-  year: 'numeric',
-  month: 'short',
-  day: '2-digit',
-});
+const lastModified = new Date().toISOString();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
