@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'cdn.pixabay.com',
       },
+      {
+        hostname: 'tailwindcss.com',
+      },
     ],
   },
 };

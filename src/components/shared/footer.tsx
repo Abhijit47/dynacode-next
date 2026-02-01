@@ -7,7 +7,8 @@ import {
   TwitterIcon,
 } from 'lucide-react';
 import Link from 'next/link';
-import { Logo } from './logo';
+// import { Logo } from './logo';
+import { Logo10 } from './navbar';
 
 export default function Footer() {
   return (
@@ -18,7 +19,10 @@ export default function Footer() {
           <div className='grid grid-cols-2 gap-x-8 gap-y-10 px-6 py-12 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 xl:px-0'>
             <div className='col-span-full xl:col-span-2'>
               {/* Logo */}
-              <Logo />
+              {/* <Logo /> */}
+              <Link href='/'>
+                <Logo10 />
+              </Link>
 
               <p className='mt-4 text-muted-foreground'>
                 Design amazing digital experiences that create more happy in the
