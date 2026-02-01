@@ -1,0 +1,7 @@
+Contact: mailto:dynacodeweb@gmail.com
+Contact: https://dynacode-next.vercel.app//security-team
+Expires: 2026-12-31T23:59:59.000Z
+# Encryption: https://dynacode-next.vercel.app//pgp-key.txt
+# Acknowledgments: https://dynacode-next.vercel.app//thanks
+# Policy: https://dynacode-next.vercel.app//policy
+# Preferred-Languages: en
