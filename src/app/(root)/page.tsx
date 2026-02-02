@@ -3,6 +3,7 @@ import Hero from '@/components/hero';
 import LogoCloud from '@/components/logo-cloud';
 import OurBlogs from '@/components/our-blogs';
 import OurFeatures from '@/components/our-features';
+import OurIntegrations from '@/components/our-integrations';
 import OurProjects from '@/components/our-projects';
 import OurServices from '@/components/our-services';
 // import Projects from '@/components/projects';
@@ -20,6 +21,7 @@ export default function Home() {
       <OurServices />
       <OurStats />
       <OurTimeline />
+      <OurIntegrations />
       <WhyChooseUs />
       {/* <Projects /> */}
       <OurProjects />

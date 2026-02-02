@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
   return (
     <section
       className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 py-24'
       }>
       <div className=''>
         <div className=''>
