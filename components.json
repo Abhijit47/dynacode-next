@@ -20,6 +20,8 @@
   },
   "registries": {
     "@magicui": "https://magicui.design/r/{name}",
-    "@cardcn": "https://cardcn.dev/r/{name}.json"
+    "@cardcn": "https://cardcn.dev/r/{name}.json",
+    "@blocks": "https://blocks.so/r/{name}.json",
+    "@tailark": "https://tailark.com/r/{name}.json"
   }
 }

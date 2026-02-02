@@ -48,6 +48,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'pro.shadcnui-blocks.com',
       },
+      {
+        hostname: 'www.google.com',
+      },
     ],
   },
 };
