@@ -96,7 +96,7 @@ export default function AppLayout({
           disableTransitionOnChange>
           {children}
           <ScrollProgress />
-          <Toaster />
+          <Toaster richColors closeButton position='top-center' />
         </ThemeProvider>
       </body>
     </html>
