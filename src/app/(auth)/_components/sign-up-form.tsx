@@ -21,7 +21,13 @@ export default function SignUpForm() {
         <Label className='leading-5' htmlFor='username'>
           Username*
         </Label>
-        <Input type='text' id='username' placeholder='Enter your username' />
+        <Input
+          type='text'
+          id='username'
+          name='username'
+          required
+          placeholder='Enter your username'
+        />
       </div>
 
       {/* Email */}
@@ -49,6 +55,7 @@ export default function SignUpForm() {
             className='pr-9'
           />
           <Button
+            type='button'
             variant='ghost'
             size='icon'
             onClick={() => setIsPasswordVisible((prevState) => !prevState)}
@@ -90,8 +97,13 @@ export default function SignUpForm() {
 
       {/* Privacy policy */}
       <div className='flex items-center gap-3'>
-        <Checkbox id='rememberMe' className='size-6' />
-        <Label htmlFor='rememberMe'>
+        <Checkbox
+          id='privacyPolicy'
+          name='privacyPolicy'
+          required
+          className='size-6'
+        />
+        <Label htmlFor='privacyPolicy'>
           <span className='text-muted-foreground'>I agree to</span>{' '}
           <a href='#'>privacy policy & terms</a>
         </Label>

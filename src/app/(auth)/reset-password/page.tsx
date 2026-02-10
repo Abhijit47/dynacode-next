@@ -13,7 +13,7 @@ import {
 import Link from 'next/link';
 import ResetPasswordForm from '../_components/reset-password-form';
 
-export default function ResetPassWordPage() {
+export default function ResetPasswordPage() {
   return (
     <Card className='z-1 w-full border-none shadow-md sm:max-w-md'>
       <CardAction className={'flex items-center gap-3 px-6'}>
@@ -22,8 +22,9 @@ export default function ResetPassWordPage() {
           className={buttonVariants({
             variant: 'outline',
             size: 'icon-sm',
-          })}>
-          <ChevronLeftIcon className='size-5 transition-transform duration-200 group-hover:-translate-x-0.5' />
+          })}
+          aria-label='Go back to home'>
+          <ChevronLeftIcon className='size-5' />
         </Link>
         <Link href='/' className={'block'}>
           <Logo10 className={'w-auto h-4 text-start'} />

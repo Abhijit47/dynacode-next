@@ -19,12 +19,13 @@ export default function SignUpPage() {
       <CardAction className={'flex items-center gap-3 px-6'}>
         <Link
           href={'/'}
-          className={buttonVariants({
+          className={`group ${buttonVariants({
             variant: 'outline',
             size: 'icon-sm',
-          })}>
-          <ChevronLeftIcon className='size-5 transition-transform duration-200 group-hover:-translate-x-0.5' />
-        </Link>
+          })}`}
+          aria-label='Go back to home'>
+          <ChevronLeftIcon className='size-5' />
+        </Link>{' '}
         <Link href='/' className={'block'}>
           <Logo10 className={'w-auto h-4 text-start'} />
         </Link>
@@ -59,7 +60,7 @@ export default function SignUpPage() {
           </div>
 
           <Button variant='ghost' className='w-full' asChild>
-            <a href='#'>Sign in with google</a>
+            <a href='#'>Sign up with google</a>
           </Button>
         </div>
       </CardContent>

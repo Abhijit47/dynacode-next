@@ -23,7 +23,9 @@ export default function LoginForm() {
         <Input
           type='email'
           id='userEmail'
+          name='email'
           placeholder='Enter your email address'
+          required
         />
       </div>
 
@@ -35,13 +37,16 @@ export default function LoginForm() {
         <div className='relative'>
           <Input
             id='password'
+            name='password'
             type={isVisible ? 'text' : 'password'}
             placeholder='••••••••••••••••'
             className='pr-9'
+            required
           />
           <Button
             variant='ghost'
             size='icon'
+            type='button'
             onClick={() => setIsVisible((prevState) => !prevState)}
             className='text-muted-foreground focus-visible:ring-ring/50 absolute inset-y-0 right-0 rounded-l-none hover:bg-transparent'>
             {isVisible ? <EyeOffIcon /> : <EyeIcon />}

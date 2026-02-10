@@ -40,6 +40,7 @@ export default function ResetPasswordForm() {
             className='pr-9'
           />
           <Button
+            type='button'
             variant='ghost'
             size='icon'
             onClick={() => setIsPasswordVisible((prevState) => !prevState)}
@@ -48,7 +49,7 @@ export default function ResetPasswordForm() {
             <span className='sr-only'>
               {isPasswordVisible ? 'Hide password' : 'Show password'}
             </span>
-          </Button>
+          </Button>{' '}
         </div>
       </div>
 
@@ -65,6 +66,7 @@ export default function ResetPasswordForm() {
             className='pr-9'
           />
           <Button
+            type='button'
             variant='ghost'
             size='icon'
             onClick={() =>

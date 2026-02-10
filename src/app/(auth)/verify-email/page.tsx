@@ -16,11 +16,13 @@ type PageProps = {
   params: Promise<{ [key: string]: string }>;
   searchParams: Promise<{ email: string | undefined }>;
 };
+const isValidEmail = (email: string) =>
+  /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
 export default async function VerifyEmailPage({ searchParams }: PageProps) {
   const userEmail = (await searchParams).email;
 
-  if (!userEmail) {
+  if (!userEmail || !isValidEmail(userEmail)) {
     return notFound();
   }
 
@@ -29,11 +31,12 @@ export default async function VerifyEmailPage({ searchParams }: PageProps) {
       <CardAction className={'flex items-center gap-3 px-6'}>
         <Link
           href={'/'}
+          aria-label='Go back'
           className={buttonVariants({
             variant: 'outline',
             size: 'icon-sm',
           })}>
-          <ChevronLeftIcon className='size-5 transition-transform duration-200 group-hover:-translate-x-0.5' />
+          <ChevronLeftIcon className='size-5' />
         </Link>
         <Link href='/' className={'block'}>
           <Logo10 className={'w-auto h-4 text-start'} />

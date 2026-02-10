@@ -4,18 +4,31 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 
 export default function ForgotPasswordForm() {
   const router = useRouter();
+  const [email, setEmail] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
     <form
       className='space-y-4'
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setTimeout(() => {
-          router.push('/reset-password');
-        }, 1000);
+        setIsLoading(true);
+        try {
+          // TODO: Replace with actual API call
+          // await sendPasswordResetEmail(email);
+          setTimeout(() => {
+            //  router.push('/reset-password');
+            router.push(`/reset-password?email=${encodeURIComponent(email)}`);
+          }, 1000);
+        } catch (error) {
+          // Handle error
+          console.error('Failed to send reset link:', error);
+          setIsLoading(false);
+        }
       }}>
       {/* Email */}
       <div className='space-y-1'>
@@ -25,11 +38,15 @@ export default function ForgotPasswordForm() {
         <Input
           type='email'
           id='userEmail'
+          name='email'
           placeholder='Enter your email address'
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
       </div>
 
-      <Button className='w-full' type='submit'>
+      <Button className='w-full' type='submit' disabled={isLoading}>
         Send Reset Link
       </Button>
     </form>
