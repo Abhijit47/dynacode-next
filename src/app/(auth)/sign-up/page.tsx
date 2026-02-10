@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
+import { IconBrandGoogle } from '@tabler/icons-react';
 import { ChevronLeftIcon } from 'lucide-react';
 import Link from 'next/link';
 import SignUpForm from '../_components/sign-up-form';
@@ -59,8 +60,9 @@ export default function SignUpPage() {
             <Separator className='flex-1' />
           </div>
 
-          <Button variant='ghost' className='w-full' asChild>
-            <a href='#'>Sign up with Google</a>
+          <Button variant='outline' className='w-full' disabled>
+            <IconBrandGoogle className={'size-5'} />
+            Sign in with Google
           </Button>
         </div>
       </CardContent>
