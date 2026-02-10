@@ -8,6 +8,8 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 // import { Logo } from './logo';
+import { IconArrowBigRightLines, IconChevronsDown } from '@tabler/icons-react';
+import NewsLetterForm from '../news-letter-form';
 import { Logo10 } from './navbar';
 
 export default function Footer() {
@@ -16,8 +18,8 @@ export default function Footer() {
       <div className='grow bg-muted' />
       <footer className='border-t'>
         <div className='mx-auto max-w-(--breakpoint-xl)'>
-          <div className='grid grid-cols-2 gap-x-8 gap-y-10 px-6 py-12 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 xl:px-0'>
-            <div className='col-span-full xl:col-span-2'>
+          <div className='grid grid-cols-2 gap-x-8 gap-y-10 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4 xl:px-0'>
+            <div className='col-span-2 lg:col-span-1 space-y-4'>
               {/* Logo */}
               {/* <Logo /> */}
               <Link href='/'>
@@ -28,16 +30,24 @@ export default function Footer() {
                 Design amazing digital experiences that create more happy in the
                 world.
               </p>
+
+              <Separator />
+
+              <NewsLetterForm />
             </div>
 
             {footerSections.map(({ title, links }) => (
               <div key={title}>
-                <h6 className='font-medium'>{title}</h6>
+                <h6 className='font-semibold underline underline-offset-3 flex items-center gap-2'>
+                  <IconChevronsDown className={'size-4'} />
+                  {title}
+                </h6>
                 <ul className='mt-6 space-y-4'>
                   {links.map(({ title, href }) => (
-                    <li key={title}>
+                    <li key={title} className={'flex items-center gap-2'}>
+                      <IconArrowBigRightLines className={'size-4'} />
                       <Link
-                        className='text-muted-foreground hover:text-foreground'
+                        className='text-muted-foreground hover:text-foreground underline underline-offset-3 hover:no-underline transition-all ease-in-out'
                         href={href}>
                         {title}
                       </Link>

@@ -216,41 +216,41 @@ type FooterSections = {
   links: { title: string; href: Route }[];
 }[];
 export const footerSections: FooterSections = [
-  {
-    title: 'Product',
-    links: [
-      {
-        title: 'Overview',
-        href: '#',
-      },
-      {
-        title: 'Features',
-        href: '#',
-      },
-      {
-        title: 'Solutions',
-        href: '#',
-      },
-      {
-        title: 'Sitemap',
-        href: '#',
-      },
-      {
-        title: 'Pricing',
-        href: '#',
-      },
-      {
-        title: 'Releases',
-        href: '#',
-      },
-    ],
-  },
+  // {
+  //   title: 'Product',
+  //   links: [
+  //     {
+  //       title: 'Overview',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'Features',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'Solutions',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'Sitemap',
+  //       href: '/site-map',
+  //     },
+  //     {
+  //       title: 'Pricing',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'Releases',
+  //       href: '#',
+  //     },
+  //   ],
+  // },
   {
     title: 'Company',
     links: [
       {
         title: 'About us',
-        href: '#',
+        href: '/about-us',
       },
       {
         title: 'Careers',
@@ -270,7 +270,7 @@ export const footerSections: FooterSections = [
       },
       {
         title: 'Contact',
-        href: '#',
+        href: '/contact-us',
       },
     ],
   },
@@ -278,8 +278,8 @@ export const footerSections: FooterSections = [
     title: 'Resources',
     links: [
       {
-        title: 'Blog',
-        href: '#',
+        title: 'Blogs',
+        href: '/blogs',
       },
       {
         title: 'Newsletter',
@@ -295,7 +295,7 @@ export const footerSections: FooterSections = [
       },
       {
         title: 'Sitemap',
-        href: '#',
+        href: '/site-map',
       },
       {
         title: 'Support',
@@ -303,35 +303,35 @@ export const footerSections: FooterSections = [
       },
     ],
   },
-  {
-    title: 'Social',
-    links: [
-      {
-        title: 'Twitter',
-        href: '#',
-      },
-      {
-        title: 'LinkedIn',
-        href: '#',
-      },
-      {
-        title: 'Facebook',
-        href: '#',
-      },
-      {
-        title: 'GitHub',
-        href: '#',
-      },
-      {
-        title: 'AngelList',
-        href: '#',
-      },
-      {
-        title: 'Dribbble',
-        href: '#',
-      },
-    ],
-  },
+  // {
+  //   title: 'Social',
+  //   links: [
+  //     {
+  //       title: 'Twitter',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'LinkedIn',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'Facebook',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'GitHub',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'AngelList',
+  //       href: '#',
+  //     },
+  //     {
+  //       title: 'Dribbble',
+  //       href: '#',
+  //     },
+  //   ],
+  // },
   {
     title: 'Legal',
     links: [
@@ -357,7 +357,7 @@ export const footerSections: FooterSections = [
       },
       {
         title: 'Contact',
-        href: '#',
+        href: '/contact-us',
       },
     ],
   },
