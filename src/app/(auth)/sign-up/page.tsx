@@ -11,28 +11,28 @@ import {
 import { Separator } from '@/components/ui/separator';
 import { ChevronLeftIcon } from 'lucide-react';
 import Link from 'next/link';
-import LoginForm from '../_components/login-form';
+import SignUpForm from '../_components/sign-up-form';
 
-export default function LoginPage() {
+export default function SignUpPage() {
   return (
     <Card className='z-1 w-full border-none shadow-md sm:max-w-lg'>
       <CardAction className={'flex items-center gap-3 px-6'}>
         <Link
           href={'/'}
-          aria-label='Go back'
-          className={buttonVariants({
+          className={`group ${buttonVariants({
             variant: 'outline',
             size: 'icon-sm',
-          })}>
-          <ChevronLeftIcon className='size-5 transition-transform duration-200 group-hover:-translate-x-0.5' />
-        </Link>
+          })}`}
+          aria-label='Go back to home'>
+          <ChevronLeftIcon className='size-5' />
+        </Link>{' '}
         <Link href='/' className={'block'}>
           <Logo10 className={'w-auto h-4 text-start'} />
         </Link>
       </CardAction>
       <CardHeader>
-        <CardTitle className='mb-1.5 text-2xl'>
-          Sign in to DynaCode Studio
+        <CardTitle className='text-sm md:text-2xl'>
+          Sign Up to DynaCode Studio
         </CardTitle>
         <CardDescription className='text-base'>
           Ship Faster and Focus on Growth.
@@ -40,33 +40,16 @@ export default function LoginPage() {
       </CardHeader>
 
       <CardContent>
-        <p className='text-muted-foreground mb-6'>
-          Login with{' '}
-          <a href='#' className='text-card-foreground hover:underline'>
-            Magic Link
-          </a>
-        </p>
-
-        {/* Quick Login Buttons */}
-        <div className='mb-6 flex flex-wrap gap-4 sm:gap-6'>
-          <Button variant='outline' className='grow'>
-            Login as User
-          </Button>
-          <Button variant='outline' className='grow'>
-            Login as Admin
-          </Button>
-        </div>
-
-        {/* Login Form */}
+        {/* Register Form */}
         <div className='space-y-4'>
-          <LoginForm />
+          <SignUpForm />
 
           <p className='text-muted-foreground text-center'>
-            New on our platform?{' '}
+            Already have an account?{' '}
             <Link
-              href='/sign-up'
+              href='/login'
               className='text-card-foreground hover:underline'>
-              Create an account
+              Sign in instead
             </Link>
           </p>
 
@@ -77,7 +60,7 @@ export default function LoginPage() {
           </div>
 
           <Button variant='ghost' className='w-full' asChild>
-            <a href='#'>Sign in with Google</a>
+            <a href='#'>Sign up with Google</a>
           </Button>
         </div>
       </CardContent>
