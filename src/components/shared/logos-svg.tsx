@@ -1,6 +1,9 @@
-export function Logo1() {
+import type { SVGAttributes } from 'react';
+
+export function Logo1(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='543.848'
       height='73.634'
       viewBox='0 0 543.848 73.634'
@@ -24,9 +27,10 @@ export function Logo1() {
   );
 }
 
-export function Logo2() {
+export function Logo2(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='311.7'
       height='72.001'
       viewBox='0 0 311.7 72.001'
@@ -50,9 +54,10 @@ export function Logo2() {
   );
 }
 
-export function Logo3() {
+export function Logo3(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='508.35'
       height='73.145'
       viewBox='0 0 508.35 73.145'
@@ -76,9 +81,10 @@ export function Logo3() {
   );
 }
 
-export function Logo4() {
+export function Logo4(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='457.3'
       height='64.502'
       viewBox='0 0 457.3 64.502'
@@ -102,9 +108,10 @@ export function Logo4() {
   );
 }
 
-export function Logo5() {
+export function Logo5(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='522.9'
       height='70.002'
       viewBox='0 0 522.9 70.002'
@@ -128,9 +135,10 @@ export function Logo5() {
   );
 }
 
-export function Logo6() {
+export function Logo6(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='422.4'
       height='77.901'
       viewBox='0 0 422.4 77.901'
@@ -154,9 +162,10 @@ export function Logo6() {
   );
 }
 
-export function Logo7() {
+export function Logo7(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='541.9'
       height='77.7'
       viewBox='0 0 541.9 77.7'
@@ -180,9 +189,10 @@ export function Logo7() {
   );
 }
 
-export function Logo8() {
+export function Logo8(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='530.901'
       height='71.801'
       viewBox='0 0 530.901 71.801'
@@ -206,9 +216,10 @@ export function Logo8() {
   );
 }
 
-export function Logo9() {
+export function Logo9(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='715.479'
       height='78.419'
       viewBox='0 0 715.479 78.419'
@@ -232,9 +243,10 @@ export function Logo9() {
   );
 }
 
-export function Logo10() {
+export function Logo10(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='459.719'
       height='60.5'
       viewBox='0 0 459.719 60.5'
@@ -258,9 +270,10 @@ export function Logo10() {
   );
 }
 
-export function Logo11() {
+export function Logo11(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='528.801'
       height='98.703'
       viewBox='0 0 528.801 98.703'
@@ -284,9 +297,10 @@ export function Logo11() {
   );
 }
 
-export function Logo12() {
+export function Logo12(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='460.001'
       height='71.909'
       viewBox='0 0 460.001 71.909'
@@ -310,9 +324,10 @@ export function Logo12() {
   );
 }
 
-export function Logo13() {
+export function Logo13(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='456.3'
       height='72.002'
       viewBox='0 0 456.3 72.002'
@@ -336,9 +351,10 @@ export function Logo13() {
   );
 }
 
-export function Logo14() {
+export function Logo14(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='532.6'
       height='72.601'
       viewBox='0 0 532.6 72.601'
@@ -362,9 +378,10 @@ export function Logo14() {
   );
 }
 
-export function Logo15() {
+export function Logo15(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='562.256'
       height='73.002'
       viewBox='0 0 562.256 73.002'
@@ -388,9 +405,10 @@ export function Logo15() {
   );
 }
 
-export function Logo16() {
+export function Logo16(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='522.9'
       height='70.002'
       viewBox='0 0 522.9 70.002'
@@ -414,9 +432,10 @@ export function Logo16() {
   );
 }
 
-export function Logo17() {
+export function Logo17(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='554.053'
       height='70.812'
       viewBox='0 0 554.053 70.812'
@@ -440,9 +459,10 @@ export function Logo17() {
   );
 }
 
-export function Logo18() {
+export function Logo18(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='441.309'
       height='71.534'
       viewBox='0 0 441.309 71.534'
@@ -466,9 +486,10 @@ export function Logo18() {
   );
 }
 
-export function Logo19() {
+export function Logo19(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='494.7'
       height='72.601'
       viewBox='0 0 494.7 72.601'
@@ -492,9 +513,10 @@ export function Logo19() {
   );
 }
 
-export function Logo20() {
+export function Logo20(props: SVGAttributes<SVGElement>) {
   return (
     <svg
+      {...props}
       width='725.6'
       height='72.502'
       viewBox='0 0 725.6 72.502'
