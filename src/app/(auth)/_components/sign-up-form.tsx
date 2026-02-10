@@ -39,6 +39,8 @@ export default function SignUpForm() {
           type='email'
           id='userEmail'
           placeholder='Enter your email address'
+          name='userEmail'
+          required
         />
       </div>
 
@@ -50,6 +52,7 @@ export default function SignUpForm() {
         <div className='relative'>
           <Input
             id='password'
+            name='password'
             type={isPasswordVisible ? 'text' : 'password'}
             placeholder='••••••••••••••••'
             className='pr-9'
@@ -79,8 +82,10 @@ export default function SignUpForm() {
             type={isConfirmPasswordVisible ? 'text' : 'password'}
             placeholder='••••••••••••••••'
             className='pr-9'
+            name='confirmPassword'
           />
           <Button
+            type='button'
             variant='ghost'
             size='icon'
             onClick={() =>

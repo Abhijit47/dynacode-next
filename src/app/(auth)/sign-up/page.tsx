@@ -60,7 +60,7 @@ export default function SignUpPage() {
           </div>
 
           <Button variant='ghost' className='w-full' asChild>
-            <a href='#'>Sign up with google</a>
+            <a href='#'>Sign up with Google</a>
           </Button>
         </div>
       </CardContent>

@@ -20,10 +20,8 @@ export default function ForgotPasswordForm() {
         try {
           // TODO: Replace with actual API call
           // await sendPasswordResetEmail(email);
-          setTimeout(() => {
-            //  router.push('/reset-password');
-            router.push(`/reset-password?email=${encodeURIComponent(email)}`);
-          }, 1000);
+          await new Promise((resolve) => setTimeout(resolve, 1000));
+          router.push(`/reset-password?email=${encodeURIComponent(email)}`);
         } catch (error) {
           // Handle error
           console.error('Failed to send reset link:', error);

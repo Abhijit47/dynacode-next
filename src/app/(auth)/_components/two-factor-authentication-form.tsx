@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 export default function TwoFactorAuthenticationForm() {
   const [otp, setOtp] = useState('');
-  const handleSubmit = async (e: React.SubmitEvent) => {
+  const handleSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
     // TODO: Implement 2FA verification logic
     console.log('Submitting OTP:', otp);

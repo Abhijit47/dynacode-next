@@ -19,6 +19,7 @@ export default function LoginPage() {
       <CardAction className={'flex items-center gap-3 px-6'}>
         <Link
           href={'/'}
+          aria-label='Go back'
           className={buttonVariants({
             variant: 'outline',
             size: 'icon-sm',
@@ -76,7 +77,7 @@ export default function LoginPage() {
           </div>
 
           <Button variant='ghost' className='w-full' asChild>
-            <a href='#'>Sign in with google</a>
+            <a href='#'>Sign in with Google</a>
           </Button>
         </div>
       </CardContent>
