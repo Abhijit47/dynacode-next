@@ -332,10 +332,17 @@ const TreeNode = ({
       onValueChange={(s) => setValue(s)}>
       <AccordionPrimitive.Item value={item.id}>
         <AccordionTrigger
+          // className={cn(
+          //   treeVariants(),
+          //   isSelected && selectedTreeVariants(),
+          //   isDragOver && dragOverVariants(),
+          //   item.className,
+          // )}
           className={cn(
             treeVariants(),
             isSelected && selectedTreeVariants(),
             isDragOver && dragOverVariants(),
+            item.disabled && 'opacity-50 cursor-not-allowed',
             item.className,
           )}
           onClick={() => {
@@ -343,7 +350,8 @@ const TreeNode = ({
             handleSelectChange(item);
             item.onClick?.();
           }}
-          draggable={!!item.draggable}
+          // draggable={!!item.draggable}
+          draggable={!!item.draggable && !item.disabled}
           onDragStart={onDragStart}
           onDragOver={onDragOver}
           onDragLeave={onDragLeave}
@@ -366,7 +374,10 @@ const TreeNode = ({
                 default={defaultNodeIcon}
               />
               <span className='text-sm truncate'>{item.name}</span>
-              <TreeActions isSelected={isSelected}>{item.actions}</TreeActions>
+              {/* <TreeActions isSelected={isSelected}>{item.actions}</TreeActions> */}
+              <TreeActions isSelected={isSelected && !item.disabled}>
+                {item.actions}
+              </TreeActions>
             </>
           )}
         </AccordionTrigger>
