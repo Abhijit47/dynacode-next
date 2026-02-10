@@ -31,13 +31,7 @@ import z from 'zod';
 const loginSchema = z.object({
   email: z.email('Invalid email address'),
   password: z.string().min(8, 'Password must be at least 8 characters long'),
-  rememberMe: z.boolean().refine((value) => {
-    if (value === true) {
-      return 'Keep me signed in for 7 days';
-    } else {
-      return 'Keep me signed in for this session only';
-    }
-  }),
+  rememberMe: z.boolean(),
 });
 
 type LoginValues = z.infer<typeof loginSchema>;
@@ -59,10 +53,10 @@ export default function LoginForm() {
 
   const onError: SubmitErrorHandler<LoginValues> = (errors) => {
     // console.log('Form validation errors:', errors);
-    Object.values(errors).forEach((error) => {
-      toast.error(error.message, {
+    Object.entries(errors).forEach(([fieldName, error]) => {
+      toast.error(`${fieldName}: ${error.message}`, {
         description: 'Please fix the errors and try again.',
-        id: 'sign-in-error',
+        id: `sign-in-error-${fieldName}`,
       });
     });
   };
@@ -79,15 +73,18 @@ export default function LoginForm() {
       {
         loading: 'Loading...',
         success: ({ data }) => {
+          form.reset();
           router.push('/');
-          return `${data?.user?.name} Login successfully!`;
+          return `${data?.user?.name ?? 'User'} logged in successfully!`;
         },
-        error: 'Error',
+        error: (err) =>
+          err instanceof Error
+            ? err.message
+            : 'Sign-in failed. Please try again.',
         description: 'Please wait while we log you in.',
         descriptionClassName: 'text-[10px]',
         finally() {
           setIsSignInPending(false);
-          form.reset();
         },
       },
     );

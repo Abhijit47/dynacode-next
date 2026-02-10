@@ -69,10 +69,10 @@ export default function SignUpForm() {
 
   const onError: SubmitErrorHandler<SignUpValues> = (errors) => {
     // console.log('Form validation errors:', errors);
-    Object.values(errors).forEach((error) => {
-      toast.error(error.message, {
+    Object.entries(errors).forEach(([fieldName, error]) => {
+      toast.error(`${fieldName}: ${error.message}`, {
         description: 'Please fix the errors and try again.',
-        id: 'sign-up-error',
+        id: `sign-up-error-${fieldName}`,
       });
     });
   };
@@ -86,21 +86,21 @@ export default function SignUpForm() {
         email: values.email,
         password: values.password,
       }),
-      // new Promise((resolve) => setTimeout(resolve, 5000)),
       {
         loading: 'Loading...',
         success: ({ data }) => {
+          form.reset();
           router.push('/login');
-          return `${data?.user?.name} signed up successfully!`;
+          return `${data?.user?.name ?? 'User'} signed up successfully!`;
         },
-        // success:
-        //   'Sign up successful! Please check your email to verify your account.',
-        error: 'Error',
+        error: (err) =>
+          err instanceof Error
+            ? err.message
+            : 'Sign-up failed. Please try again.',
         description: 'Please wait while we create your account.',
         descriptionClassName: 'text-[10px]',
         finally() {
           setIsSignUpPending(false);
-          form.reset();
         },
       },
     );
@@ -243,7 +243,7 @@ export default function SignUpForm() {
               {fieldState.error ? (
                 <FieldError role='alert' errors={[fieldState.error]} />
               ) : (
-                <FieldDescription>Must be match the password.</FieldDescription>
+                <FieldDescription>Must match the password.</FieldDescription>
               )}
             </Field>
           )}

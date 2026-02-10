@@ -5,6 +5,12 @@ import { nextCookies } from 'better-auth/next-js';
 import { db } from '@/drizzle/db';
 import * as schema from '@/drizzle/schema';
 
+const githubClientId = process.env.GITHUB_CLIENT_ID;
+const githubClientSecret = process.env.GITHUB_CLIENT_SECRET;
+if (!githubClientId || !githubClientSecret) {
+  throw new Error('GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET must be set');
+}
+
 export const auth = betterAuth({
   advanced: {
     database: {
@@ -27,8 +33,8 @@ export const auth = betterAuth({
 
   socialProviders: {
     github: {
-      clientId: process.env.GITHUB_CLIENT_ID as string,
-      clientSecret: process.env.GITHUB_CLIENT_SECRET as string,
+      clientId: githubClientId,
+      clientSecret: githubClientSecret,
     },
   },
 
