@@ -161,7 +161,8 @@ const Tree = forwardRef<HTMLDivElement, TreeViewProps>(
               value={expandedItems}
               className='flex flex-col gap-1'
               onValueChange={(value) =>
-                setExpandedItems((prev) => [...(prev ?? []), value[0]])
+                // setExpandedItems((prev) => [...(prev ?? []), value[0]])
+                setExpandedItems(value)
               }
               dir={dir as Direction}>
               {children}
@@ -351,7 +352,7 @@ const CollapseButton = forwardRef<
   }, [setExpandedItems]);
 
   useEffect(() => {
-    console.log(expandAll);
+    // console.log(expandAll);
     if (expandAll) {
       expendAllTree(elements);
     }

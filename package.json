@@ -9,7 +9,7 @@
     "lint": "eslint",
     "lens:web": "pnpm dlx next-lens@latest web -p 9453 --no-open",
     "lens:info": "pnpm dlx next-lens@latest info",
-    "lens:build": "pnpm dlx next-lens web:build",
+    "lens:build": "pnpm dlx next-lens@latest web:build",
     "lens:serve": "pnpm dlx serve .next-lens"
   },
   "dependencies": {

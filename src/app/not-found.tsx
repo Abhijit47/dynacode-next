@@ -10,9 +10,9 @@ export default function NotFound() {
             404
           </h1>
           <div className='space-y-4'>
-            <h3 className='text-3xl font-bold'>Look like you&apos;re lost</h3>
+            <h3 className='text-3xl font-bold'>Looks like you&apos;re lost</h3>
 
-            <p>the page you are looking for not avaible!</p>
+            <p>The page you are looking for is not available!</p>
 
             <Link
               href='/'
