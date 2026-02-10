@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
+import { IconBrandGoogle } from '@tabler/icons-react';
 import { ChevronLeftIcon } from 'lucide-react';
 import Link from 'next/link';
 import LoginForm from '../_components/login-form';
@@ -42,17 +43,19 @@ export default function LoginPage() {
       <CardContent>
         <p className='text-muted-foreground mb-6'>
           Login with{' '}
-          <a href='#' className='text-card-foreground hover:underline'>
+          <Link
+            href='/magic-link'
+            className='text-card-foreground hover:underline'>
             Magic Link
-          </a>
+          </Link>
         </p>
 
         {/* Quick Login Buttons */}
         <div className='mb-6 flex flex-wrap gap-4 sm:gap-6'>
-          <Button variant='outline' className='grow'>
+          <Button variant='outline' className='grow' disabled>
             Login as User
           </Button>
-          <Button variant='outline' className='grow'>
+          <Button variant='outline' className='grow' disabled>
             Login as Admin
           </Button>
         </div>
@@ -76,8 +79,9 @@ export default function LoginPage() {
             <Separator className='flex-1' />
           </div>
 
-          <Button variant='ghost' className='w-full' asChild>
-            <a href='#'>Sign in with Google</a>
+          <Button variant='outline' className='w-full' disabled>
+            <IconBrandGoogle className={'size-5'} />
+            Sign in with Google
           </Button>
         </div>
       </CardContent>
