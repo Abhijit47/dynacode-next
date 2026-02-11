@@ -1,7 +1,6 @@
 // import { headers } from 'next/headers';
-import { getCookieCache } from 'better-auth/cookies';
+import { getSessionCookie } from 'better-auth/cookies';
 import { NextRequest, NextResponse, ProxyConfig } from 'next/server';
-
 // import { auth } from '@/lib/auth';
 
 export async function proxy(request: NextRequest) {
@@ -10,11 +9,12 @@ export async function proxy(request: NextRequest) {
   // });
 
   // const nonce = Buffer.from(crypto.randomUUID()).toString('base64');
+  // const isDev = process.env.NODE_ENV === 'development';
 
-  //   const cspHeader = `
+  // const cspHeader = `
   //     default-src 'self';
-  //     script-src 'self' 'nonce-${nonce}' 'strict-dynamic';
-  //     style-src 'self' 'nonce-${nonce}';
+  //     script-src 'self' 'nonce-${nonce}' 'strict-dynamic' ${isDev ? "'unsafe-eval'" : ''};
+  //     style-src 'self' ${isDev ? "'unsafe-inline'" : `'nonce-${nonce}'`};
   //     img-src 'self' blob: data:;
   //     font-src 'self';
   //     object-src 'none';
@@ -36,27 +36,27 @@ export async function proxy(request: NextRequest) {
   // );
 
   // Check if this is a protected route that needs auth
-  const pathname = request.nextUrl.pathname;
-  const protectedRoutes = ['/admin'];
-  const isProtectedRoute = protectedRoutes.some((route) =>
-    pathname.startsWith(route),
-  );
+  // const pathname = request.nextUrl.pathname;
+  // const protectedRoutes = ['/admin'];
+  // const isProtectedRoute = protectedRoutes.some((route) =>
+  //   pathname.startsWith(route),
+  // );
 
-  // Only check session for protected routes
-  if (isProtectedRoute) {
-    const session = await getCookieCache(request);
+  // // Only check session for protected routes
+  // if (isProtectedRoute) {
+  //   const session = await getCookieCache(request);
 
-    if (!session) {
-      const redirectResponse = NextResponse.redirect(
-        new URL('/login', request.url),
-      );
-      // redirectResponse.headers.set(
-      //   'Content-Security-Policy',
-      //   contentSecurityPolicyHeaderValue,
-      // );
-      return redirectResponse;
-    }
-  }
+  //   if (!session) {
+  //     const redirectResponse = NextResponse.redirect(
+  //       new URL('/login', request.url),
+  //     );
+  //     redirectResponse.headers.set(
+  //       'Content-Security-Policy',
+  //       contentSecurityPolicyHeaderValue,
+  //     );
+  //     return redirectResponse;
+  //   }
+  // }
 
   // const response = NextResponse.next({
   //   request: {
@@ -69,6 +69,15 @@ export async function proxy(request: NextRequest) {
   // );
 
   // return response;
+
+  const sessionCookie = getSessionCookie(request);
+  // THIS IS NOT SECURE!
+  // This is the recommended approach to optimistically redirect users
+  // We recommend handling auth checks in each page/route
+  if (!sessionCookie) {
+    return NextResponse.redirect(new URL('/', request.url));
+  }
+  return NextResponse.next();
 }
 
 export const config: ProxyConfig = {
