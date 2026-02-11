@@ -2,6 +2,7 @@
 import { getSessionCookie } from 'better-auth/cookies';
 import { NextRequest, NextResponse, ProxyConfig } from 'next/server';
 // import { auth } from '@/lib/auth';
+import * as Sentry from '@sentry/nextjs';
 
 export async function proxy(request: NextRequest) {
   // const session = await auth.api.getSession({
@@ -69,6 +70,13 @@ export async function proxy(request: NextRequest) {
   // );
 
   // return response;
+
+  Sentry.metrics.count('requests', 1, {
+    attributes: {
+      path: request.nextUrl.pathname,
+      method: request.method,
+    },
+  });
 
   const sessionCookie = getSessionCookie(request);
   // THIS IS NOT SECURE!

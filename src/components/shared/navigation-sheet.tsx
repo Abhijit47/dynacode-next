@@ -12,8 +12,10 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { developments, digitalMarketings, otherServices } from '@/constants';
+import { testSentryProfiling } from '@/lib/actions';
 import { cn } from '@/lib/utils';
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
+import * as Sentry from '@sentry/nextjs';
 import { Menu } from 'lucide-react';
 import { Route } from 'next';
 import Link from 'next/link';
@@ -47,7 +49,16 @@ export default function NavigationSheet() {
       </VisuallyHidden>
 
       <SheetTrigger asChild>
-        <Button className='rounded-full' size='icon' variant='outline'>
+        <Button
+          className='rounded-full'
+          size='icon'
+          variant='outline'
+          onClick={async () => {
+            Sentry.uiProfiler.startProfiler();
+            console.log('Navigation Sheet opened');
+            await testSentryProfiling();
+            Sentry.uiProfiler.stopProfiler();
+          }}>
           <Menu />
         </Button>
       </SheetTrigger>
