@@ -15,6 +15,7 @@ import {
 } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
 import { Spinner } from '@/components/ui/spinner';
+import amplitude from '@/lib/amplitude';
 import { signIn } from '@/lib/auth-client';
 import { zodResolver } from '@hookform/resolvers/zod';
 import Link from 'next/link';
@@ -62,6 +63,10 @@ export default function LoginForm() {
   };
 
   const onSubmit: SubmitHandler<LoginValues> = (values) => {
+    amplitude.track('Sign In Attempt', {
+      email: values.email,
+      rememberMe: values.rememberMe,
+    });
     // console.log('Form submitted successfully with data:', data);
     setIsSignInPending(true);
     toast.promise(
