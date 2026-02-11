@@ -11,8 +11,12 @@ import OurStats from '@/components/our-stats';
 import OurTestimonials from '@/components/our-testimonials';
 import OurTimeline from '@/components/our-timeline';
 import WhyChooseUs from '@/components/why-choose-us';
+// import { connection } from 'next/server';
 
 export default function Home() {
+  // wait for an incoming request to render this page
+  // await connection();
+
   return (
     <main className={''}>
       <Hero />
