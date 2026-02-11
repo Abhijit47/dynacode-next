@@ -18,7 +18,7 @@ export default function Home() {
   // await connection();
 
   return (
-    <main className={''}>
+    <main className={'space-y-12 sm:space-y-16 md:space-y-20 lg:space-y-24'}>
       <Hero />
       <LogoCloud />
       <OurFeatures />

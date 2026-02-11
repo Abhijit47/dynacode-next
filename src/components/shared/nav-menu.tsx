@@ -26,7 +26,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
   const pathname = usePathname() as Route;
 
   const commonState =
-    'group relative inline-flex h-fit w-max items-center justify-center px-0 py-0 font-medium text-sm rounded-none bg-transparent!';
+    'group relative inline-flex h-fit w-max items-center justify-center px-0 py-0 font-medium text-xs sm:text-sm rounded-none bg-transparent!';
 
   const beforeState =
     'before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:scale-x-0 before:bg-primary before:transition-transform';

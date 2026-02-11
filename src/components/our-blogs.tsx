@@ -18,15 +18,15 @@ export default function OurBlogs() {
   return (
     <section
       className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 mb-12 sm:mb-16 md:mb-20 lg:mb-24'
       }>
       <div className=''>
         <div className='flex items-end justify-between gap-4'>
           <div>
-            <h2 className='text-balance font-semibold text-4xl tracking-tight'>
+            <h2 className='text-balance font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-tight'>
               Welcome to our blog!
             </h2>
-            <p className='mt-2 text-balance text-lg text-muted-foreground tracking-normal sm:text-xl'>
+            <p className='mt-2 text-balance text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground tracking-normal'>
               Stay updated with the latest news and insights.
             </p>
           </div>
@@ -44,7 +44,7 @@ export default function OurBlogs() {
           className='shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=vertical]:h-full data-[orientation=horizontal]:w-full data-[orientation=vertical]:w-px mt-7 mb-10'
           data-slot='separator-root'></div>
 
-        <div className='grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid grid-cols-1 gap-x-4 md:gap-x-6 lg:gap-x-8 gap-y-8 sm:gap-y-10 md:gap-y-12 lg:gap-y-14 md:grid-cols-2 lg:grid-cols-3'>
           {blogs.map((blog) => (
             <BlogCard key={blog.id} {...blog} />
           ))}
@@ -108,15 +108,18 @@ function BlogCard({ title, imageUrl, tags, createdAt, author }: Blog) {
               ))}
             </div>
 
-            <h3 className='font-semibold text-xl'>{title}</h3>
+            <h3 className='font-semibold text-base md:text-lg lg:text-xl'>
+              {title}
+            </h3>
 
             <div className='flex items-center gap-1'>
-              <div className='flex items-center gap-1.5 text-muted-foreground text-sm'>
-                <CalendarDays /> {new Date(createdAt).toLocaleDateString()}
+              <div className='flex items-center gap-1.5 text-muted-foreground text-xs md:text-sm'>
+                <CalendarDays className={'size-4 md:size-6'} />{' '}
+                {new Date(createdAt).toLocaleDateString()}
               </div>
               <LucideDot />
-              <div className='flex items-center gap-1.5 text-muted-foreground text-sm'>
-                <User /> {author.name}
+              <div className='flex items-center gap-1.5 text-muted-foreground text-xs md:text-sm'>
+                <User className={'size-4 md:size-6'} /> {author.name}
               </div>
             </div>
             <Button className={'rounded-full!'}>

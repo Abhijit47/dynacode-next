@@ -20,7 +20,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { ScrollArea } from '../ui/scroll-area';
-import { Separator } from '../ui/separator';
 import { Logo10 } from './navbar';
 
 export default function NavigationSheet() {
@@ -28,7 +27,7 @@ export default function NavigationSheet() {
   const pathname = usePathname() as Route;
 
   const commonState =
-    'group relative inline-flex h-fit w-max items-center justify-center px-0 py-0 font-medium text-sm rounded-none bg-transparent!';
+    'group relative inline-flex h-fit w-max items-center justify-center px-0 py-0 font-medium text-xs sm:text-sm rounded-none bg-transparent!';
 
   const beforeState =
     'before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:scale-x-0 before:bg-primary before:transition-transform';
@@ -52,16 +51,19 @@ export default function NavigationSheet() {
           <Menu />
         </Button>
       </SheetTrigger>
-      <SheetContent className='pl-6'>
-        <ScrollArea className='h-full'>
+      <SheetContent className='pl-4 lg:pl-6 w-full'>
+        <div>
           <Logo10 />
-
-          <nav className={'space-y-8'}>
+        </div>
+        <ScrollArea className='h-96'>
+          <nav className={'space-y-4 md:space-y-6'}>
             <NavMenu className='[&>div]:h-full' orientation='vertical' />
 
             <div>
-              <div className='font-bold'>Developments</div>
-              <ul className='mt-2 ml-1 space-y-3 border-l pl-4'>
+              <div className='font-semibold md:font-bold text-sm md:text-base'>
+                Developments
+              </div>
+              <ul className='mt-2 ml-1 space-y-1.5 lg:space-y-3 border-l pl-4'>
                 {developments.map((development) => (
                   <li key={development.title}>
                     <Link
@@ -75,7 +77,7 @@ export default function NavigationSheet() {
                       )}
                       href={development.href}
                       onClick={() => setIsOpenSheet(false)}>
-                      <development.icon className='mr-2 h-5 w-5 text-muted-foreground' />
+                      <development.icon className='mr-2 h-5 w-5 text-sm md:text-base text-muted-foreground' />
                       {development.title}
                     </Link>
                   </li>
@@ -84,8 +86,10 @@ export default function NavigationSheet() {
             </div>
 
             <div>
-              <div className='font-bold'>Marketings</div>
-              <ul className='mt-2 ml-1 space-y-3 border-l pl-4'>
+              <div className='font-semibold md:font-bold text-sm md:text-base'>
+                Marketings
+              </div>
+              <ul className='mt-2 ml-1 space-y-1.5 lg:space-y-3 border-l pl-4'>
                 {digitalMarketings.map((item) => (
                   <li key={item.title}>
                     <Link
@@ -99,7 +103,7 @@ export default function NavigationSheet() {
                       )}
                       href={item.href}
                       onClick={() => setIsOpenSheet(false)}>
-                      <item.icon className='mr-2 h-5 w-5 text-muted-foreground' />
+                      <item.icon className='mr-2 h-5 w-5 text-sm md:text-base text-muted-foreground' />
                       {item.title}
                     </Link>
                   </li>
@@ -107,8 +111,10 @@ export default function NavigationSheet() {
               </ul>
             </div>
             <div>
-              <div className='font-bold'>Others</div>
-              <ul className='mt-2 ml-1 space-y-3 border-l pl-4'>
+              <div className='font-semibold md:font-bold text-sm md:text-base'>
+                Others
+              </div>
+              <ul className='mt-2 ml-1 space-y-1.5 lg:space-y-3 border-l pl-4'>
                 {otherServices.map((item) => (
                   <li key={item.title}>
                     <Link
@@ -122,7 +128,7 @@ export default function NavigationSheet() {
                       )}
                       href={item.href}
                       onClick={() => setIsOpenSheet(false)}>
-                      <item.icon className='mr-2 h-5 w-5 text-muted-foreground' />
+                      <item.icon className='mr-2 h-5 w-5 text-sm md:text-base text-muted-foreground' />
                       {item.title}
                     </Link>
                   </li>
@@ -130,13 +136,12 @@ export default function NavigationSheet() {
               </ul>
             </div>
           </nav>
-          <Separator className={'mt-4'} />
-          <SheetFooter>
-            <SheetClose asChild>
-              <Button variant='outline'>Close</Button>
-            </SheetClose>
-          </SheetFooter>
         </ScrollArea>
+        <SheetFooter>
+          <SheetClose asChild>
+            <Button variant='outline'>Close</Button>
+          </SheetClose>
+        </SheetFooter>
       </SheetContent>
     </Sheet>
   );

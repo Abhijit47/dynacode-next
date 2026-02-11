@@ -5,24 +5,22 @@ import { ShineBorder } from './extends/shine-border';
 export default function OurProjects() {
   return (
     <section
-      className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
-      }>
+      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
       <div className=''>
         <div className=''>
-          <h2 className='text-pretty text-center font-semibold text-4xl tracking-tight sm:text-5xl'>
+          <h2 className='text-pretty text-center font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-tight'>
             Powerful Features, Built for You
           </h2>
-          <p className='mt-3 text-center text-muted-foreground text-xl sm:text-2xl'>
+          <p className='mt-3 text-center text-muted-foreground text-xs sm:text-base md:text-lg lg:text-xl'>
             Designed for speed, flexibility, and ease of use.
           </p>
-          <div className='mt-16 grid grid-cols-1 gap-6 sm:mt-20 sm:grid-cols-2 lg:grid-cols-3'>
+          <div className='mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 gap-6 sm:mt-20 sm:grid-cols-2 lg:grid-cols-3'>
             {projects.map((project) => (
               <ProjectCard key={project.id} {...project} />
             ))}
           </div>
         </div>
-        <ShineBorderDemo />
+        {/* <ShineBorderDemo /> */}
       </div>
     </section>
   );
@@ -53,8 +51,12 @@ function ProjectCard({ title, description, imageUrl }: Project) {
         />
       </div>
       <div className='p-6'>
-        <h3 className='font-semibold text-xl tracking-[-0.005em]'>{title}</h3>
-        <p className='mt-2 text-base text-foreground/90'>{description}</p>
+        <h3 className='font-semibold text-base md:text-lg lg:text-xl tracking-[-0.005em]'>
+          {title}
+        </h3>
+        <p className='mt-2 text-xs sm:text-sm lg:text-base text-foreground/90'>
+          {description}
+        </p>
       </div>
     </div>
   );

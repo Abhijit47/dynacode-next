@@ -9,18 +9,16 @@ import { features } from '@/constants';
 export default function OurFeatures() {
   return (
     <section
-      className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
-      }>
+      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
       <div className=''>
         <div className=''>
-          <h2 className='text-pretty font-semibold text-4xl tracking-[-0.03em] sm:mx-auto sm:max-w-xl sm:text-center md:text-[2.75rem] md:leading-[1.2]'>
+          <h2 className='text-pretty font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-[-0.03em] sm:mx-auto sm:max-w-xl sm:text-center md:text-[2.75rem] md:leading-[1.2]'>
             About Us
           </h2>
-          <p className='mt-2 text-lg text-muted-foreground sm:text-center sm:text-xl'>
+          <p className='mt-2 text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground sm:text-center'>
             We Transform Your Business Through Strategic Marketing Excellence
           </p>
-          <div className='mx-auto mt-8 w-full space-y-20 md:mt-16'>
+          <div className='mx-auto mt-4 lg:mt-8 w-full space-y-20 md:mt-16'>
             {features.map((feature) => (
               <FeatureCard key={feature.title} {...feature} />
             ))}
@@ -49,14 +47,14 @@ function FeatureCard(props: Feature) {
         />
       </div>
       <div className='shrink-0 basis-1/2'>
-        <span className='font-medium text-muted-foreground text-sm uppercase'>
+        <span className='text-muted-foreground text-xs font-semibold md:font-medium md:text-sm uppercase'>
           {category}
         </span>
-        <h4 className='my-3 font-semibold text-3xl tracking-[-0.02em]'>
+        <h4 className='my-3 font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-[-0.02em]'>
           {title}
         </h4>
-        <p className='text-muted-foreground'>{details}</p>
-        <Button asChild className='mt-6 gap-3 rounded-full' size='lg'>
+        <p className='text-muted-foreground text-sm md:text-base'>{details}</p>
+        <Button asChild className='mt-6 gap-3 rounded-full'>
           <Link href={tutorialLink as Route}>
             Learn More <ArrowRight />
           </Link>
