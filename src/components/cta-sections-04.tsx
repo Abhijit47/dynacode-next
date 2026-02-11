@@ -4,7 +4,7 @@ import { buttonVariants } from './ui/button';
 
 export default function CTASection() {
   return (
-    <section className={'w-full pb-24'}>
+    <section className={'w-full h-full'}>
       <div className='aspect-square sm:aspect-video md:aspect-18/9 lg:aspect-26/9 relative'>
         <Ripple className={'bg-background'}>
           <div
@@ -16,10 +16,10 @@ export default function CTASection() {
                 'px-4 2xl:px-0 h-full w-full flex flex-col justify-center'
               }>
               <hgroup className='mb-8 max-w-2xl space-y-4'>
-                <h2 className='font-heading text-4xl leading-10 lg:text-4xl'>
+                <h2 className='font-heading text-xl sm:text-2xl md:text-3xl lg:text-4xl sm:leading-4 md:leading-6 lg:leading-10'>
                   Unlock Your Potential, Reach Out and Transform Your Business!
                 </h2>
-                <p className='text-lg'>
+                <p className='text-sm md:text-base lg:text-lg'>
                   Elevate your business with our innovative solutions tailored
                   to your needs.
                 </p>
@@ -29,7 +29,7 @@ export default function CTASection() {
                 <Link
                   href={'#'}
                   className={buttonVariants({
-                    size: 'lg',
+                    size: 'default',
                   })}>
                   Get Started
                 </Link>
@@ -37,7 +37,7 @@ export default function CTASection() {
                   href={'/'}
                   className={buttonVariants({
                     variant: 'secondary',
-                    size: 'lg',
+                    size: 'default',
                   })}>
                   Contact
                 </Link>

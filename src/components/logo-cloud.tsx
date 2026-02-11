@@ -79,10 +79,7 @@ const LogoCloud = () => {
   const midPoint = Math.ceil(displayedLogos.length / 2);
 
   return (
-    <section
-      className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 py-24'
-      }>
+    <section className={'container mx-auto max-w-(--breakpoint-xl)'}>
       <div className='flex items-center justify-center'>
         <div className='overflow-hidden space-y-8'>
           <p className='text-center font-medium text-base md:text-lg lg:text-xl'>

@@ -25,12 +25,10 @@ export default function WhyChooseUs() {
 
   return (
     <section
-      className={
-        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 py-24'
-      }>
+      className={'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0'}>
       <div className=''>
         <div className=''>
-          <h2 className='max-w-lg font-semibold text-4xl tracking-[-0.03em] md:text-5xl md:leading-14'>
+          <h2 className='max-w-lg font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-[-0.03em] md:leading-14'>
             Boost Your Strategy with Smart Features
           </h2>
           <div className='mx-auto mt-6 grid w-full gap-12 md:mt-10 md:grid-cols-2'>
@@ -53,13 +51,13 @@ export default function WhyChooseUs() {
                       className='group/accordion-item data-[state=open]:border-primary data-[state=open]:border-b-2'
                       key={index}
                       value={`item-${index}`}>
-                      <AccordionTrigger className='text-lg group-first/accordion-item:pt-0 [&>svg]:hidden'>
+                      <AccordionTrigger className='text-sm md:text-base lg:text-lg group-first/accordion-item:pt-0 [&>svg]:hidden'>
                         <div className='flex items-center gap-4'>
                           <Icon />
                           {title}
                         </div>
                       </AccordionTrigger>
-                      <AccordionContent className='text-[17px] text-muted-foreground leading-relaxed'>
+                      <AccordionContent className='text-xs sm:text-sm lg:text-[17px] text-muted-foreground leading-relaxed'>
                         {description}
                         <div className='mt-6 mb-2 aspect-video w-full rounded-xl md:hidden'>
                           <Image

@@ -8,15 +8,15 @@ import { Marquee } from './extends/marquee';
 
 function Testimonials() {
   return (
-    <div className='flex min-h-screen items-center justify-center pb-24'>
+    <div className='flex h-full items-center justify-center'>
       <div className='h-full w-full'>
-        <h2 className='text-pretty px-6 text-center font-semibold text-5xl tracking-[-0.03em]'>
+        <h2 className='text-pretty px-6 text-center font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-[-0.03em]'>
           Success Stories
         </h2>
-        <p className='mt-3 text-center text-muted-foreground text-xl'>
+        <p className='mt-3 text-center text-muted-foreground text-sm sm:text-base md:text-lg lg:text-xl'>
           Real stories from people who use and love our product every day
         </p>
-        <div className='relative mt-14'>
+        <div className='relative mt-10 md:mt-12 lg:mt-14'>
           <div className='absolute inset-y-0 left-0 z-10 w-[15%] bg-linear-to-r from-background to-transparent' />
           <div className='absolute inset-y-0 right-0 z-10 w-[15%] bg-linear-to-l from-background to-transparent' />
           <Marquee className='[--duration:20s]' pauseOnHover>
@@ -44,23 +44,29 @@ function TestimonialList() {
       />
       <div className='flex items-center justify-between'>
         <div className='flex items-center gap-3'>
-          <Avatar className='size-10'>
-            <AvatarFallback className='bg-primary font-medium text-primary-foreground text-xl'>
+          <Avatar className='size-6 md:size-8 lg:size-10'>
+            <AvatarFallback className='bg-primary font-medium text-primary-foreground text-base md:text-lg lg:text-xl'>
               {testimonial.name.charAt(0)}
             </AvatarFallback>
           </Avatar>
           <div>
-            <p className='font-semibold'>{testimonial.name}</p>
-            <p className='text-gray-500 text-sm'>{testimonial.designation}</p>
+            <p className='font-semibold text-sm md:text-base'>
+              {testimonial.name}
+            </p>
+            <p className='text-gray-500 text-xs md:text-sm'>
+              {testimonial.designation}
+            </p>
           </div>
         </div>
-        <Button asChild size='icon' variant='ghost'>
+        <Button asChild size='icon-sm' variant='ghost'>
           <Link href='#' target='_blank'>
             <TwitterLogo className='h-4 w-4' />
           </Link>
         </Button>
       </div>
-      <p className='mt-5 text-[17px]'>{testimonial.testimonial}</p>
+      <p className='mt-3 lg:mt-5 text-xs sm:text-sm lg:text-[17px]'>
+        {testimonial.testimonial}
+      </p>
     </div>
   ));
 }

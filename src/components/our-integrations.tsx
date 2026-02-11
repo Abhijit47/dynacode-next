@@ -80,18 +80,21 @@ const integrations = [
 
 export default function OurIntegrations() {
   return (
-    <section className={'bg-muted/50 text-foreground px-4 2xl:px-0 py-24'}>
+    <section
+      className={
+        'bg-muted/50 text-foreground px-4 2xl:px-0 py-12 sm:py-16 lg:py-24'
+      }>
       <div className='mx-auto max-w-(--breakpoint-xl)'>
         <div className='relative flex h-full w-full'>
           <div className='relative z-10 grow'>
             <div className=''>
-              <h2 className='text-center font-semibold text-4xl tracking-tight sm:text-5xl'>
+              <h2 className='text-center font-semibold text-lg sm:text-2xl md:text-3xl lg:text-4xl tracking-tight'>
                 Our Integrations
               </h2>
-              <p className='mt-3 text-pretty text-center text-muted-foreground text-xl sm:text-2xl'>
+              <p className='mt-3 text-pretty text-center text-muted-foreground text-xs sm:text-base md:text-lg lg:text-xl'>
                 Connect your favorite tools and services to your account.
               </p>
-              <div className='mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
+              <div className='mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
                 {integrations.map((integration, idx) => (
                   <div
                     className='flex items-center gap-4 rounded-lg border bg-card pe-4'
@@ -105,7 +108,7 @@ export default function OurIntegrations() {
                         height={32}
                       />
                     </div>
-                    <h3 className='font-semibold text-lg'>
+                    <h3 className='font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>
                       {integration.name}
                     </h3>
                     <Badge
