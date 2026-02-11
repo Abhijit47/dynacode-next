@@ -7,13 +7,11 @@ import { sessionReplayPlugin } from '@amplitude/plugin-session-replay-browser';
 function initAmplitude() {
   const amplitudeKey = process.env.NEXT_PUBLIC_AMPLITUDE_KEY;
 
-  if (!amplitudeKey) {
-    throw new Error(
-      'Amplitude API key is not defined in environment variables',
-    );
-  }
-
   if (typeof window !== 'undefined') {
+    if (!amplitudeKey) {
+      console.warn('Amplitude API key is not defined — analytics disabled.');
+      return;
+    }
     amplitude.add(sessionReplayPlugin());
     amplitude.init(amplitudeKey, {
       autocapture: true,
