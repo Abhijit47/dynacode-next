@@ -5,7 +5,7 @@
 import * as Sentry from '@sentry/nextjs';
 
 Sentry.init({
-  dsn: 'https://4a27487f4b55dc954059ea369d579b61@o4510867433717760.ingest.de.sentry.io/4510867437125712',
+  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
 
   // Add optional integrations for additional features
   integrations: [
@@ -39,7 +39,10 @@ Sentry.init({
   sendDefaultPii: true,
 
   // Set `tracePropagationTargets` to control for which URLs trace propagation should be enabled
-  tracePropagationTargets: ['localhost', /^https:\/\/yourserver\.io\/api/],
+  tracePropagationTargets: [
+    'localhost',
+    /^https:\/\/dynacode-next\.vercel.app\/api/,
+  ],
 
   // Set profileSessionSampleRate to 1.0 to profile during every session.
   // The decision, whether to profile or not, is made once per session (when the SDK is initialized).

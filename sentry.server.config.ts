@@ -6,7 +6,7 @@ import * as Sentry from '@sentry/nextjs';
 import { nodeProfilingIntegration } from '@sentry/profiling-node';
 
 Sentry.init({
-  dsn: 'https://4a27487f4b55dc954059ea369d579b61@o4510867433717760.ingest.de.sentry.io/4510867437125712',
+  dsn: process.env.SENTRY_DSN,
 
   integrations: [
     // Add our Profiling integration
@@ -14,7 +14,7 @@ Sentry.init({
   ],
 
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
-  tracesSampleRate: 1,
+  tracesSampleRate: process.env.NODE_ENV === 'development' ? 1.0 : 0.1,
 
   // Enable logs to be sent to Sentry
   enableLogs: true,
