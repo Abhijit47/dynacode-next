@@ -16,6 +16,7 @@ import {
 } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
 import { Spinner } from '@/components/ui/spinner';
+import amplitude from '@/lib/amplitude';
 import { signUp } from '@/lib/auth-client';
 import { zodResolver } from '@hookform/resolvers/zod';
 import Link from 'next/link';
@@ -78,6 +79,7 @@ export default function SignUpForm() {
   };
 
   const onSubmit: SubmitHandler<SignUpValues> = (values) => {
+    amplitude.track('Sign Up');
     // console.log('Form submitted successfully with data:', data);
     setIsSignUpPending(true);
     toast.promise(

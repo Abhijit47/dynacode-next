@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { IBM_Plex_Mono, Lato, Montserrat } from 'next/font/google';
 
 import ScrollProgress from '@/components/extends/scroll-progress';
+import { Amplitude } from '@/lib/amplitude';
 import './globals.css';
 
 const lato = Lato({
@@ -88,6 +89,7 @@ export default function AppLayout({
       lang='en'
       className={`${lato.variable} ${montserrat.variable} ${ibm_plex_mono.variable}`}
       suppressHydrationWarning>
+      <Amplitude />
       <body className={`font-body antialiased`}>
         <ThemeProvider
           attribute='class'
