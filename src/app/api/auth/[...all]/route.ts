@@ -17,29 +17,38 @@ import { auth } from '@/lib/auth'; // path to your auth file
 // Opt out of caching
 export const dynamic = 'force-dynamic';
 
-const aj = arcjet
-  .withRule(
-    detectBot({
-      mode: 'LIVE', // will block requests. Use "DRY_RUN" to log only
-      // Block all bots except the following
-      allow: [
-        'CATEGORY:SEARCH_ENGINE', // Google, Bing, etc
-        // Uncomment to allow these other common bot categories
-        // See the full list at https://arcjet.com/bot-list
-        //"CATEGORY:MONITOR", // Uptime monitoring services
-        'CATEGORY:PREVIEW', // Link previews e.g. Slack, Discord
-      ],
-    }),
-  )
-  // You can chain multiple rules, so we'll include a rate limit
-  .withRule(
-    fixedWindow({
-      characteristics: ['userIdOrIp'],
-      mode: 'LIVE',
-      max: 10,
-      window: '60s',
-    }),
-  );
+// const aj = arcjet
+//   .withRule(
+//     detectBot({
+//       mode: 'LIVE', // will block requests. Use "DRY_RUN" to log only
+//       // Block all bots except the following
+//       allow: [
+//         'CATEGORY:SEARCH_ENGINE', // Google, Bing, etc
+//         // Uncomment to allow these other common bot categories
+//         // See the full list at https://arcjet.com/bot-list
+//         //"CATEGORY:MONITOR", // Uptime monitoring services
+//         'CATEGORY:PREVIEW', // Link previews e.g. Slack, Discord
+//       ],
+//     }),
+//   )
+//   // You can chain multiple rules, so we'll include a rate limit
+// .withRule(
+//   fixedWindow({
+//     characteristics: ['userIdOrIp'],
+//     mode: 'LIVE',
+//     max: 10,
+//     window: '60s',
+//   }),
+// );
+
+const aj = arcjet.withRule(
+  fixedWindow({
+    characteristics: ['userIdOrIp'],
+    mode: 'LIVE',
+    max: 10,
+    window: '60s',
+  }),
+);
 
 const authHandlers = toNextJsHandler(auth);
 
@@ -47,7 +56,7 @@ export const { GET } = authHandlers;
 
 export async function POST(request: Request) {
   const clonedRequest = request.clone();
-  const decision = await checkArcjet(clonedRequest);
+  const decision = await checkArcjet(request);
 
   if (decision.isDenied()) {
     if (decision.reason.isRateLimit()) {

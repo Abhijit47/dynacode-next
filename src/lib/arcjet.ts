@@ -34,7 +34,14 @@ export default arcjet({
 
 export const botSettings = {
   mode: 'LIVE',
-  allow: ['STRIPE_WEBHOOK'],
+  allow: [
+    'STRIPE_WEBHOOK',
+    'CATEGORY:SEARCH_ENGINE', // Google, Bing, etc
+    // Uncomment to allow these other common bot categories
+    // See the full list at https://arcjet.com/bot-list
+    //"CATEGORY:MONITOR", // Uptime monitoring services
+    'CATEGORY:PREVIEW', // Link previews e.g. Slack, Discord
+  ],
 } satisfies BotOptions;
 
 export const restrictiveRateLimitSettings = {
@@ -51,5 +58,5 @@ export const laxRateLimitSettings = {
 
 export const emailSettings = {
   mode: 'LIVE',
-  allow: ['DISPOSABLE', 'INVALID', 'NO_MX_RECORDS', 'FREE'],
+  deny: ['DISPOSABLE', 'INVALID', 'NO_MX_RECORDS', 'FREE'],
 } satisfies EmailOptions;

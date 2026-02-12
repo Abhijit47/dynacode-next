@@ -40,6 +40,11 @@ export const auth = betterAuth({
 
   hooks: {
     before: createAuthMiddleware(async (ctx) => {
+      // Only enforce admin-email check on sign-in/sign-up
+      if (!ctx.body?.email) {
+        return ctx;
+      }
+
       const adminEmails = emails?.split(',').map((email) => email.trim());
       const isAdmin = adminEmails.includes(ctx.body?.email);
       // ctx.user = {
@@ -47,15 +52,9 @@ export const auth = betterAuth({
       //   role: isAdmin ? 'admin' : 'user',
       // };
       if (!isAdmin) {
-        Sentry.captureException(new Error('Unauthorized access attempt'), {
-          tags: {
-            email: ctx.body?.email,
-            endpoint: ctx.path,
-          },
-        });
         Sentry.captureMessage('Unauthorized access attempt', {
           level: 'warning',
-          tags: {
+          extra: {
             email: ctx.body?.email,
             endpoint: ctx.path,
           },

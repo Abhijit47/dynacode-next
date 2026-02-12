@@ -88,8 +88,9 @@ export default function LoginForm() {
           Sentry.captureException(
             err instanceof Error ? err : new Error('Unknown sign-in error'),
             {
-              tags: {
+              extra: {
                 email: values.email,
+                ...(!(err instanceof Error) && { originalError: err }),
               },
             },
           );
