@@ -1,82 +1,62 @@
-// import { headers } from 'next/headers';
+import { createMiddleware } from '@arcjet/next';
+import * as Sentry from '@sentry/nextjs';
 import { getSessionCookie } from 'better-auth/cookies';
 import { NextRequest, NextResponse, ProxyConfig } from 'next/server';
-// import { auth } from '@/lib/auth';
-import * as Sentry from '@sentry/nextjs';
 
-export async function proxy(request: NextRequest) {
-  // const session = await auth.api.getSession({
-  //   headers: await headers(),
-  // });
+import arcjet, { detectBot } from './lib/arcjet';
 
-  // const nonce = Buffer.from(crypto.randomUUID()).toString('base64');
-  // const isDev = process.env.NODE_ENV === 'development';
+// const aj = arcjet({
+//   key: process.env.ARCJET_KEY!, // Get your site key from https://app.arcjet.com
+//   rules: [
+//     detectBot({
+//       mode: 'LIVE', // will block requests. Use "DRY_RUN" to log only
+//       // Block all bots except the following
+//       allow: [
+//         'CATEGORY:SEARCH_ENGINE', // Google, Bing, etc
+//         // Uncomment to allow these other common bot categories
+//         // See the full list at https://arcjet.com/bot-list
+//         //"CATEGORY:MONITOR", // Uptime monitoring services
+//         'CATEGORY:PREVIEW', // Link previews e.g. Slack, Discord
+//       ],
+//     }),
+//   ],
+// });
 
-  // const cspHeader = `
-  //     default-src 'self';
-  //     script-src 'self' 'nonce-${nonce}' 'strict-dynamic' ${isDev ? "'unsafe-eval'" : ''};
-  //     style-src 'self' ${isDev ? "'unsafe-inline'" : `'nonce-${nonce}'`};
-  //     img-src 'self' blob: data:;
-  //     font-src 'self';
-  //     object-src 'none';
-  //     base-uri 'self';
-  //     form-action 'self';
-  //     frame-ancestors 'none';
-  //     upgrade-insecure-requests;
-  // `;
+const aj =
+  // You can chain multiple rules, so we'll include a rate limit
+  arcjet.withRule(
+    detectBot({
+      mode: 'LIVE', // will block requests. Use "DRY_RUN" to log only
+      // Block all bots except the following
+      allow: [
+        'CATEGORY:SEARCH_ENGINE', // Google, Bing, etc
+        // Uncomment to allow these other common bot categories
+        // See the full list at https://arcjet.com/bot-list
+        //"CATEGORY:MONITOR", // Uptime monitoring services
+        'CATEGORY:PREVIEW', // Link previews e.g. Slack, Discord
+      ],
+    }),
+  );
 
-  // Replace newline characters and spaces
-  // const contentSecurityPolicyHeaderValue = cspHeader
-  //   .replace(/\s{2,}/g, ' ')
-  //   .trim();
-  // const requestHeaders = new Headers(request.headers);
-  // requestHeaders.set('x-nonce', nonce);
-  // requestHeaders.set(
-  //   'Content-Security-Policy',
-  //   contentSecurityPolicyHeaderValue,
-  // );
-
-  // Check if this is a protected route that needs auth
-  // const pathname = request.nextUrl.pathname;
-  // const protectedRoutes = ['/admin'];
-  // const isProtectedRoute = protectedRoutes.some((route) =>
-  //   pathname.startsWith(route),
-  // );
-
-  // // Only check session for protected routes
-  // if (isProtectedRoute) {
-  //   const session = await getCookieCache(request);
-
-  //   if (!session) {
-  //     const redirectResponse = NextResponse.redirect(
-  //       new URL('/login', request.url),
-  //     );
-  //     redirectResponse.headers.set(
-  //       'Content-Security-Policy',
-  //       contentSecurityPolicyHeaderValue,
-  //     );
-  //     return redirectResponse;
-  //   }
-  // }
-
-  // const response = NextResponse.next({
-  //   request: {
-  //     headers: requestHeaders,
-  //   },
-  // });
-  // response.headers.set(
-  //   'Content-Security-Policy',
-  //   contentSecurityPolicyHeaderValue,
-  // );
-
-  // return response;
-
+async function proxy(request: NextRequest) {
   Sentry.metrics.count('requests', 1, {
     attributes: {
       path: request.nextUrl.pathname,
       method: request.method,
     },
   });
+
+  const decision = await aj.protect(request);
+
+  if (
+    // If the decision is deny because the request is from a bot and the bot IP
+    // address is from a known hosting provider, then block the request
+    decision.isDenied() &&
+    decision.reason.isBot() &&
+    decision.ip.isHosting()
+  ) {
+    return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+  }
 
   const sessionCookie = getSessionCookie(request);
   // THIS IS NOT SECURE!
@@ -88,31 +68,15 @@ export async function proxy(request: NextRequest) {
   return NextResponse.next();
 }
 
+// Pass any existing middleware with the optional existingMiddleware prop
+export default createMiddleware(aj, proxy);
+
 export const config: ProxyConfig = {
-  // matcher: [
-  //   '/admin/:path*',
-  //   // '/chat/:path*',
-  //   // '/messages',
-  //   // '/my-listings',
-  //   // '/my-orders',
-  //   // '/marketplace',
-  //   // '/new-listing',
-  // ],
   matcher: [
     '/admin/:path*',
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     */
-    // {
-    //   source: '/((?!api|_next/static|_next/image|favicon.ico).*)',
-    //   missing: [
-    //     { type: 'header', key: 'next-router-prefetch' },
-    //     { type: 'header', key: 'purpose', value: 'prefetch' },
-    //   ],
-    // },
+
+    // matcher tells Next.js which routes to run the middleware on.
+    // This runs the middleware on all routes except for static assets.
+    '/((?!_next/static|_next/image|favicon.ico).*)',
   ],
 };
