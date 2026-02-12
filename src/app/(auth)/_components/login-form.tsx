@@ -18,6 +18,7 @@ import { Spinner } from '@/components/ui/spinner';
 import amplitude from '@/lib/amplitude';
 import { signIn } from '@/lib/auth-client';
 import { zodResolver } from '@hookform/resolvers/zod';
+import * as Sentry from '@sentry/nextjs';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
@@ -82,10 +83,21 @@ export default function LoginForm() {
           router.push('/');
           return `${data?.user?.name ?? 'User'} logged in successfully!`;
         },
-        error: (err) =>
-          err instanceof Error
+        error: (err) => {
+          // console.error('Sign-in error:', err);
+          Sentry.captureException(
+            err instanceof Error ? err : new Error('Unknown sign-in error'),
+            {
+              extra: {
+                email: values.email,
+                ...(!(err instanceof Error) && { originalError: err }),
+              },
+            },
+          );
+          return err instanceof Error
             ? err.message
-            : 'Sign-in failed. Please try again.',
+            : 'Sign-in failed. Please try again.';
+        },
         description: 'Please wait while we log you in.',
         descriptionClassName: 'text-[10px]',
         finally() {
