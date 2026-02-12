@@ -5,6 +5,7 @@ import { IBM_Plex_Mono, Lato, Montserrat } from 'next/font/google';
 
 import ScrollProgress from '@/components/extends/scroll-progress';
 import { Amplitude } from '@/lib/amplitude';
+import VercelProducts from '@/lib/vercel-products';
 import './globals.css';
 
 const lato = Lato({
@@ -79,6 +80,8 @@ export const metadata: Metadata = {
   classification: 'business',
 };
 
+const isDev = process.env.NODE_ENV === 'development';
+
 export default function AppLayout({
   children,
 }: Readonly<{
@@ -89,7 +92,6 @@ export default function AppLayout({
       lang='en'
       className={`${lato.variable} ${montserrat.variable} ${ibm_plex_mono.variable}`}
       suppressHydrationWarning>
-      <Amplitude />
       <body className={`font-body antialiased`}>
         <ThemeProvider
           attribute='class'
@@ -97,6 +99,8 @@ export default function AppLayout({
           enableSystem
           disableTransitionOnChange>
           {children}
+          {isDev ? null : <Amplitude />}
+          {isDev ? null : <VercelProducts />}
           <ScrollProgress />
           <Toaster richColors closeButton position='top-center' />
         </ThemeProvider>
