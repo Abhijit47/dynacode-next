@@ -1,6 +1,6 @@
 'use client';
 
-import { Analytics, BeforeSendEvent } from '@vercel/analytics/next';
+import { Analytics, type BeforeSendEvent } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function VercelProducts() {
