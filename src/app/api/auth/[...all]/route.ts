@@ -79,7 +79,8 @@ async function checkArcjet(request: Request) {
   const session = await auth.api.getSession({ headers: request.headers });
   const userIdOrIp = (session?.user.id ?? findIp(request)) || '127.0.0.1';
 
-  if (request.url.endsWith('/auth/sign-up')) {
+  const url = new URL(request.url);
+  if (url.pathname.endsWith('/auth/sign-up')) {
     if (
       body &&
       typeof body === 'object' &&

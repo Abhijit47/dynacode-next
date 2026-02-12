@@ -54,6 +54,7 @@ export const auth = betterAuth({
           },
         });
         Sentry.captureMessage('Unauthorized access attempt', {
+          level: 'warning',
           tags: {
             email: ctx.body?.email,
             endpoint: ctx.path,
