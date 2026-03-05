@@ -29,7 +29,7 @@ export default function OurFeatures() {
   );
 }
 
-function FeatureCard(props: Feature) {
+function FeatureCard(props: OurFeature) {
   const { category, title, details, tutorialLink, image } = props;
   return (
     <div

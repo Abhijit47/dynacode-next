@@ -1,0 +1,88 @@
+import { Button } from '@/components/ui/button';
+import { ArrowRightCircleIcon } from 'lucide-react';
+import { Route } from 'next';
+import Link from 'next/link';
+
+export default function Features() {
+  return (
+    <section
+      className={
+        'container mx-auto max-w-(--breakpoint-xl) px-4 2xl:px-0 pb-24'
+      }>
+      <FeaturesCard />
+    </section>
+  );
+}
+
+const features = [
+  {
+    id: crypto.randomUUID(),
+    category: 'Business Intelligence',
+    title: 'Visualise your performance in real-time',
+    details:
+      'Transform complex data sets into intuitive, interactive dashboards using Power BI and Tableau. Our 2026 BI solutions provide a single source of truth for your KPIs, enabling stakeholders to spot trends and make data-driven decisions instantly.',
+    tutorialLink: '#',
+  },
+  {
+    id: crypto.randomUUID(),
+    category: 'Predictive Analytics',
+    title: 'Anticipate market shifts with ML',
+    details:
+      'Utilise advanced machine learning models to forecast demand, customer churn, and market volatility. We analyze your historical data to provide prescriptive insights, helping you stay proactive rather than reactive in a rapidly changing economy.',
+    tutorialLink: '#',
+  },
+  {
+    id: crypto.randomUUID(),
+    category: 'Customer Insights',
+    title: 'Deep-dive into user behavior',
+    details:
+      'Unlock the "why" behind your user actions with cohort analysis and multi-touch attribution. We segment your audience to identify high-value behaviors, allowing you to optimize marketing spend and personalize the customer journey for maximum LTV.',
+    tutorialLink: '#',
+  },
+  {
+    id: crypto.randomUUID(),
+    category: 'Data Governance',
+    title: 'Ensure accuracy and compliance',
+    details:
+      'Build trust in your data with robust quality checks and master data management. We implement data contracts and lineage tracking to ensure that your reports are always accurate, secure, and compliant with evolving global privacy standards.',
+    tutorialLink: '#',
+  },
+];
+
+const FeaturesCard = () => {
+  return (
+    <div className=''>
+      <div className=''>
+        {/* <h2 className='text-pretty font-semibold text-4xl tracking-[-0.03em] sm:mx-auto sm:max-w-xl sm:text-center md:text-[2.75rem] md:leading-[1.2]'>
+          Strengthen Your Strategy
+        </h2>
+        <p className='mt-2 text-lg text-muted-foreground sm:text-center sm:text-xl'>
+          Enhance your strategy with intelligent tools designed for success.
+        </p> */}
+        <div className='w-full space-y-20'>
+          {features.map((feature) => (
+            <div
+              className='flex flex-col items-center gap-x-12 gap-y-6 md:flex-row md:even:flex-row-reverse'
+              key={feature.category}>
+              <div className='aspect-4/3 w-full basis-1/2 rounded-xl border border-border/50 bg-muted' />
+              <div className='shrink-0 basis-1/2'>
+                <span className='font-medium text-muted-foreground text-sm uppercase'>
+                  {feature.category}
+                </span>
+                <h4 className='my-3 font-semibold text-3xl tracking-[-0.02em]'>
+                  {feature.title}
+                </h4>
+                <p className='text-muted-foreground'>{feature.details}</p>
+                <Button asChild className='mt-6 gap-3 rounded-full' size='lg'>
+                  <Link href={feature.tutorialLink as Route}>
+                    Learn More <ArrowRightCircleIcon />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};

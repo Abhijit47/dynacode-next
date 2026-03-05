@@ -1,4 +1,4 @@
-type Feature = {
+type OurFeature = {
   category: string;
   title: string;
   details: string;
@@ -48,3 +48,33 @@ type Testimonial = {
   testimonial: string;
   avatar: string;
 };
+
+declare type FeatureCover = {
+  v: string;
+  fr: number;
+  ip: number;
+  op: number;
+  w: number;
+  h: number;
+  nm: string;
+  ddd: number;
+  assets: unknown[];
+  markers?: unknown[];
+  [key: string]: unknown;
+};
+
+declare type DevelopmentFeature = {
+  id: string;
+  category: string;
+  title: string;
+  details: string;
+  tutorialLink: Route;
+  cover: FeatureCover;
+};
+
+declare type WebDevelopmentFeatures = DevelopmentFeature[];
+declare type MobileDevelopmentFeatures = DevelopmentFeature[];
+declare type IOTDevelopmentFeatures = DevelopmentFeature[];
+declare type UIUXDesignFeatures = DevelopmentFeature[];
+declare type DesktopDevelopmentFeatures = DevelopmentFeature[];
+declare type AIDevelopmentFeatures = DevelopmentFeature[];
