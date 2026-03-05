@@ -1,14 +1,41 @@
 import { withSentryConfig } from '@sentry/nextjs';
 import type { NextConfig } from 'next';
 
+const externalOrigins = {
+  images: [
+    'cdn.pixabay.com',
+    'tailwindcss.com',
+    'pro.shadcnui-blocks.com',
+    'www.google.com',
+    'res.cloudinary.com',
+    'html.tailus.io',
+  ],
+  scripts: ['https://cdn.amplitude.com'],
+  connect: ['https://api.amplitude.com', 'https://sr-client-cfp.amplitude.com'],
+};
+
 // Without Nonces
 const isDev = process.env.NODE_ENV === 'development';
+// const cspHeader = `
+//     default-src 'self';
+//     script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''};
+//     style-src 'self' 'unsafe-inline';
+//     img-src 'self' blob: data:;
+//     font-src 'self';
+//     object-src 'none';
+//     base-uri 'self';
+//     form-action 'self';
+//     frame-ancestors 'none';
+//     upgrade-insecure-requests;
+// `;
 const cspHeader = `
     default-src 'self';
-    script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''};
+    script-src 'self' 'unsafe-inline' ${externalOrigins.scripts.join(' ')}${isDev ? " 'unsafe-eval'" : ''};
     style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data:;
-    font-src 'self';
+    img-src 'self' blob: data: ${externalOrigins.images.map((h) => `https://${h}`).join(' ')};
+    font-src 'self' data:;
+    connect-src 'self' ${externalOrigins.connect.join(' ')};
+    worker-src 'self' blob:;
     object-src 'none';
     base-uri 'self';
     form-action 'self';
@@ -121,6 +148,7 @@ const nextConfig: NextConfig = {
       {
         hostname: 'www.google.com',
       },
+      { hostname: 'html.tailus.io' }, // Add this
     ],
   },
 };
