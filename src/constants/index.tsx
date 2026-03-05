@@ -18,11 +18,16 @@ import { Route } from 'next';
 import {
   AppStore,
   CloudBackend,
+  CloudSecurity,
   CrossPLatform,
   ECommerce,
   FullStack,
   MobileApp,
   OfflineArchitecture,
+  PerimeterSecurity,
+  // ThreatIntelligence,
+  ThreatIntelligence1,
+  VulnerabilityManagement,
   WebDev,
   Wordpress,
 } from '@/assets/lotties';
@@ -1403,5 +1408,44 @@ export const aiDevelopmentServices = [
       'Continuous Monitoring',
       'Model Governance',
     ],
+  },
+];
+
+export const cyberSecurityfeatures: CyberSecurityFeatures = [
+  {
+    id: crypto.randomUUID(),
+    category: 'Threat Intelligence',
+    title: 'Proactive 24/7 monitoring and response',
+    details:
+      'Stay ahead of sophisticated attackers with AI-driven threat hunting and real-time security operations. We monitor your entire digital perimeter to detect anomalies and neutralize potential breaches before they can impact your core business operations.',
+    tutorialLink: '#',
+    cover: ThreatIntelligence1,
+  },
+  {
+    id: crypto.randomUUID(),
+    category: 'Zero Trust Architecture',
+    title: 'Modernize your perimeter security',
+    details:
+      'Eliminate implicit trust with a robust Zero Trust framework tailored for 2026’s remote and hybrid work environments. We implement strict identity verification and micro-segmentation to ensure that only authorized users access sensitive data.',
+    tutorialLink: '#',
+    cover: PerimeterSecurity,
+  },
+  {
+    id: crypto.randomUUID(),
+    category: 'Vulnerability Management',
+    title: 'Identify and patch critical weak points',
+    details:
+      'Our automated VAPT services conduct continuous penetration testing and scanning of your web apps and infrastructure. We prioritize risks based on exploitability and business impact, providing clear remediation paths to harden your systems.',
+    tutorialLink: '#',
+    cover: VulnerabilityManagement,
+  },
+  {
+    id: crypto.randomUUID(),
+    category: 'Cloud & API Security',
+    title: 'Protect your modern application stack',
+    details:
+      'Secure your cloud-native workloads and microservices against the latest OWASP threats. We implement advanced API gateways, secrets management, and container security to ensure your data remains encrypted and protected across all cloud providers.',
+    tutorialLink: '#',
+    cover: CloudSecurity,
   },
 ];

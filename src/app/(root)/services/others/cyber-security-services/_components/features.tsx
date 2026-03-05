@@ -1,4 +1,6 @@
+import { LazyLottiePlayer } from '@/components/shared/lazy-components';
 import { Button } from '@/components/ui/button';
+import { cyberSecurityfeatures } from '@/constants';
 import { ArrowRightCircleIcon } from 'lucide-react';
 import { Route } from 'next';
 import Link from 'next/link';
@@ -14,41 +16,6 @@ export default function Features() {
   );
 }
 
-const features = [
-  {
-    id: crypto.randomUUID(),
-    category: 'Threat Intelligence',
-    title: 'Proactive 24/7 monitoring and response',
-    details:
-      'Stay ahead of sophisticated attackers with AI-driven threat hunting and real-time security operations. We monitor your entire digital perimeter to detect anomalies and neutralize potential breaches before they can impact your core business operations.',
-    tutorialLink: '#',
-  },
-  {
-    id: crypto.randomUUID(),
-    category: 'Zero Trust Architecture',
-    title: 'Modernize your perimeter security',
-    details:
-      'Eliminate implicit trust with a robust Zero Trust framework tailored for 2026’s remote and hybrid work environments. We implement strict identity verification and micro-segmentation to ensure that only authorized users access sensitive data.',
-    tutorialLink: '#',
-  },
-  {
-    id: crypto.randomUUID(),
-    category: 'Vulnerability Management',
-    title: 'Identify and patch critical weak points',
-    details:
-      'Our automated VAPT services conduct continuous penetration testing and scanning of your web apps and infrastructure. We prioritize risks based on exploitability and business impact, providing clear remediation paths to harden your systems.',
-    tutorialLink: '#',
-  },
-  {
-    id: crypto.randomUUID(),
-    category: 'Cloud & API Security',
-    title: 'Protect your modern application stack',
-    details:
-      'Secure your cloud-native workloads and microservices against the latest OWASP threats. We implement advanced API gateways, secrets management, and container security to ensure your data remains encrypted and protected across all cloud providers.',
-    tutorialLink: '#',
-  },
-];
-
 const FeaturesCard = () => {
   return (
     <div className=''>
@@ -60,11 +27,14 @@ const FeaturesCard = () => {
           Enhance your strategy with intelligent tools designed for success.
         </p> */}
         <div className='w-full space-y-20'>
-          {features.map((feature) => (
+          {cyberSecurityfeatures.map((feature) => (
             <div
               className='flex flex-col items-center gap-x-12 gap-y-6 md:flex-row md:even:flex-row-reverse'
-              key={feature.category}>
-              <div className='aspect-4/3 w-full basis-1/2 rounded-xl border border-border/50 bg-muted' />
+              key={feature.id}>
+              {/* <div className='aspect-4/3 w-full basis-1/2 rounded-xl border border-border/50 bg-muted' /> */}
+              <div className='aspect-4/3 w-full basis-1/2'>
+                <LazyLottiePlayer src={feature.cover} />
+              </div>
               <div className='shrink-0 basis-1/2'>
                 <span className='font-medium text-muted-foreground text-sm uppercase'>
                   {feature.category}
