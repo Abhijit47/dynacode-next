@@ -1,10 +1,10 @@
-type OurFeature = {
-  category: string;
-  title: string;
-  details: string;
-  tutorialLink: string;
-  image: string;
-};
+// type OurFeature = {
+//   category: string;
+//   title: string;
+//   details: string;
+//   tutorialLink: string;
+//   image: string;
+// };
 
 type Stat = {
   id: string;
@@ -61,6 +61,15 @@ declare type FeatureCover = {
   // assets: unknown[];
   // markers?: unknown[];
   [key: string]: unknown;
+};
+
+type OurFeature = {
+  id: string;
+  category: string;
+  title: string;
+  details: string;
+  tutorialLink: string;
+  image: FeatureCover;
 };
 
 declare type DevelopmentFeature = {

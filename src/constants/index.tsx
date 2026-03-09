@@ -16,22 +16,6 @@ import {
 import { Route } from 'next';
 
 import {
-  AppStore,
-  CloudBackend,
-  CloudSecurity,
-  CrossPLatform,
-  ECommerce,
-  FullStack,
-  MobileApp,
-  OfflineArchitecture,
-  PerimeterSecurity,
-  // ThreatIntelligence,
-  ThreatIntelligence1,
-  VulnerabilityManagement,
-  WebDev,
-  Wordpress,
-} from '@/assets/lotties';
-import {
   Icon,
   IconBadgeAd,
   IconChartScatter,
@@ -49,6 +33,31 @@ import {
   IconSparkles2,
   IconWorldWww,
 } from '@tabler/icons-react';
+
+import {
+  AppStore,
+  CloudBackend,
+  CloudSecurity,
+  CrossPLatform,
+  ECommerce,
+  FullStack,
+  MobileApp,
+  OfflineArchitecture,
+  PerimeterSecurity,
+  // ThreatIntelligence,
+  ThreatIntelligence1,
+  VulnerabilityManagement,
+  WebDev,
+  Wordpress,
+} from '@/assets/lotties';
+
+import {
+  CustomerSupport,
+  Marketing,
+  ProductDevelopment,
+  ProjectManagent,
+  TeamWork,
+} from '@/assets/lotties/home';
 
 type Navlinks = {
   id: string;
@@ -460,44 +469,54 @@ export const whyChooseUs = [
 
 export const features = [
   {
+    id: crypto.randomUUID(),
     category: 'Marketing and Sales',
     title: 'Collect and enrich leads your way',
     details:
       'Take control over how and when to follow up with your leads. Store and reference leads in multiple tables and, from there, automatically send them personalized emails.',
     tutorialLink: '#',
-    image: '/assets/feat-1.webp',
+    // image: '/assets/feat-1.webp',
+    image: Marketing,
   },
   {
+    id: crypto.randomUUID(),
     category: 'Project Management',
     title: 'Streamline your workflows effortlessly',
     details:
       'Organize tasks, deadlines, and team collaboration in one place. Use customizable boards to manage projects efficiently and automate routine updates.',
     tutorialLink: '#',
-    image: '/assets/feat-2.webp',
+    // image: '/assets/feat-2.webp',
+    image: ProjectManagent,
   },
   {
+    id: crypto.randomUUID(),
     category: 'Customer Support',
     title: 'Deliver seamless customer experiences',
     details:
       'Track and resolve customer queries faster with an integrated ticketing system. Set priorities, automate follow-ups, and enhance satisfaction with personalized responses.',
     tutorialLink: '#',
-    image: '/assets/feat-3.webp',
+    // image: '/assets/feat-3.webp',
+    image: CustomerSupport,
   },
   {
+    id: crypto.randomUUID(),
     category: 'Team Collaboration',
     title: 'Stay connected with your team',
     details:
       'Simplify communication and align team efforts with shared boards and real-time updates. Enable transparent goal tracking and instant feedback for better results.',
     tutorialLink: '#',
-    image: '/assets/feat-4.webp',
+    // image: '/assets/feat-4.webp',
+    image: TeamWork,
   },
   {
+    id: crypto.randomUUID(),
     category: 'Product Development',
     title: 'Accelerate innovation with ease',
     details:
       'Bring your product ideas to life by managing prototypes, feedback, and iterations in one place. Collaborate with your team to refine features and release with confidence.',
     tutorialLink: '#',
-    image: '/assets/feat-5.webp',
+    // image: '/assets/feat-5.webp',
+    image: ProductDevelopment,
   },
 ];
 

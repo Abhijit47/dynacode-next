@@ -1,10 +1,10 @@
 import { ArrowRight } from 'lucide-react';
 import { Route } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
 import { features } from '@/constants';
+import { LazyLottiePlayer } from './shared/lazy-components';
 
 export default function OurFeatures() {
   return (
@@ -20,7 +20,7 @@ export default function OurFeatures() {
           </p>
           <div className='mx-auto mt-4 lg:mt-8 w-full space-y-20 md:mt-16'>
             {features.map((feature) => (
-              <FeatureCard key={feature.title} {...feature} />
+              <FeatureCard key={feature.id} {...feature} />
             ))}
           </div>
         </div>
@@ -37,14 +37,15 @@ function FeatureCard(props: OurFeature) {
       key={category}>
       <div className='aspect-4/3 w-full basis-1/2 rounded-xl'>
         {/* Image placeholder */}
-        <Image
+        {/* <Image
           src={image}
           alt={title}
           width={500}
           height={500}
           className='w-full h-full object-cover rounded-xl mask-[url(/assets/scribble.png)] mask-x-from-70% mask-x-to-90% mask-center mask-no-repeat'
           priority={false}
-        />
+        /> */}
+        <LazyLottiePlayer src={image} />
       </div>
       <div className='shrink-0 basis-1/2'>
         <span className='text-muted-foreground text-xs font-semibold md:font-medium md:text-sm uppercase'>
