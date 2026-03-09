@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Threat Intelligence",
+    "title": "Proactive 24/7 monitoring and response",
+    "details": "Stay ahead of sophisticated attackers with AI-driven threat hunting and real-time security operations. We monitor your entire digital perimeter to detect anomalies and neutralize potential breaches before they can impact your core business operations."
+  },
+  {
+    "category": "Zero Trust Architecture",
+    "title": "Modernize your perimeter security",
+    "details": "Eliminate implicit trust with a robust Zero Trust framework tailored for 2026’s remote and hybrid work environments. We implement strict identity verification and micro-segmentation to ensure that only authorized users access sensitive data."
+  },
+  {
+    "category": "Vulnerability Management",
+    "title": "Identify and patch critical weak points",
+    "details": "Our automated VAPT services conduct continuous penetration testing and scanning of your web apps and infrastructure. We prioritize risks based on exploitability and business impact, providing clear remediation paths to harden your systems."
+  },
+  {
+    "category": "Cloud & API Security",
+    "title": "Protect your modern application stack",
+    "details": "Secure your cloud-native workloads and microservices against the latest OWASP threats. We implement advanced API gateways, secrets management, and container security to ensure your data remains encrypted and protected across all cloud providers."
+  }
+]
