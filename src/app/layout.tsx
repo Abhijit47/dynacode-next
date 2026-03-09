@@ -1,38 +1,12 @@
 import { Toaster } from '@/components/ui/sonner';
 import { ThemeProvider } from '@/providers/theme-provider';
 import type { Metadata } from 'next';
-import { IBM_Plex_Mono, Lato, Montserrat } from 'next/font/google';
 
 import ScrollProgress from '@/components/extends/scroll-progress';
 import { Amplitude } from '@/lib/amplitude';
 import VercelProducts from '@/lib/vercel-products';
+import { ibm_plex_mono, lato, markova, montserrat } from './fonts';
 import './globals.css';
-
-const lato = Lato({
-  subsets: ['latin'],
-  weight: ['700'],
-  variable: '--display-family',
-});
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--body-family',
-});
-const ibm_plex_mono = IBM_Plex_Mono({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-mono',
-});
-
-// const geistSans = Geist({
-//   variable: '--font-geist-sans',
-//   subsets: ['latin'],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: '--font-geist-mono',
-//   subsets: ['latin'],
-// });
 
 export const metadata: Metadata = {
   title: 'Dynacode | Your Technology Partner',
@@ -90,7 +64,7 @@ export default function AppLayout({
   return (
     <html
       lang='en'
-      className={`${lato.variable} ${montserrat.variable} ${ibm_plex_mono.variable}`}
+      className={`${lato.variable} ${montserrat.variable} ${ibm_plex_mono.variable} ${markova.variable}`}
       suppressHydrationWarning>
       <body className={`font-body antialiased`}>
         <ThemeProvider

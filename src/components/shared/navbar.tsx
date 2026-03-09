@@ -3,6 +3,7 @@ import { NavMenu } from '@/components/shared/nav-menu';
 import NavigationSheet from '@/components/shared/navigation-sheet';
 import Link from 'next/link';
 import { AnimatedThemeToggler } from '../extends/animated-theme-toggler';
+import { Logo21 } from './logos-svg';
 
 export default function Navbar() {
   return (
@@ -10,7 +11,7 @@ export default function Navbar() {
       <nav className='h-16 rounded-full border backdrop-blur-2xl text-primary-foreground dark:text-primary bg-primary/50 dark:bg-primary/10 shadow-lg shadow-black/5 ring-1 ring-primary/5 dark:ring-primary/10'>
         <div className='mx-auto flex h-full items-center justify-between px-4'>
           <Link href='/'>
-            <Logo10 />
+            <Logo21 className={'w-auto h-4'} />
           </Link>
 
           {/* Desktop Menu */}

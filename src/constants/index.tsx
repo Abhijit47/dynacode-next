@@ -73,13 +73,13 @@ export const navLinks: Navlinks = [
   },
   {
     id: crypto.randomUUID(),
-    title: 'Blogs',
-    href: '/blogs',
+    title: 'About',
+    href: '/about-us',
   },
   {
     id: crypto.randomUUID(),
-    title: 'About',
-    href: '/about-us',
+    title: 'Blogs',
+    href: '/blogs',
   },
   {
     id: crypto.randomUUID(),

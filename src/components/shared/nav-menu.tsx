@@ -42,10 +42,13 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
   const dataState =
     'data-[state=open]:before:scale-x-100 data-active:before:scale-x-100';
 
+  const firstSlicedNavLinks = navLinks.slice(0, 2);
+  const lastSlicedNavLinks = navLinks.slice(2);
+
   return (
     <NavigationMenu {...props}>
       <NavigationMenuList className='space-x-2 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start data-[orientation=vertical]:justify-start'>
-        {navLinks.map((link) => (
+        {firstSlicedNavLinks.map((link) => (
           <NavigationMenuItem key={link.id}>
             <NavigationMenuLink
               asChild
@@ -178,6 +181,32 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
+        {lastSlicedNavLinks.map((link) => (
+          <NavigationMenuItem key={link.id}>
+            <NavigationMenuLink
+              asChild
+              // className={navigationMenuTriggerStyle()}
+              className={cn(
+                commonState,
+                beforeState,
+                hoverState,
+                focusState,
+                disabledState,
+                // 'rounded-none',
+                // 'group relative inline-flex h-fit w-max items-center justify-center px-0 py-0 font-medium text-sm rounded-none',
+                // 'before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:scale-x-0 before:bg-primary before:transition-transform',
+                // 'hover:text-accent-foreground hover:before:scale-x-100',
+                // 'focus:text-accent-foreground focus:outline-hidden focus:before:scale-x-100',
+                // 'disabled:pointer-events-none disabled:opacity-50',
+                // 'data-[state=open]:before:scale-x-100 data-active:before:scale-x-100',
+                // 'hover:bg-transparent hover:text-primary hover:no-underline focus:bg-transparent active:bg-transparent',
+                link.href === pathname && 'before:scale-x-100',
+              )}>
+              <Link href={link.href}>{link.title}</Link>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+        ))}
       </NavigationMenuList>
     </NavigationMenu>
   );

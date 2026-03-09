@@ -15,6 +15,8 @@
   --font-body-family: var(--body-family);
   --font-body-weight: 400;
   --font-body-tracking: 0em;
+  --font-flexing-bold: var(--font-flexing-bold);
+  --font-markova: var(--font-markova);
 
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);

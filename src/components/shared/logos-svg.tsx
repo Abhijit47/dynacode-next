@@ -540,6 +540,77 @@ export function Logo20(props: SVGAttributes<SVGElement>) {
   );
 }
 
+export function Logo21(props: SVGAttributes<SVGElement>) {
+  return (
+    <svg
+      width='501.2'
+      height='68.2'
+      viewBox='0 0 501.2 68.2'
+      xmlns='http://www.w3.org/2000/svg'
+      {...props}>
+      <g
+        id='svgGroup'
+        strokeLinecap='round'
+        fillRule='nonzero'
+        fontSize='9pt'
+        stroke='currentColor'
+        strokeWidth='0.25mm'
+        fill='currentColor'
+        // style='stroke:#000000;stroke-width:0.25mm;fill:#ffffff'
+      >
+        <path
+          d='M 43.8 22.1 C 43.8 17.9 40.4 14.4 36.2 14.4 L 7.2 14.4 C 3.2 14.4 0 11.2 0 7.2 L 0 0 L 36.2 0 C 48.3 0 58.3 9.9 58.3 22.1 L 58.3 46.1 C 58.3 58.2 48.3 68.2 36.2 68.2 L 7.2 68.2 C 3.2 68.2 0 64.9 0 60.9 L 0 34.1 C 0 30.1 3.2 26.9 7.2 26.9 L 14.4 26.9 L 14.4 53.7 L 36.2 53.7 C 40.4 53.7 43.8 50.3 43.8 46.1 L 43.8 22.1 Z'
+          id='0'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 100 26.9 C 104.8 26.9 107.1 23.8 107.1 20.7 L 107.1 0.1 L 121.5 0.1 L 121.5 20.7 C 121.5 31 114.4 41.3 100.2 41.3 L 84.6 41.3 C 70.4 41.3 63.3 31 63.3 20.7 L 63.3 0.1 L 77.7 0.1 L 77.7 20.7 C 77.7 23.8 80 26.9 84.7 26.9 L 100 26.9 Z M 99.6 53.8 L 99.6 68.2 L 85.2 68.2 L 85.2 53.8 L 99.6 53.8 Z'
+          id='1'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 184.8 68.2 L 170.4 68.2 L 170.4 14.5 L 148.6 14.5 C 144.4 14.5 140.9 18 140.9 22.1 L 140.9 68.2 L 126.5 68.2 L 126.5 22.1 C 126.5 10 136.4 0.1 148.6 0.1 L 184.8 0.1 L 184.8 68.2 Z'
+          id='2'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 248.1 26.9 L 248.1 68.2 L 233.7 68.2 L 233.7 41.3 L 204.3 41.3 L 204.3 68.2 L 189.8 68.2 L 189.8 22.1 C 189.8 10 199.8 0.1 211.9 0.1 L 248.1 0.1 L 248.1 7.3 C 248.1 11.2 244.9 14.5 240.9 14.5 L 211.9 14.5 C 207.7 14.5 204.3 18 204.3 22.1 L 204.3 34.1 C 204.3 30.2 207.5 26.9 211.5 26.9 L 248.1 26.9 Z'
+          id='3'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 267.6 46.2 C 267.6 50.3 271 53.8 275.2 53.8 L 311.4 53.8 L 311.4 61 C 311.4 65 308.2 68.2 304.2 68.2 L 275.2 68.2 C 263.1 68.2 253.1 58.3 253.1 46.2 L 253.1 26.9 L 267.6 26.9 L 267.6 46.2 Z M 311.4 0.1 L 311.4 7.3 C 311.4 11.2 308.2 14.5 304.2 14.5 L 253.1 14.5 L 253.1 7.3 C 253.1 3.3 256.4 0.1 260.4 0.1 L 311.4 0.1 Z'
+          id='4'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 330.8 26.9 L 330.8 46.2 C 330.8 50.3 334.3 53.8 338.5 53.8 L 352.6 53.8 C 356.8 53.8 360.3 50.3 360.3 46.2 L 360.3 22.1 C 360.3 18 356.8 14.5 352.6 14.5 L 317.8 14.5 C 320.9 6.1 329 0.1 338.5 0.1 L 352.6 0.1 C 364.8 0.1 374.7 10 374.7 22.1 L 374.7 46.2 C 374.7 58.3 364.8 68.2 352.6 68.2 L 338.5 68.2 C 326.3 68.2 316.4 58.3 316.4 46.2 L 316.4 26.9 L 330.8 26.9 Z'
+          id='5'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 423.5 22.1 C 423.5 18 420.1 14.5 415.9 14.5 L 386.9 14.5 C 382.9 14.5 379.7 11.2 379.7 7.3 L 379.7 0.1 L 415.9 0.1 C 428 0.1 438 10 438 22.1 L 438 46.2 C 438 58.3 428 68.2 415.9 68.2 L 386.9 68.2 C 382.9 68.2 379.7 65 379.7 61 L 379.7 26.9 L 394.1 26.9 L 394.1 53.8 L 415.9 53.8 C 420.1 53.8 423.5 50.3 423.5 46.2 L 423.5 22.1 Z'
+          id='6'
+          vectorEffect='non-scaling-stroke'
+        />
+        <path
+          d='M 486.8 26.9 L 486.8 34.1 C 486.8 38.1 483.6 41.3 479.6 41.3 L 457.4 41.3 L 457.4 46.2 C 457.4 50.3 460.9 53.8 465 53.8 L 501.2 53.8 L 501.2 61 C 501.2 65 498 68.2 494 68.2 L 465 68.2 C 452.9 68.2 443 58.3 443 46.2 L 443 26.9 L 486.8 26.9 Z M 501.2 0.1 L 501.2 7.3 C 501.2 11.2 498 14.5 494 14.5 L 443 14.5 L 443 7.3 C 443 3.3 446.2 0.1 450.2 0.1 L 501.2 0.1 Z'
+          id='7'
+          vectorEffect='non-scaling-stroke'
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function Logo22(props: SVGAttributes<SVGElement>) {
+  return;
+}
+
+export function Logo23(props: SVGAttributes<SVGElement>) {
+  return;
+}
+
 export const logos = [
   {
     id: crypto.randomUUID(),
@@ -618,4 +689,5 @@ export const logos = [
     Component: Logo19,
   },
   { id: crypto.randomUUID(), Component: Logo20 },
+  { id: crypto.randomUUID(), Component: Logo21 },
 ];
